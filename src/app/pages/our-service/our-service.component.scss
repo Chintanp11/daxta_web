@@ -1,0 +1,164 @@
+.section1 {
+    position: relative;
+    width: 100%;
+    top: 200px;
+  }
+
+.text{
+    color: #0A2360;
+    font-size: 80px;
+    font-family: 'Quicksand-Bold';
+    justify-content: center;
+    display: flex;
+}
+
+.text-p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    // font-size: 18px;
+    font-family: 'Quicksand-SemiBold';
+    color: #0A2360;
+}
+
+.main-img{
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.mainclass {
+    margin-bottom: 200px;
+    background-image: url("../../../assets/About-us/background/Group\ 211.svg");
+    background-repeat: no-repeat;
+}
+
+.tagp{
+    font-size: 35px;
+    font-family: 'Quicksand-SemiBold';
+    margin: 30px 0px 30px 0px ;
+    color: #0A2360;
+}
+
+.tag-p{
+    font-size: 35px;
+    font-family: 'Quicksand-SemiBold';
+}
+
+.inner-div1{
+    background-image: url('../../../assets/ourservice/01..png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:   left top;
+}
+.inner-div2{
+    background-image: url('../../../assets/ourservice/02..png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:   left top;
+}
+.inner-div3{
+    background-image: url('../../../assets/ourservice/03..png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:   left top;
+}
+.inner-div4{
+    background-image: url('../../../assets/ourservice/04..png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:   left top;
+}
+.back {
+    background: linear-gradient(to left, #ea1b64, #f4a1c3, #faf6fe);
+    margin-bottom: 200px;
+    margin-top: 115px;
+    background-size: auto;
+  }
+  
+  .demo {
+    font-size: 55px;
+    color: #0a2360;
+    font-family: "Quicksand-SemiBold";
+    margin-top: 50px;
+  }
+  
+  .app1 {
+    margin-left: 12%;
+    line-height: normal;
+  }
+  
+  .text {
+    line-height: normal;
+  }
+  
+  .play-img1 {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .tab {
+    margin-top: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 5px 8px;
+    border-radius: 30px;
+  }
+  
+  .schedule-btn {
+    border-radius: 30px;
+    margin-left: 20px;
+    color: #fff;
+    // font-family: "Quicksand-Medium";
+    // font-size: 18px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 30px;
+    border: 0px;
+    background-color: #0a2360;
+  }
+  
+  .more-btn {
+    border-radius: 30px;
+    margin-left: 20px;
+    color: #0a2360;
+    // font-family: "Quicksand-Medium";
+    // font-size: 18px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 30px;
+    border: 1px solid #0a2360;
+    background-color: transparent;
+  }
+
+  .ul-a{
+    list-style-image: url('../../../assets/About-us/homeimage/noun_Check\ Mark_796981.png');
+    // font-size: 18px;
+    // font-family: 'Quicksand-Medium';
+    color: #0A2360;
+  }
+  .ul-b{
+      list-style-image: url('../../../assets/ourservice/icon/Path\ 65.png');
+      margin-left: 25px;
+      // font-size: 16px;
+      font-family: 'Quicksand-Bold';
+      color: #0A2360;
+  }
+  .ul-c{
+     list-style-image: url('../../../assets/ourservice/icon/Ellipse\ 1.png');
+     margin-left: 50px;
+     color: #0A2360;
+     font-family: 'Quicksand-Medium';
+     font-size: 16px;
+}
+.service-btn {
+    border-radius: 30px;
+    background-color: #ea1b64;
+    color: #fff;
+    font-family: "Quicksand-Medium";
+    // font-size: 18px;
+    padding: 10px 60px 10px 60px;
+    border: 0px;
+    margin-left: 20px;
+    // margin-top: 20px;
+  }

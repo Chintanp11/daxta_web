@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("./assets/Font/Quicksand/static/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("./assets/Font/Quicksand/static/Quicksand-Light.ttf");
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url("./assets/Font/Quicksand/static/Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url("./assets/Font/Quicksand/static/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url("./assets/Font/Quicksand/static/Quicksand-SemiBold.ttf");
+}
+
+* {
+  font-family: "Quicksand-Regular";
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1640px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+  font-family: 'Quicksand-Medium';
+}
+
+.f-55 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 80px;
+  color: #0a2360;
+  font-family: "Quicksand-Bold";
+}

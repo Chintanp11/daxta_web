@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="696.547" height="487.274" viewBox="0 0 696.547 487.274">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0a2360"/>
+      <stop offset="0.999" stop-color="#ea1b64"/>
+      <stop offset="1" stop-color="#f37335"/>
+    </linearGradient>
+  </defs>
+  <g id="elements" transform="translate(0 0)">
+    <circle id="element3" cx="39.435" cy="39.435" r="39.435" transform="translate(142.41 10.67)" fill="#ea1b64" opacity="0.8"/>
+    <g id="Group_195" data-name="Group 195" opacity="0.8">
+      <circle id="element4" cx="12.154" cy="12.154" r="12.154" transform="translate(330.75 0)" fill="url(#linear-gradient)"/>
+      <circle id="element4-2" data-name="element4" cx="5.552" cy="5.552" r="5.552" transform="translate(301.559 131.597)" fill="url(#linear-gradient)"/>
+      <circle id="element4-3" data-name="element4" cx="5.552" cy="5.552" r="5.552" transform="translate(496.559 114.597)" fill="url(#linear-gradient)"/>
+      <circle id="element4-4" data-name="element4" cx="5.552" cy="5.552" r="5.552" transform="translate(685.443 199.597)" fill="url(#linear-gradient)"/>
+      <circle id="element5" cx="19.717" cy="19.717" r="19.717" transform="translate(142.41 447.839)" fill="url(#linear-gradient)"/>
+      <circle id="element5-2" data-name="element5" cx="4.96" cy="4.96" r="4.96" transform="translate(0 423.162)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

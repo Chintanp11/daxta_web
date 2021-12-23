@@ -1,0 +1,42 @@
+.section1 {
+    position: relative;
+    width: 100%;
+    top: 270px;
+  }
+.background{
+    background-image: url('../../../assets/software/background/Rectangle\ 355.png');
+    background-repeat: no-repeat;
+    background-position: 67% 70%;
+}
+.back-img{
+    background-image: url('../../../assets/software/background/Group\ 78.png');
+    background-repeat: no-repeat;
+    background-position: 95% top;
+}
+.tag-p{
+    color: #0A2360;
+    // font-size: 55px;
+    font-family: 'Quicksand-Bold';
+}
+
+.tagp{
+    color: #0A2360;
+    font-family: 'Quicksand-Medium';
+}
+ul{
+    list-style-image: url('../../../assets/ourservice/icon/Path\ 65.png');
+      margin-left: 25px;
+      font-size: 16px;
+      font-family: 'Quicksand-Bold';
+      color: #0A2360;
+}
+
+.text-p{
+    font-size: 16px;
+    font-family: 'Quicksand-Bold';
+    color: #0A2360;
+}
+
+// tr th{
+//     color: #0A2360;
+// }
