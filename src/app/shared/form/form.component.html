@@ -1,0 +1,119 @@
+<div class="container back-img1">
+    <div class="reg-form">
+        <div class="col-12 col-md-12 col-lg-10">
+            <div class="row p-0 m-0 back-img">
+                <div class="col-12 col-md-12 col-lg-4 p-0 m-0">
+                    <p class="f-55 fw" style="color: #0A2360;
+                                font-family: 'Quicksand-SemiBold'; margin: 76px 0px 20px 60px; ">Talk to
+                        us:
+                    </p>
+                    <p class="fw"
+                        style="color: #ea1b64; font-family: 'Quicksand-Bold'; font-size: 32px; margin: 30px 0px 0px 70px ;">
+                        | Software Demo</p>
+                    <p class="fw"
+                        style="color: #707070; font-family: 'Quicksand-SemiBold' ; font-size: 32px; margin: 30px 0px 0px 70px ; ">
+                        General inquiris</p>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-8 p-0 m-0">
+                    <p class="f-18" style="color: #0A2360;  margin: 100px 0px 40px 25px ; ">
+                        Do you have any quastion or want learn more about our services ?</p>
+                    <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-group m-4">
+                                    <label for="Name">Name</label>
+                                    <input type="text" formControlName="Name" class="form-control"
+                                        placeholder="Your name"
+                                        [ngClass]="{ 'is-invalid': submitted && f.Name.errors }">
+                                    <div *ngIf="submitted && f.Name.errors" class="invalid-feedback">
+                                        <div *ngIf="f.Name.errors.required"> Name is required</div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="jobtitle">job Title</label>
+                                    <input type="text" formControlName="jobtitle" class="form-control fw"
+                                        placeholder="Your job title"
+                                        [ngClass]="{ 'is-invalid': submitted && f.jobtitle.errors }">
+                                    <div *ngIf="submitted && f.jobtitle.errors" class="invalid-feedback">
+                                        <div *ngIf="f.jobtitle.errors.required"> job title is required</div>
+                                    </div>
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="companyName">Company Name</label>
+                                    <input type="text" formControlName="companyName" class="form-control fw"
+                                        placeholder="Your company name"
+                                        [ngClass]="{ 'is-invalid': submitted && f.jobtitle.errors }">
+                                    <div *ngIf="submitted && f.companyName.errors" class="invalid-feedback">
+                                        <div *ngIf="f.companyName.errors.required"> company Name is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="state">State</label>
+                                    <select class="form-select fw" aria-label="Default select example">
+                                        <option selected>select your city</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="form-group m-4">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" formControlName="lastName" class="form-control fw"
+                                        placeholder="Lastname"
+                                        [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }">
+                                    <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                                        <div *ngIf="f.lastName.errors.required"> last Name is required</div>
+                                    </div>
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="Email">Email Address</label>
+                                    <input type="email" formControlName="Email" class="form-control fw"
+                                        placeholder="Enter Your E-mail Address"
+                                        [ngClass]="{ 'is-invalid': submitted && f.Email.errors }">
+                                    <div *ngIf="submitted && f.Email.errors" class="invalid-feedback">
+                                        <div *ngIf="f.Email.errors.required"> Email is required</div>
+                                        <div *nfIf="f.Email.error.pattern">Enter a valid Email</div>
+                                    </div>
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="city">City</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>select your city</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-group m-4">
+                                    <label for="county">Country</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>select your Country</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group m-4">
+                                <label for="exampleFormControlTextarea2">Description</label>
+                                <!-- <input type="text" name="addressLine2" formControlName="addressLine2" 
+                                class="form-control form-control-lg"> -->
+                                <textarea class="form-control rounded-0 p-0" id="exampleFormControlTextarea2"
+                                    rows="3"></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="form-btn f-18 fw" (click)="onSubmit()">Get a
+                                    Consultation</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

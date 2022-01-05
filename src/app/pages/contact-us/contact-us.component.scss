@@ -1,0 +1,41 @@
+.mainclass{
+    min-height: 100vh;
+}
+.contact{
+    color: var(--primary-color);
+    font-size: 55px;
+    font-family: 'Quicksand-Bold';
+}
+.mapimg{
+    width: 100%;
+}
+
+.text{
+    margin-left: 20px;
+}
+.text1{
+    font-size: 20px;
+    font-family: 'Quicksand-Bold';
+    color: #0A2360;
+}
+.circle-icon {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    color: var(--secondary-color);
+    border-radius: 50%;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    // .mapimg{
+    //     height: 20%;
+    //     width: 70%;
+    // }
+}
+@media (min-width: 768px) and (max-width:1023px) {
+    // .mapimg{
+    //     // height: 20%;
+    //     width: 100%;
+    //     // justify-content: center;
+    // }
+}
+@media (min-width: 1024px) and (max-width: 1139px) {}

@@ -1,0 +1,54 @@
+.mainclass{
+    min-height: 100vh;
+}
+.text{
+    color: var(--secondary-color); 
+    font-size: 50px; 
+    font-family: 'Quicksand-Bold';
+}
+.description{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Quicksand-Medium';
+}
+.apply-btn{
+    border-radius: 5px;
+    color: var(--primary-color);
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #0a2360;
+    background-color: #fff;
+}
+.tag-p {
+    color: var(--primary-color);
+    font-size: 55px;
+    font-family: "Quicksand-Bold";
+}
+
+.tagp {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+.card {
+    border: 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.back1{
+    background-color: var(--secondary-color);
+}
+
+.inquire-btn{
+    border-radius: 30px;
+    color: var(--secondary-color);
+    padding: 10px 40px 10px 40px;
+    border: 0px;
+    background-color: #fff;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

@@ -1,386 +1,260 @@
-// section 1
+// // section 1
 .mainclass {
-    margin-bottom: 100px;
-    background-image: url("../../../assets/background/Mask\ Group\ 163.png");
-    background-repeat: no-repeat;
-    background-position: right top;
+  margin-bottom: 100px;
+  background-image: url("../../../assets/images/bannerimag.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-bottom: 20px;
+  min-height: 100vh;
+}
+
+.img-back {
+  background-image: url("../../../assets/images/daxtablur.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 40%;
+  background-origin: content-box;
+}
+
+.contact-btn {
+  border-radius: 30px;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 40px 10px 40px;
+  border: 1px solid #ea1b64;
+  color: var(--secondary-color);
+  margin-left: 40px;
+}
+
+.service-btn {
+  border-radius: 30px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 10px 60px 10px 60px;
+  border: 0px;
+}
+
+.tagp {
+  font-family: "Quicksand-Bold";
+  color: var(--secondary-color);
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+.tag-p {
+  font-family: "Quicksand-Bold";
+  color: var(--primary-color);
+  line-height: normal;
+}
+
+.tag-p1 {
+  color: var(--primary-color);
+  margin-top: 10px;
+}
+
+.play-img {
+  margin-bottom: 220px;
+}
+
+.card-head1 {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-family: "Quicksand-Bold";
+  margin-top: 100px;
+}
+//   // section 3
+
+.clinic-back {
+  background-color: #fdfbff;
+}
+
+.card-grop1 {
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 0px;
+  margin-bottom: 50px;
+}
+
+.card-text3 {
+ color: var(--primary-color);
+  font-size: 14px;
+  font-family: "Quicksand-Medium";
+}
+
+.card-title3 {
+ color: var(--primary-color);
+  font-size: 25px;
+  margin-top: 15px;
+  font-family: "Quicksand-semiBold";
+}
+
+.card-horizontal {
+  margin-top: 50px;
+}
+
+.backimg {
+  background-image: url("../../../assets/images/couse_back1.svg");
+  background-repeat: no-repeat;
+  background-position: 97% 12%;
+}
+
+.card-grop2 {
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 0px;
+  margin-bottom: 50px;
+}
+
+//   // section 4
+
+.background-img {
+  background-image: url("../../../assets/images/course_back.png");
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  width: auto;
+  background-size: cover;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-size: 25px;
+  font-family: "Quicksand-SemiBold";
+}
+
+.card-text {
+  color: var(--secondary-color);
+  font-size: 19px;
+  font-family: "Quicksand-Medium";
+  line-height: normal;
+}
+
+.card-div {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.crad-horizontal {
+  margin-left: -100px;
+  margin-right: 100px;
+}
+
+.item-img {
+  width: 70%;
+}
+
+.ACE {
+  position: absolute;
+  bottom: -35px;
+  left: 85px;
+  border-radius: 80px;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+// section 5
+.card-group {
+  border-radius: 10px;
+  border-left: #0a2360 5px solid;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-group1 {
+  border-radius: 10px;
+  border-left: #ea1b64 5px solid;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+// section 6
+
+@media only screen and (max-width: 1400px) {
+  .mainclass {
+    background-image: none;
   }
-  
-  .section1 {
-    position: absolute;
-    width: 100%;
-    top: 188px;
+  .back-img {
+    margin: 10px;
   }
-  
-  .img-back {
-    background-image: url("../../../assets/logo/title.svg");
-    background-repeat: no-repeat;
-    background-position: 100% 40%;
-    background-origin: content-box;
+  .tab {
+    display: none;
   }
-  
-  .contact-btn {
-    border-radius: 30px;
-    background-color: #fff;
-    color: #fff;
-    padding: 10px 40px 10px 40px;
-    border: 1px solid #ea1b64;
-    color: #ea1b64;
-    margin-left: 40px;
-  }
-  
-  .service-btn {
-    border-radius: 30px;
-    background-color: #ea1b64;
-    color: #fff;
-    padding: 10px 60px 10px 60px;
-    border: 0px;
-  }
-  
-  .tagp {
-    font-family: "Quicksand-Bold";
-    color: #ea1b64;
-    margin-top: 200px;
-    font-size: 20px;
-  }
-  
-  .tag-p {
-    font-family: "Quicksand-Bold";
-    color: #0a2360;
-    line-height: normal;
-  }
-  
-  .tag-p1 {
-    color: #0a2360;
-    margin-top: 10px;
-  }
-  
-  .play-img {
-    margin-bottom: 220px;
-  }
-  
-  .card-head1 {
-    color: #ea1b64;
-    font-size: 20px;
-    font-family: "Quicksand-Bold";
-    margin-top: 100px;
-  }
-  
-  // section 3
-  
-  .clinic-back {
-    background-color: #fdfbff;
-  }
-  
-  .card-grop1 {
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border: 0px;
-    margin-bottom: 50px;
-  }
-  
-  .card-text3 {
-    color: #0a2360;
-    font-size: 14px;
-    font-family: "Quicksand-Medium";
-  }
-  
-  .card-title3 {
-    color: #0a2360;
-    font-size: 25px;
-    margin-top: 15px;
-    font-family: "Quicksand-semiBold";
-  }
-  
-  .card-horizontal {
-    margin-top: 50px;
-  }
-  
-  .backimg {
-    background-image: url("../../../assets/background/Group\ 22.png");
-    background-repeat: no-repeat;
-    background-position: 97% 12%;
-  }
-  
-  .card-grop2 {
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border: 0px;
-    margin-bottom: 50px;
-  }
-  
-  // section 4
-  
-  .background-img {
-    background-image: url("../../../assets/background/elements.svg");
-    background-repeat: no-repeat;
-    display: block;
-    position: relative;
-    width: auto;
-    background-size: cover;
-    margin-top: 80px;
-    margin-bottom: 50px;
-  }
-  
-  .card-title {
-    color: #0a2360;
-    font-size: 25px;
-    font-family: "Quicksand-SemiBold";
-  }
-  
-  .card-text {
-    color: #ea1b64;
-    font-size: 19px;
-    font-family: "Quicksand-Medium";
-    line-height: normal;
-  }
-  
-  .card-div {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  
-  .card-body {
-    padding: 30px;
-  }
-  
-  .crad-horizontal {
-    margin-left: -100px;
-    margin-right: 100px;
-  }
-  
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
   .item-img {
-    width: 70%;
+    width: 81%;
   }
-  
+  .textarea {
+    width: 100%;
+  }
+  .app1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .crad-horizontal {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .item-img {
+    width: 80%;
+  }
+  .ACE {
+    bottom: -70px;
+    left: 30px;
+  }
+  .top {
+    margin-top: 0px;
+  }
+  .tagp {
+    margin-top: 100px;
+  }
+  .tag-p {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .crad-horizontal {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .item-img {
+    width: 80%;
+  }
+  .ACE {
+    bottom: -35px;
+    left: 140px;
+  }
+  .top {
+    margin-top: 0px;
+  }
+  .tagp {
+    margin-top: 100px;
+  }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1139px) {
+  .crad-horizontal {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .back-img {
+    margin: 10px;
+  }
   .ACE {
     position: absolute;
     bottom: -35px;
     left: 85px;
-    border-radius: 80px;
   }
-  
-  .invalid-feedback{
-    color: red;
-  }
-  
-  // section 5
-  
-  .back-img {
-    background-image: url("../../../assets/background/form.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .form-btn {
-    border-radius: 30px;
-    margin-left: 20px;
-    background-color: #ea1b64;
-    color: #fff;
-    padding: 10px 30px 10px 30px;
-    margin-bottom: 30px;
-    border: 0px;
-  }
-  
-  .form-control {
-    border-radius: 50px;
-    width: 90%;
-    border-color: #ffebf2;
-  }
-  
-  .lable {
-    font-size: 14px;
-    font-family: "Quicksand-SemiBold";
-  }
-
-  .form-select {
-    border-color: #ffebf2;
-    border-radius: 50px;
-    width: 90%;
-  }
-  
-  label {
-    color: #0a2360;
-    font-family: "Quicksand-SemiBold";
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-  
-  .card-group {
-    border-radius: 10px;
-    border-left: #0a2360 5px solid;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
-  
-  .card-group1 {
-    border-radius: 10px;
-    border-left: #ea1b64 5px solid;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
-  
-  ::placeholder {
-    font-size: 16px;
-    font-family: "Quicksand-Medium";
-  }
-  
-  // section 6
-  
-  .back {
-    background: linear-gradient(to left, #ea1b64, #f4a1c3, #faf6fe);
-    margin-bottom: 200px;
-    margin-top: 115px;
-    background-size: auto;
-  }
-  
-  .demo {
-    color: #0a2360;
-    font-family: "Quicksand-SemiBold";
-  }
-  
-  .app1 {
-    margin-left: 12%;
-    line-height: normal;
-  }
-  
-  .text {
-    line-height: normal;
-  }
-  
-  .play-img1 {
-    margin-left: 10%;
-    margin-bottom: 50px;
-  }
-  
-  .tab {
-    box-shadow: rgb(0 0 0 / 24%) 0px 5px 8px;
-    border-radius: 30px;
-  }
-  
-  .schedule-btn {
-    border-radius: 30px;
-    margin-left: 20px;
-    color: #fff;
-    padding: 10px 40px 10px 40px;
-    border: 0px;
-    background-color: #0a2360;
-  }
-  
-  .more-btn {
-    border-radius: 30px;
-    margin-left: 20px;
-    color: #0a2360;
-    padding: 10px 40px 10px 40px;
-    border: 1px solid #0a2360;
-    background-color: transparent;
-  }
-  
-  .reg-form {
-    justify-content: center;
-    display: flex;
+  .tagp {
     margin-top: 100px;
   }
-  
-  .top {
-    margin-top: 100px;
-  }
-
-  .textarea1{
-    width: 100%;
-  }
-  
-  @media only screen and (max-width: 1400px) {
-    .mainclass {
-      background-image: none;
-    }
-    .back-img {
-      margin: 10px;
-    }
-    .tab {
-      display: none;
-    }
-  }
-  
-  @media (max-width: 1200px) and (min-width: 992px) {
-    .item-img {
-      width: 81%;
-    }
-    .textarea {
-      width: 100%;
-    }
-    .app1{
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 320px) and (max-width: 767px) {
-    .crad-horizontal {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .item-img {
-      width: 80%;
-    }
-    .ACE {
-      bottom: -70px;
-      left: 30px;
-    }
-    .top {
-      margin-top: 0px;
-    }
-    .tagp{
-      margin-top: 100px;
-    }
-    .textarea1{
-      width: 100%;
-    } 
-    .tag-p{
-      font-size: 43px;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .crad-horizontal {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .item-img {
-      width: 80%;
-    }
-    .ACE {
-      bottom: -35px;
-      left: 140px;
-    }
-    .top {
-      margin-top: 0px;
-    }
-    .tagp{
-      margin-top: 100px;
-    }
-    .textarea1{
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 1024px) and (max-width: 1139px) {
-    .crad-horizontal {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .back-img {
-      margin: 10px;
-    }
-    .ACE {
-      position: absolute;
-      bottom: -35px;
-      left: 85px;
-    }
-    .textarea1{
-      width: 100%;
-    } 
-    .tagp{
-      margin-top: 100px;
-    }
-  }
-  
+}
