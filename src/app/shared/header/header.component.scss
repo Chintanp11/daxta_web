@@ -27,7 +27,6 @@ p {
 .router-link-active {
     color: var(--secondary-color);
     border-bottom: 2px solid #ea1b64;
-    // border-bottom-height: 1px;
 }
 
 .router-link-active a:active {
@@ -74,9 +73,20 @@ a {
     padding: 12px 16px;
     display: block;
 }
+@media (min-width: 678px) and (max-width: 1024px) {
+    .header-set1{
+        width:auto !important;
+        }
+}
 @media (min-width: 320px) and (max-width: 767px) {
     .image {
         width: 190px;
         height: 60px;
     }
+    .header-set1{
+        width:auto;
+        }
+}
+.header-set1{
+width:100%
 }

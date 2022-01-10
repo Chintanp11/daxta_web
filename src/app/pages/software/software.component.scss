@@ -50,13 +50,15 @@ ul {
 }
 
 th {
-    border: 0px;
+    border: 3px solid #fff;
 }
 
 td {
-    border: 0px;
+    border: 3px solid #fff;
 }
-
 .text {
     line-height: normal;
+}
+.dark{
+    background-color: #F7F7FB;
 }

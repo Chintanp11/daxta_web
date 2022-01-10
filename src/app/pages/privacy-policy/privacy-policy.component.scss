@@ -8,7 +8,7 @@ h4{
 }
 .background{
     background-color: #FDFBFF;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow: rgba(0, 0, 0, 6%) 0px 2px 48px;
 }
 
 .text{
@@ -18,4 +18,9 @@ h4{
 }
 .text1{
     color: var(--primary-color);
+}
+
+h1{
+    color: var(--primary-color);
+    font-family: 'Quicksand-Bold';
 }

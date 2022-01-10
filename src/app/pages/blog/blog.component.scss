@@ -33,3 +33,25 @@
 .card-img-top{
   width: 100%;
 }
+.header-contant {
+  color: var(--secondary-color) !important;
+  font-family: 'Quicksand-Bold';
+}
+h1{
+  font-family: 'Quicksand-Bold';
+}
+
+.card1 .card-body{
+  min-height: 300px;
+ 
+}
+
+
+.card2.card-body{
+  min-height: 200px;
+}
+
+.card{
+  border: 0px !important;
+  box-shadow: rgba(0, 0, 0, 6%) 0px 2px 48px;
+}

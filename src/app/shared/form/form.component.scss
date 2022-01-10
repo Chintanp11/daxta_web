@@ -1,8 +1,7 @@
 .back-img {
-    background-image: url("../../../assets/images/form-back.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #fdfbff;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
   }
   
   .form-btn {
@@ -20,7 +19,7 @@
   }
   .form-control {
     border-radius: 50px;
-    width: 90%;
+    width: 100%;
     border-color: #ffebf2;
   }
   
@@ -32,7 +31,6 @@
   .form-select {
     border-color: #ffebf2;
     border-radius: 50px;
-    // width: 90%;
   }
   .form-group{
     width: 90%;

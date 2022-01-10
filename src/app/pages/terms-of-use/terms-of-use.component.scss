@@ -1,18 +1,17 @@
 .mainclass{
     min-height: 100vh;
 }
-h4{
-    color: #0A2360;
-    font-size: 55px;
-    font-weight: 700;
+h1{
+    color: var(--primary-color);
+    font-family: 'Quicksand-Bold';
 }
 .background{
     background-color: #FDFBFF;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow: rgba(0, 0, 0, 6%) 0px 2px 48px;
 }
 
 .text{
-    color: #0A2360;
+    
     font-size: 31px;
     font-weight: 700;
     font-family: 'Quicksand-Bold';
