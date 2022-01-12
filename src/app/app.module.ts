@@ -22,8 +22,11 @@ import { DaxtatabComponent } from './shared/daxtatab/daxtatab.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { TermsOfUseComponent } from './pages/terms-of-use/terms-of-use.component';
 import { BlogDetailsComponent } from './pages/blog-details/blog-details.component';
+import { PopoverModule } from 'ngx-bootstrap/popover';
 
-
+export function httpTranslateLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -48,21 +51,20 @@ import { BlogDetailsComponent } from './pages/blog-details/blog-details.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     ReactiveFormsModule,
-    TranslateModule.forRoot({  
-      loader: {  
-         provide: TranslateLoader,  
-         useFactory: httpTranslateLoader,  
-         deps: [HttpClient]  
-         }  
-      }) 
+    PopoverModule.forRoot(),
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: httpTranslateLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { 
   
-}
-export function httpTranslateLoader(http: HttpClient) {  
-  return new TranslateHttpLoader(http);
 }

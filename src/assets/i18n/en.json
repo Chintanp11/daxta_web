@@ -1,16 +1,16 @@
-{  
-    "login": {  
-        "title": "Login Form",  
-        "username.label": "Username",  
-        "username.placeholder": "Username Here",  
-        "password.label": "Password",  
-        "password.placeholder": "Enter Password",  
-        "button.name": "Signin",  
-        "forgotpassword.link": "Forgot Password ?",  
-        "register.link": "Create New Account",  
-        "button.en": "English",  
-        "button.ta": "Tamil",  
-        "button.fr": "French",  
-        "button.zh": "Chinese"  
-    }  
-}   
+{
+	"login": {
+		"title": "Globally elevating care for autism and other developmental disabilities",
+		"username.label": "Username",
+		"username.placeholder": "Username Here",
+		"password.label": "Password",
+		"password.placeholder": "Enter Password",
+		"button.name": "Signin",
+		"forgotpassword.link": "Forgot Password ?",
+		"register.link": "Create New Account",
+		"button.en": "English",
+		"button.ta": "Tamil",
+		"button.fr": "French",
+		"button.zh": "Chinese"
+	}
+}

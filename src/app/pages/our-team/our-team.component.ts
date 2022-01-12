@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-team.component.scss']
 })
 export class OurTeamComponent implements OnInit {
-
+  isReadMore = true
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
+  showText() {
+    this.isReadMore = !this.isReadMore
+ }
 }

@@ -74,14 +74,13 @@
 }
 
 .card-text3 {
- color: var(--primary-color);
+  color: var(--primary-color);
   font-size: 14px;
   font-family: "Quicksand-Medium";
 }
 
 .card-title3 {
- color: var(--primary-color);
-  // font-size: 25px;
+  color: var(--primary-color);
   margin-top: 15px;
   font-family: "Quicksand-semiBold";
 }
@@ -93,7 +92,7 @@
 .backimg {
   background-image: url("../../../assets/images/couse_back1.svg");
   background-repeat: no-repeat;
-  background-position: 97% 12%;
+  background-position: 88% 12%;
 }
 
 .card-grop2 {
@@ -117,7 +116,7 @@
 }
 
 .card-title {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: "Quicksand-SemiBold";
 }
 
@@ -127,6 +126,10 @@
   font-family: "Quicksand-Medium";
   line-height: normal;
 }
+.card-class h5 {
+  color: var(--primary-color);
+  font-family: "Quicksand-Bold";
+}
 
 .card-div {
   margin-top: 100px;
@@ -134,7 +137,7 @@
 }
 
 .card-body {
-  padding: 30px;
+  padding: 20px;
 }
 
 .crad-horizontal {
@@ -175,24 +178,9 @@
   .mainclass {
     background-image: none;
   }
-  .back-img {
-    margin: 10px;
-  }
-  .tab {
-    display: none;
-  }
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
-  .item-img {
-    width: 81%;
-  }
-  .textarea {
-    width: 100%;
-  }
-  .app1 {
-    width: 100%;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -207,52 +195,27 @@
     bottom: -70px;
     left: 30px;
   }
-  .top {
-    margin-top: 0px;
+  .card {
+    margin-top: 0px !important;
   }
   .tagp {
-    margin-top: 100px;
-  }
-  .tag-p {
-    font-size: 40px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .crad-horizontal {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .item-img {
-    width: 80%;
-  }
   .ACE {
     bottom: -35px;
     left: 140px;
   }
-  .top {
-    margin-top: 0px;
-  }
-  .tagp {
-    margin-top: 100px;
-  }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1139px) {
   .crad-horizontal {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .back-img {
-    margin: 10px;
-  }
-  .ACE {
-    position: absolute;
-    bottom: -35px;
-    left: 85px;
-  }
   .tagp {
-    margin-top: 100px;
+    margin-top: 50px;
   }
+}
+
+@media (min-width: 1024px) and (max-width: 1139px) {
 }

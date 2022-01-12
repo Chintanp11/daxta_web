@@ -1,27 +1,27 @@
-.mainclass{
+.mainclass {
     min-height: 100vh;
 }
-h1{
-    color: var(--secondary-color); 
-    font-family: 'Quicksand-Bold';
+h1 {
+    color: var(--secondary-color);
+    font-family: "Quicksand-Bold";
 }
-h5{
-    font-family: 'Quicksand-Bold';
+h5 {
+    font-family: "Quicksand-Bold";
     color: var(--primary-color);
 }
-.degree{
+.degree {
     color: var(--primary-color);
     font-size: 24px;
-    font-family: 'Quicksand-Medium';
+    font-family: "Quicksand-Medium";
 }
 
-.description{
+.description {
     color: var(--primary-color);
     font-weight: 500;
-    font-family: 'Quicksand-Medium';
+    font-family: "Quicksand-Medium";
 }
 
-.apply-btn{
+.apply-btn {
     border-radius: 5px;
     color: var(--primary-color);
     padding: 10px 20px 10px 20px;
@@ -42,13 +42,12 @@ h5{
 .card {
     border: 0px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    
 }
-.back1{
+.back1 {
     background-color: var(--secondary-color);
 }
 
-.inquire-btn{
+.inquire-btn {
     border-radius: 30px;
     color: var(--secondary-color);
     padding: 10px 40px 10px 40px;
@@ -56,7 +55,7 @@ h5{
     background-color: #fff;
 }
 
-.button{
+.button {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -64,26 +63,46 @@ h5{
 
 .header-contant {
     color: var(--secondary-color) !important;
-    font-family: 'Quicksand-Bold';
-  }
-  .header h1 {
-      color: var(--primary-color);
-  }
-  h1{
-    font-family: 'Quicksand-Bold';
+    font-family: "Quicksand-Bold";
+}
+.header h1 {
+    color: var(--primary-color);
+}
+h1 {
+    font-family: "Quicksand-Bold";
+}
 
-  }
-
-//   .text p{
-//       color: var(--primary-color);
-//       font-family: 'Quicksand-Bold';
-//   }
-
-  @media only screen and (max-width: 575px) {
+.limitTextHeight {
+    height: 20px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 575px) {
     .service-list:nth-child(odd) {
-      display: flex;
-      flex-direction: column-reverse;
-      flex-wrap: wrap;
+        background-color: #0a2360;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
-  }
-  
+}
+
+.img-tag {
+    position: absolute;
+}
+.img2 {
+    position: relative;
+    top: 45px;
+    left: 7px;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.img3{
+    position: relative;
+    top: -30px;
+    right: 50px;
+    // left: 420px;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 50px;
+}

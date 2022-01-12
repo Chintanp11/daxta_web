@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class="row mt-5 p-0">
-            <div class="col-md-10 col-lg-7 col-12">
+            <div class="col-md-6">
                 <div>
                     <h1 class="fw text">Layla Sump
                         <span class="degree">Ph.D., BCBA-D, LBA(Layla Abby)</span>
@@ -43,23 +43,41 @@
                         Behavior, and Journal of Behavioral Education.</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 col-md-8">
-                <img src="../../../assets/images/Frame 225.png" style="width: 100%;">
+            <div class="col-md-6 d-flex justify-content-end">
+                <div>
+                    <img src="../../../assets/images/Frame 225.png" style="max-width: 100%;">
+                </div>
+                <div class="img-tag">
+                    <img src="../../../assets/images/Vector.png" class="img2">
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-default btn-danger"
+                    popover="Popover component in Angular ngx bootstrap." popoverTitle="GeeeksforGeeks"
+                    placement="bottom">
+                    Click here!
+                </button>
             </div>
         </div>
 
-        <div class="row mt-5 service-list p-0 m-0">
-            <div class="col-12 col-lg-4 col-md-8">
-                <img src="../../../assets/images/ourteam2.png" style="width: 100%;">
-            </div>
-            <div class="col-12 col-lg-7 col-md-12">
+        <div class="row mt-5  p-0 m-0">
+            <div class="col-md-6 d-flex justify-content-start">
                 <div>
-                    <h1 class="fw text">Gabriella Ulloa 
+                    <img src="../../../assets/images/our-team.png" style="max-width:100%;">
+                </div>
+                <div>
+                    <img src="../../../assets/images/Vector.png" class="img3">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <h1 class="fw text">Gabriella Ulloa
                         <span class="degree">(M.A., BCBA, QBA)</span>
                     </h1>
                 </div>
                 <div>
-                    <h5>DirectorofProductDevelopment</h5>
+                    <h5 class="">DirectorofProduct</h5>
                     <p class="description"> Layla Sump is a board certified behaviour analyst – doctoral. Layla is the
                         CoFounder of DAXTA
                         and leads the clinical efforts of the company. Dr. Sump is originally from Rio de Janeiro,
@@ -82,13 +100,13 @@
                         Behavior, and Journal of Behavioral Education.</p>
                 </div>
             </div>
-           
+
         </div>
 
         <div class="row mt-5 p-0">
-            <div class="col-12 col-lg-7 col-md-10">
+            <div class="col-md-6">
                 <div>
-                    <h1 class="fw text">Mariana Cherchinaro Guimaraes 
+                    <h1 class="fw text">Mariana Cherchinaro Guimaraes
                         <span class="degree"> M.S., BCBA</span>
                     </h1>
                 </div>
@@ -116,9 +134,18 @@
                         Behavior, and Journal of Behavioral Education.</p>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 col-md-8">
-                <img src="../../../assets/images/Frame 225.png" style="width: 100%;">
+            <div class="col-md-6 backimg d-flex justify-content-end">
+                <div class="back-img">
+                    <img src="../../../assets/images/Frame 225.png" style="max-width: 100%;">
+                </div>
+                <div class="img-tag">
+                    <img src="../../../assets/images/Vector.png" class="img2">
+                </div>
+
             </div>
+            <!-- <button type="button" class="btn btn-outline-secondary" ngbPopover="You see, I show up on hover!" triggers="mouseenter:mouseleave" popoverTitle="Pop title">
+                Hover over me!
+              </button> -->
         </div>
 
         <div class="container mt-5">
@@ -129,26 +156,28 @@
                     perspiciatis unde omnis iste natus error sit voluptatem</p>
             </div>
 
-            <div class="card m-5 mx-auto">
+            <div class="col-md-10 card m-5 mx-auto">
                 <div class="card-body">
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-12 col-lg-10 col-md-12 text">
                             <h5>Senior Rolling Stock Technology</h5>
                             <div class="d-flex flex-row m-2">
-                                <img src="../../../assets/images/location.png" class="mt-3" style="height: 15px; width: 15px;">
+                                <img src="../../../assets/images/location.png" class="mt-3"
+                                    style="height: 15px; width: 15px;">
                                 <p class="m-2">Moscow, Russia</p>
                             </div>
                             <div>
-                                <!-- [ngClass]="{'limitTextHeight': isReadMore}" -->
-                                <p>Use filler text that has been edited for length and format to match the
+                                <p [ngClass]="{'limitTextHeight': isReadMore}">Use filler text that has been edited for
+                                    length and format to match the
                                     characteristics of real content as closely as possible starting a new design
                                     Use filler text that has been edited for length and format to match the
                                     characteristics of real content as closely as possible starting a new design
                                 </p>
+                                <a type="button" (click)="isReadMore=!isReadMore"
+                                    style="color: var(--secondary-color); font-family: 'Quicksand-Bold';">
+                                    {{ isReadMore ? 'Read More': 'Read Less' }}
+                                </a>
                             </div>
-                            <!-- <a (click)="showText()" style="color: #EA1B64; font-weight:700 ;">{{ isReadMore ? 'Read
-                                More': 'Read Less' }}</a> -->
-
                         </div>
                         <div class="col-10 col-md-6 col-lg-2 text-center">
                             <button type="button" class="apply-btn f-18 fw ">Apply Now</button>
@@ -158,25 +187,28 @@
 
                 </div>
             </div>
-            <div class="card m-5 mx-auto">
+            <div class="col-md-10 card m-5 mx-auto">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12 col-md-12 col-lg-10 text">
                             <h5>Senior Rolling Stock Technology</h5>
                             <div class="d-flex flex-row m-2">
-                                <img src="../../../assets/images/location.png" class="mt-3" style="height: 15px; width: 15px;">
+                                <img src="../../../assets/images/location.png" class="mt-3"
+                                    style="height: 15px; width: 15px;">
                                 <p class="m-2">Moscow, Russia</p>
                             </div>
                             <div>
-                                <!-- [ngClass]="{'limitTextHeight': isReadMore}" -->
-                                <p>Use filler text that has been edited for length and format to match the
+                                <p [ngClass]="{'limitTextHeight': isReadMore}">Use filler text that has been edited for
+                                    length and format to match the
                                     characteristics of real content as closely as possible starting a new design
                                     Use filler text that has been edited for length and format to match the
                                     characteristics of real content as closely as possible starting a new design
                                 </p>
                             </div>
-                            <!-- <a (click)="showText()" style="color: #EA1B64; font-weight:700 ;">{{ isReadMore ? 'Read
-                                More': 'Read Less' }}</a> -->
+                            <a type="button" (click)="isReadMore=!isReadMore"
+                                style="color: var(--secondary-color); font-family: 'Quicksand-Bold';">
+                                {{ isReadMore ? 'Read More': 'Read Less' }}
+                            </a>
                         </div>
                         <div class="col-10 col-md-6 col-lg-2  text-center">
                             <button type="button" class="apply-btn f-18 fw">Apply Now</button>
@@ -186,35 +218,52 @@
 
                 </div>
             </div>
-            <div class="card m-5 mx-auto">
+
+            <div class="col-md-10 card m-5 mx-auto">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12 col-md-12 col-lg-10 text">
                             <h5>Senior Rolling Stock Technology</h5>
                             <div class="d-flex flex-row m-2">
-                                <img src="../../../assets/images/location.png" class="mt-3" style="height: 15px; width: 15px;">
+                                <img src="../../../assets/images/location.png" class="mt-3"
+                                    style="height: 15px; width: 15px;">
                                 <p class="m-2">Moscow, Russia</p>
                             </div>
-                            <p>Use filler text that has been edited for length and format to match the
-                                characteristics of real content as closely as possible starting a new design</p>
+                            <div>
+                                <p [ngClass]="{'limitTextHeight': isReadMore}">Use filler text that has been edited for
+                                    length and format to match the
+                                    characteristics of real content as closely as possible starting a new design
+                                    Use filler text that has been edited for length and format to match the
+                                    characteristics of real content as closely as possible starting a new design
+                                </p>
+                            </div>
+                            <a type="button" (click)="isReadMore=!isReadMore"
+                                style="color: var(--secondary-color); font-family: 'Quicksand-Bold';">
+                                {{ isReadMore ? 'Read More': 'Read Less' }}
+                            </a>
                         </div>
-                        <div class="col-10 col-md-6 col-lg-2 text-center">
-                            <button type="button" class="apply-btn f-18 fw ">Apply Now</button>
+                        <div class="col-10 col-md-6 col-lg-2  text-center">
+
+                            <button type="button" class="apply-btn f-18 fw">Apply Now</button>
                             <p class="text-center mt-2">1 to 4 Yrs. Expr.</p>
                         </div>
                     </div>
+
                 </div>
             </div>
 
             <div class="container">
-                <div class="back1 mt-5 mb-5">
-                    <p class="text-center mt-5 fw" style="color: #fff; font-size: 55px; font-family: 'Quicksand-bold';">
-                        Lorem Ipsum is simply </p>
-                    <p class="text-center f-18 fw" style="color: #fff;">Don’t find a suitable position that matches
-                        your
-                        skill set, but still interested? Get in touch with us! </p>
-                    <div class="button">
-                        <button type="button" class="inquire-btn f-18 fw m-3 ">Inquire now</button>
+                <div class="justify-content-center d-flex">
+                    <div class="col-md-10 back1 mt-1 mb-5 text-center">
+                        <p class="text-center mt-5 fw"
+                            style="color: #fff; font-size: 55px; font-family: 'Quicksand-bold';">
+                            Lorem Ipsum is simply </p>
+                        <p class="text-center f-18 fw" style="color: #fff;">Don’t find a suitable position that matches
+                            your
+                            skill set, but still interested? Get in touch with us! </p>
+                        <div class="button">
+                            <button type="button" class="inquire-btn f-18 fw m-3 ">Inquire now</button>
+                        </div>
                     </div>
                 </div>
             </div>

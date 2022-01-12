@@ -99,11 +99,13 @@ li {
   background-image: url('../../../assets/images/value.png');
   background-repeat: no-repeat;
   background-position: bottom left;
+
 }
-// @media only screen and (max-width: 575px) {
-//   .service-list:nth-child(odd) {
-//     display: flex;
-//     flex-direction: column-reverse;
-//     flex-wrap: wrap;
-//   }
-// }
+@media only screen and (max-width: 959px) {
+  .service-list {
+    display: none;
+  }
+  .text{
+    padding-top:0px !important;
+  }
+}

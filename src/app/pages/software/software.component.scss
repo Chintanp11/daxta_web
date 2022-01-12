@@ -21,6 +21,10 @@ ul {
     font-family: "Quicksand-Bold";
     color: #0a2360;
 }
+h4{
+    font-family: 'Quicksand-Bold';
+    color: var(--primary-color);
+}
 
 .text-p {
     font-size: 16px;
@@ -62,3 +66,63 @@ td {
 .dark{
     background-color: #F7F7FB;
 }
+
+.form-btn {
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 30px;
+    border: 1px solid #0a2360;
+  }
+  .form-btn1 {
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #ea1b64;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 30px;
+    border: 0px;
+  }
+//   @media screen and (max-width: 575px) {  
+//   .table-xs-responsive th {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   .table-xs-responsive td {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   }  
+//   @media screen and (max-width: 767px) {  
+//   .table.table-sm-responsive th {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   .table.table-sm-responsive td {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   }  
+//   @media screen and (max-width: 992px) {  
+//   .table.table-sm-responsive th {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   .table.table-sm-responsive td {  
+//       width: 100% !important;  
+//       display: block !important;  
+//       box-sizing: border-box;  
+//   }  
+//   }  
+  @media screen and (min-width: 1200px) {  
+ .table{
+     overflow: hidden;
+ }
+  }  

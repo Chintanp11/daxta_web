@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -11,8 +12,14 @@ export class HomeComponent implements OnInit {
   reactiveForm: FormGroup;
   submitted = false;
   x:any;
-  constructor(private formBuilder: FormBuilder ,  private router:Router) { 
-
+  title!: string;
+  emailId!: string;
+  constructor(private formBuilder: FormBuilder ,  private router:Router  , private translate: TranslateService) { 
+  
+      
+    translate.addLangs(['en', 'fr']);
+    translate.setDefaultLang('en');
+    
     this.reactiveForm = this.formBuilder.group({
       Name: ['', Validators.required],
       lastName: ['', Validators.required],
@@ -32,8 +39,9 @@ export class HomeComponent implements OnInit {
           return;
       }
   }
+
     
-  // useLanguage(language: string) {
-  //   this.translate.use(language);
-  // }
+  useLanguage(language: string) {
+    this.translate.use(language);
+  }
 }

@@ -166,7 +166,15 @@ h1{
   font-family: 'Quicksand-Bold';
 }
 
-@media only screen and (max-width: 575px) {
+// @media only screen and (max-width: 575px) {
+//   .service-list:nth-child(odd) {
+//     display: flex;
+//     flex-direction: column-reverse;
+//     flex-wrap: wrap;
+//   }
+// }
+
+@media only screen and (max-width: 1024px) {
   .service-list:nth-child(odd) {
     display: flex;
     flex-direction: column-reverse;
