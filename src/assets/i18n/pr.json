@@ -1,17 +1,20 @@
-
 {
-	"login": {
+
 		"title": "Elevando globalmente os cuidados para o autismo e outras deficiências de desenvolvimento",
-		"username.label": "Nom d'utilisateur",
-		"username.placeholder": "Nom D'Utilisateur Ici",
-		"password.label": "Mot de passe",
-		"password.placeholder": "Entrez Le Mot De Passe",
-		"button.name": "Signin",
-		"forgotpassword.link": "Mot De Passe Oublié ?",
-		"register.link": "Créer Un Nouveau Compte",
-		"button.en": "Anglaise",
-		"button.ta": "Tamil",
-		"button.fr": "Française",
-		"button.zh": "Chinoise"
-	}
+		"title1": "Serviços Clínicos",
+		"title2": "A DAXTA pode ajudar sua empresa a aumentar a qualidade e eficiência no tratamento do autismo e outras deficiências de desenvolvimento. Na DAXTA, fornecemos suporte e orientação a prestadores de serviços em áreas relacionadas ao desenvolvimento e implementação de sistemas para avaliar e aumentar a qualidade dos serviços, bem como capacitar seus funcionários.",
+		"phone": "Telefone",
+		"email": "E-mail",
+		"home": "casa",
+		"aboutus": "Sobre nós",
+		"ourservice": "Nosso serviço",
+		"software": "Programas",
+		"courses": "Cursos",
+		"ourteam": "Nosso time",
+		"contactus": "Entre em contato conosco",
+		"company":"Companhia",
+		"t&c":"Termos de uso",
+		"privacypolicy":"Política de Privacidade"
+	
+	
 }
