@@ -5,18 +5,22 @@
                 <div class="col-md-6">
                     <div class="home-header">
                         <h1>{{'HOMEPAGE.HOMESECTION1' | translate}}</h1>
-                        <p class="pt-3 pb-3">Lorem ipsome content elevating care for autism and other developmental
-                            disabilities elevating care for autism and other developmental disabilities</p>
+                        <p class="pt-3 pb-3">Increasing quality and efficiency in the treatment of autism and other
+                            developmental disabilities by increasing the effectiveness and capacity of clinical service
+                            providers
+                            Consultation. Supervision. Training. Software. ABA
+                        </p>
                         <div>
-                            <button type="button" class="btn primary-button our-service-button">Our Services</button>
-                            <button type="button" class="btn primary-button contact-us-button">Contact Us</button>
+                            <!-- <button type="button" class="btn primary-button our-service-button">Our Services</button> -->
+                            <button type="button" class="btn primary-button contact-us-button"
+                                (click)="gotocontactus()">Contact Us</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section1-image">
-            <img class="home-section1" src="../../../assets/images/homepage_Section1.png" />
+            <img class="home-section1" src="../../../assets/images/homepage_section.png" />
         </div>
     </div>
     <div class="section2">
@@ -24,10 +28,10 @@
             <div class="row">
                 <div class="col-md-6 clinical-ser-div">
                     <h2>Clinical Services</h2>
-                    <p class="pt-3 pb-3 clinical-ser-cont">Lorem ipsome content elevating care for autism and other
-                        developmental disabilities elevating care for autism and other developmental disabilities</p>
+                    <p class="pt-3 pb-3 clinical-ser-cont">Your need is matched with our expertise</p>
                     <div>
-                        <button type="button" class="btn primary-button">More Information</button>
+                        <button type="button" class="btn primary-button" (click)="gotoourservice()">More
+                            Information</button>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -37,8 +41,8 @@
                                 <div class="card-body">
                                     <img src="../../../assets/icon/OUTLINE.png" />
                                     <h5 class="card-title pt-3 pb-3">Executive Organizational Consultation</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
+                                    <p class="card-text">Individualized service tailored to clinical leaders oriented
+                                        towards clinical, organizational, administrative, and operational needs</p>
                                 </div>
                             </div>
                         </div>
@@ -46,9 +50,9 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/conversation.png" />
-                                    <h5 class="card-title pt-3 pb-3">Executive Organizational Consultation</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
+                                    <h5 class="card-title pt-3 pb-3">Clinical Consultation</h5>
+                                    <p class="card-text">Support for clinical supervisors of treatment based on applied
+                                        behavior analysis regarding all aspects of case supervision</p>
                                 </div>
                             </div>
                         </div>
@@ -56,9 +60,9 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/noun_supervised_3507969.png" />
-                                    <h5 class="card-title pt-3 pb-3">Executive Organizational Consultation</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
+                                    <h5 class="card-title pt-3 pb-3">Clinical Supervision</h5>
+                                    <p class="card-text">Supervision of aspiring behavior analysts pursuing a credential
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -66,18 +70,16 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/noun_training_1422944.png" />
-                                    <h5 class="card-title pt-3 pb-3">Executive Organizational Consultation</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
+                                    <h5 class="card-title pt-3 pb-3">Personalized Training</h5>
+                                    <p class="card-text">Training created and delivered based on our competence and your
+                                        staff’s needs</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section4">
-                <app-form></app-form>
-            </div>
+
         </div>
     </div>
     <div class="section3">
@@ -87,18 +89,21 @@
                     <div class="courses-div">
                         <div class="row">
                             <h2>Courses</h2>
-                            <p class="pt-3 pb-3">Lorem ipsome content elevating care for autism and other developmental
-                                disabilities elevating care for autism and other developmental disabilities</p>
+                            <p class="pt-3 pb-3">We will be using the platform called Thinkific to sell training (<a href="https://www.thinkific.com">https://www.thinkific.com</a>). This is currently the training platform site: https://layla-s-school-d80a.thinkific.com.  We will need to map this website to training.daxta.com.
+                                Also, we currently have one pre-recorded training on the hotmart platform: 
+                               <a href="https://www.hotmart.com/product/en/workshop-aprenda-a-construir-graficos-com-layla-sump/S44803185A">https://www.hotmart.com/product/en/workshop-aprenda-a-construir-graficos-com-layla-sump/S44803185A</a>  Would it be possible to advertise in our website too?
+                                </p>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <img class="swimmers-image" src="../../../assets/images/group-of-swimmers.png" />
+                                <!-- <img class="swimmers-image" src="../../../assets/images/group-of-swimmers.png" /> -->
                                 <div class="text-center">
-                                    <img class="ace-image" src="../../../assets/images/ACE-Picture.png" />
+                                    <img class="ace-image" src="../../../assets/images/ACE-Picture.png"
+                                        style="width: 100%;" />
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <img class="sport-image" src="../../../assets/images/going-sport.png" />
+                                <!-- <img class="sport-image" src="../../../assets/images/going-sport.png" /> -->
                             </div>
                         </div>
                     </div>
@@ -167,13 +172,20 @@
                         </div>
                     </div>
                     <div class="mt-5">
-                        <button type="button" class="btn all-courses-btn primary-button">All Courses</button>
+                        <button type="button" class="btn all-courses-btn primary-button" (click)="gotocoursers()">All
+                            Courses</button>
                     </div>
                 </div>
             </div>
         </div>
         <img class="grp22-img" src="../../../assets/images/Group_22.png" />
     </div>
+    <div class="container">
+        <div class="section4">
+            <app-form></app-form>
+        </div>
+    </div>
+
     <div class="section5">
         <app-clinical-software></app-clinical-software>
     </div>

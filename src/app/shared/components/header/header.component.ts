@@ -12,10 +12,10 @@ declare var $: any;
 export class HeaderComponent implements OnInit {
 
   selectedCountryCode = 'us';
-  countryCodes = ['us', 'pt', 'es'];
+  countryCodes = ['us', 'br', 'es'];
   customLabels = {
     'us': 'US',
-    'pt': 'Portugal',
+    'br': 'Brazilian ',
     'es': 'Spain'
   };
 

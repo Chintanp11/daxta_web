@@ -1,0 +1,39 @@
+{
+    "PORTUGUESE": "",
+    "HEADER": {
+      "HOME": "Casa",
+      "ABOUTUS": "Sobre nós",
+      "PHONE": "Telefone",
+      "EMAIL": "E-mail",
+      "OURSERVICES": "Nossos serviços",
+      "SOFTWARE": "Programas",
+      "COURSES": "Cursos",
+      "BLOG": "Blog",
+      "CONTACTUS": "Entre em contato conosco",
+      "OURTEAM": "Our Team"
+    },
+    "HOMEPAGE": {
+      "HOMESECTION1": "Elevando globalmente o cuidado para o autismo e outras deficiências de desenvolvimento"
+    },
+    "ABOUTUSPAGE":{
+      "ABOUT":"Cerca de"
+    },
+    "OURSERVICESPAGE":{
+      "OUR": "Nossos",
+      "SERVICES": "serviços"
+    },
+    "SOFTWAREPAGE":{
+      "PAGEHEADER":"Obtenha o plano certo para o produto futuro"
+    },
+    "COURSESPAGE": {
+      "OUR": "Nossos",
+      "COURSES": "Cursos"
+    },
+    "TEAMPAGE":{
+      "TEAMMEMBERS":"Membros do time"
+    },
+    "CONTACTUSPAGE":{
+      "GETINTOUCH":"Entrar em contato"
+    }
+  }
+  

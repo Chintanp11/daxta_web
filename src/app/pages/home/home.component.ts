@@ -36,7 +36,15 @@ export class HomeComponent implements OnInit {
           return;
       }
   }
-    
+  gotocontactus(){
+    this.router.navigateByUrl('/contactus');
+  }
+  gotoourservice(){
+    this.router.navigateByUrl('/ourservice')
+  }
+  gotocoursers(){
+    this.router.navigateByUrl('/courses')
+  }
   // useLanguage(language: string) {
   //   this.translate.use(language);
   // }
