@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
 
-$flag-icon-css-path: '~flag-icon-css/flags' !default;
-@import "~flag-icon-css/css/flag-icons.css";
+// $flag-icon-css-path: '~flag-icon-css/flags' !default;
+// @import "~flag-icon-css/css/flag-icons.css";
 
 @font-face {
   font-family: "Quicksand-Bold";
@@ -187,6 +187,7 @@ select {
   background: url("./assets/images/down-dropdown.png") no-repeat;
   background-position: 95%; 
   color: #6c757d;
+  background-color: var(--white-color);
 }
 
 select:focus-visible {

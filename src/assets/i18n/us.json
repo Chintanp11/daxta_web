@@ -34,5 +34,9 @@
   },
   "CONTACTUSPAGE":{
     "GETINTOUCH":"Get In Touch"
+  },
+  "FOOTER":{
+    "FACEBOOKLINK":"https://www.facebook.com/DaxtaABA",
+    "INSTAGRAMLINK":"https://www.instagram.com/daxta_aba/"
   }
 }
