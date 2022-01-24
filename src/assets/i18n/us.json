@@ -1,0 +1,38 @@
+{
+  "ENGLISH": "",
+  "HEADER": {
+    "HOME": "Home",
+    "ABOUTUS": "About Us",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "OURSERVICES": "Our Services",
+    "SOFTWARE": "Software",
+    "COURSES": "Courses",
+    "BLOG": "Blog",
+    "CONTACTUS": "Contact Us",
+    "OURTEAM": "Our Team"
+  },
+  "HOMEPAGE": {
+    "HOMESECTION1": " ''Globally elevating care for autism and other developmental disabilities'' "
+  },
+  "ABOUTUSPAGE": {
+    "ABOUT": "About"
+  },
+  "OURSERVICESPAGE": {
+    "OUR": "Our",
+    "SERVICES": "Services"
+  },
+  "SOFTWAREPAGE": {
+    "PAGEHEADER": "Get the right plan for the future product"
+  },
+  "COURSESPAGE": {
+    "OUR": "Our",
+    "COURSES": "Courses"
+  },
+  "TEAMPAGE":{
+    "TEAMMEMBERS":"Team Members"
+  },
+  "CONTACTUSPAGE":{
+    "GETINTOUCH":"Get In Touch"
+  }
+}

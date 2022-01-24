@@ -6,14 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-team.component.scss']
 })
 export class OurTeamComponent implements OnInit {
-  isReadMore = true
-  constructor() { }
+
+  isShow = true;
+
+  constructor() {
+    window.scrollTo(0, 0);
+   }
 
   ngOnInit(): void {
-    
   }
 
-  showText() {
-    this.isReadMore = !this.isReadMore
- }
+  toggleShow() {
+    this.isShow = !this.isShow;
+  }
 }

@@ -1,53 +1,58 @@
-.mainclass{
-      min-height: 100vh;
+.daxta-video {
+  height: 100%;
+  width: 100%;
 }
 
-.tag-p{
-        font-size: 80px;
-        font-family: 'Quicksand-Bold';
+.upcoming-courses {
+  padding-left: 100px;
+  padding-right: 100px;
+  h6{
+    font-family: "Quicksand-Bold" !important;
   }
-  .card-title {
-      color: var(--primary-color);
-      font-size: 23px;
-      font-family: "Quicksand-SemiBold";
-    }
-    
-    .card-text {
-      color: var(--primary-color);
-      font-size: 17px;
-      font-family: "Quicksand-Medium";
-      line-height: normal;
-    }
-    
-    .card-div {
-      margin-top: 100px;
-      margin-bottom: 100px;
-    }
-    
-    .card-body {
-      padding: 20px;
-    }
+}
 
-    .card-group {
-      border-radius: 10px;
-      border-left: #0a2360 5px solid;
-      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
-    
-    .card-group1 {
-      border-radius: 10px;
-      border-left: #ea1b64 5px solid;
-      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
+.courses-left-content {
+  padding-left: 100px;
+  h6{
+    font-family: "Quicksand-Bold" !important;
+  }
+}
 
-    .header-contant {
-      color: var(--secondary-color) !important;
-      font-family: 'Quicksand-Bold';
-    }
-    h1{
-      font-family: 'Quicksand-Bold';
-    }
-    .card-class h5{
-      color: var(--primary-color);
-      font-family: 'Quicksand-Bold';
-    }
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+  .courses-left-content {
+    padding: 0px !important;
+  }
+
+  .upcoming-courses {
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .courses-left-content{
+    padding: 0px !important;
+  }
+
+  .upcoming-courses{
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .courses-left-content {
+    padding: 0px !important;
+  }
+
+  .upcoming-courses {
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .daxta-video{
+    margin-top: 30px;
+  }
+}

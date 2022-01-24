@@ -1,21 +1,11 @@
-.mainclass{
-    min-height: 100vh;
-}
-h1{
-    color: var(--primary-color);
-    font-family: 'Quicksand-Bold';
-}
-.background{
-    background-color: #FDFBFF;
-    box-shadow: rgba(0, 0, 0, 6%) 0px 2px 48px;
+h3{
+    font-family: "Quicksand-Bold";
 }
 
-.text{
-    
-    font-size: 31px;
-    font-weight: 700;
-    font-family: 'Quicksand-Bold';
+.container{
+    margin-bottom: 100px;
 }
-.text1{
-    color: #0A2360;
+
+.news-artical-shadow{
+    padding: 25px !important;
 }

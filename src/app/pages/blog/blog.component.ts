@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   selector: 'app-blog',
@@ -8,11 +8,15 @@ import { Router } from '@angular/router';
 })
 export class BlogComponent implements OnInit {
 
-  constructor( private router: Router) { }
+  constructor(private router: Router) {
+    window.scrollTo(0, 0);
+   }
 
   ngOnInit(): void {
   }
-  goto(){
-    this.router.navigateByUrl('/blogdetails');
+
+  goToDetails(){
+    this.router.navigate(['blog/blog-details']);
   }
+
 }

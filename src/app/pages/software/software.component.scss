@@ -1,128 +1,133 @@
-.mainclass{
-    min-height: 100vh;
+.login-img {
+    width: 100%;
+    height: auto;
 }
 
-.tag-p {
-    color: #0a2360;
-    font-size: 55px;
-    font-family: "Quicksand-Bold";
+.width-50 {
+    width: 50%;
+    margin: auto !important;
 }
 
-.tagp {
-    color: #0a2360;
-    // font-family: 'Quicksand-Medium';
-    font-size: 18px;
-    font-weight: 700;
-}
-ul {
-    // list-style-image: url("../../../assets/ourservice/icon/Path\ 65.png");
-    margin-left: 25px;
-    font-size: 16px;
-    font-family: "Quicksand-Bold";
-    color: #0a2360;
-}
-h4{
-    font-family: 'Quicksand-Bold';
-    color: var(--primary-color);
-}
-
-.text-p {
-    font-size: 16px;
-    font-family: "Quicksand-Bold";
-    color: #0a2360;
-}
-
-.text {
-    font-weight: 700;
-    color: #0a2360;
-    font-family: "Quicksand-Bold";
-}
-
-.text-1 {
-    font-size: 35px;
-    font-weight: 700;
-    color: #0a2360;
-    font-family: "Quicksand-Bold";
-}
-
-.title {
-    font-size: 20px;
-    font-family: "Quicksand-Bold";
-    color: #ea1b64;
-    font-weight: 700;
-    border: 0px;
+.width-75 {
+    width: 75%;
+    margin: auto !important;
 }
 
 th {
-    border: 3px solid #fff;
+    color: var(--secondary-color);
+    font-family: "Quicksand-Bold";
 }
 
 td {
-    border: 3px solid #fff;
-}
-.text {
-    line-height: normal;
-}
-.dark{
-    background-color: #F7F7FB;
+    color: var(--primary-color);
+    font-family: "Quicksand-Bold";
+    // text-align: center;
+    padding: 15px !important;
+    background-color: #f7f7fb;
+    border-bottom: 2px solid var(--white-color) !important;
+    border-right: 2px solid var(--white-color);
 }
 
-.form-btn {
-    border-radius: 5px;
-    margin-left: 20px;
-    background-color: #fff;
-    color: var(--primary-color);
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 30px;
-    border: 1px solid #0a2360;
-  }
-  .form-btn1 {
-    border-radius: 5px;
-    margin-left: 20px;
-    background-color: #ea1b64;
-    color: #fff;
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 30px;
-    border: 0px;
-  }
-//   @media screen and (max-width: 575px) {  
-//   .table-xs-responsive th {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   .table-xs-responsive td {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   }  
-//   @media screen and (max-width: 767px) {  
-//   .table.table-sm-responsive th {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   .table.table-sm-responsive td {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   }  
-//   @media screen and (max-width: 992px) {  
-//   .table.table-sm-responsive th {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   .table.table-sm-responsive td {  
-//       width: 100% !important;  
-//       display: block !important;  
-//       box-sizing: border-box;  
-//   }  
-//   }  
-  @media screen and (min-width: 1200px) {  
- .table{
-     overflow: hidden;
- }
-  }  
+.last-row {
+    td {
+        background-color: transparent !important;
+        // text-align: left;
+        h6 {
+            font-family: "Quicksand-Bold" !important;
+            color: #000000 !important;
+        }
+    }
+}
+
+.table-data {
+    font-family: "Quicksand-Medium" !important;
+}
+
+.getstarted-button {
+    border-radius: 3px !important;
+    font-family: "Quicksand-SemiBold" !important;
+}
+
+.table > :not(:first-child) {
+    border: none !important;
+}
+
+ul {
+    padding-left: 0px;
+    li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 25px;
+        position: relative;
+        p {
+            font-family: "Quicksand-Bold";
+        }
+    }
+    li:before {
+        content: url("../../../assets/images/Check_Mark.png");
+        position: absolute;
+        left: 0px;
+        top: 5px;
+    }
+
+    .child-li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 20px;
+        position: relative;
+        p {
+            font-family: "Quicksand-SemiBold";
+        }
+    }
+
+    .child-li::before {
+        content: url("../../../assets/images/Path_Right.png");
+        position: absolute;
+        left: 0px;
+        top: 2px;
+    }
+}
+
+.software-card {
+    height: 150px;
+    width: 140px;
+    margin-right: 40px !important;
+    border: none;
+    .software-card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h4,p{
+            font-family: "Quicksand-Bold";
+        }
+    }
+}
+
+
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 575px) {
+    .counts-row{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .width-50{
+        width: 100% !important;
+    }
+    .width-75{
+        width: 100% !important;
+    }
+}

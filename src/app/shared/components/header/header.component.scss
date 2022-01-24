@@ -1,0 +1,164 @@
+.navbar-color {
+    background-color: var(--primary-color) !important;
+    .navbarLogo{
+        max-height: 33px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .header-first-row {
+        border-bottom: 1px solid var(--white-color);
+        .header-first-row-content {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            .contact-number {
+                // padding-right: 30px;
+                p,
+                span {
+                    color: var(--white-color) !important;
+                }
+            }
+            .contact-icon{
+                margin-right: 10px;
+            }
+            .logo {
+                cursor: pointer;
+                width: auto;
+                height: 50px;
+            }
+            .navbar-toggler:focus {
+                box-shadow: none !important;
+            }
+            .contact-info{
+                display: flex;
+                flex-direction: row;
+                .phone-number{
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+    .routes-links-div {
+        padding: 10px 12px;
+        ul li {
+            display: inline-block;
+            margin: 0px 30px 0px 0px;
+            a {
+                color: var(--white-color) !important;
+                position: relative;
+            }
+            a:hover,
+            a:active {
+                color: var(--secondary-color) !important;
+            }
+            .nav-link::before {
+                transition: all 0.2s ease;
+                color: var(--secondary-color) !important;
+                position: absolute;
+                content: "";
+                background-color: var(--secondary-color);
+                left: 8px;
+                bottom: 0;
+                width: 0%;
+                height: 4px;
+            }
+            .router-link-active::before {
+                color: var(--secondary-color) !important;
+                position: absolute;
+                content: "";
+                background-color: var(--secondary-color);
+                left: 8px;
+                bottom: 0;
+                width: 50%;
+                height: 4px;
+            }
+            .nav-link:hover::before {
+                color: var(--secondary-color) !important;
+                position: absolute;
+                content: "";
+                background-color: var(--secondary-color);
+                left: 8px;
+                bottom: 0;
+                width: 50%;
+                height: 4px;
+            }
+            .router-link-active{
+                color: var(--secondary-color) !important;
+            }
+        }
+        .contact-info-responsive{
+            display: none;
+        }
+    }
+    ngx-flag-picker{
+        background: var(--secondary-color) !important;
+        padding: 8px;
+        border-radius: 50px;
+    }
+
+    // .lang-flags-div{
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+}
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../../../../assets/images/collapse_button.png") !important;
+        width: 20px;
+        height: 15px;
+    }
+    .navbar {
+        box-shadow: 0 2px 8px -2px grey;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+        font-size: 0px !important;
+    }
+    .contact-info{
+        display: none !important;
+    }
+    .contact-info-responsive{
+        display: block !important;
+        p,span{
+            color: var(--white-color) !important;
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .contact-info {
+        display: none !important;
+    }
+    .logo {
+        width: 130px !important;
+        height: auto !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../../../../assets/images/collapse_button.png") !important;
+        width: 20px;
+        height: 15px;
+    }
+    .navbar {
+        box-shadow: 0 2px 8px -2px grey;
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+        font-size: 0px !important;
+    }
+    .contact-info-responsive{
+        display: block !important;
+        p,span{
+            color: var(--white-color) !important;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+<nav class="fixed-top navbar-expand-lg navbar-light bg-light navbar-color">
+    <div class="container">
+        <div class="row header-first-row">
+            <div class="d-flex justify-content-between align-items-center header-first-row-content">
+                <img (click)="backToHome()" class="logo" src="../../../assets/images/logo.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="contact-info">
+                    <div class="d-flex flex-row phone-number">
+                        <div class="contact-icon">
+                            <img src="../../../assets/images/Shape.png" />
+                        </div>
+                        <div class="contact-number">
+                            <p>{{'HEADER.PHONE' | translate}}</p>
+                            <span>+2 342 5440 07</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <div class="contact-icon">
+                            <img src="../../../assets/images/mail.png" />
+                        </div>
+                        <div class="contact-number">
+                            <P>{{'HEADER.EMAIL' | translate}}</P>
+                            <span>contact@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="collapse navbar-collapse routes-links-div" id="navbarSupportedContent">
+                <div class="contact-info-responsive">
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-row">
+                            <div class="contact-icon mx-2">
+                                <img src="../../../assets/images/Shape.png" />
+                            </div>
+                            <div class="contact-number">
+                                <p>{{'HEADER.PHONE' | translate}}</p>
+                                <span>+2 342 5440 07</span>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex flex-row mx-2">
+                            <div class="contact-icon mx-2">
+                                <img src="../../../assets/images/mail.png" />
+                            </div>
+                            <div class="contact-number">
+                                <P>{{'HEADER.EMAIL' | translate}}</P>
+                                <span>contact@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" routerLink="/home"
+                            routerLinkActive="router-link-active">{{'HEADER.HOME' | translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/about" routerLinkActive="router-link-active">{{'HEADER.ABOUTUS' |
+                            translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/ourservice"
+                            routerLinkActive="router-link-active">{{'HEADER.OURSERVICES' | translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/software" routerLinkActive="router-link-active">{{'Software' |
+                            translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/courses" routerLinkActive="router-link-active">{{'Courses' |
+                            translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/ourteam" routerLinkActive="router-link-active">{{'OurTeam' |
+                            translate}}</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" routerLink="/blog" routerLinkActive="router-link-active">{{'Blog' |
+                            translate}}</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/contactus" routerLinkActive="router-link-active">{{'HEADER.CONTACTUS' | translate}}</a>
+                    </li>
+                </ul>
+                <div class="lang-flags-div">
+                    <ngx-flag-picker
+                      [selectedCountryCode]="selectedCountryCode"
+                      [countryCodes]="countryCodes"
+                      [showLabels]="false"
+                      (changedCountryCode)="changeSelectedCountryCode($event)">
+                    </ngx-flag-picker>
+                  </div>
+                <!-- <div>
+                    <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
+                        <option *ngFor="let language of translate.getLangs()" [value]="language"
+                            [selected]="language === translate.currentLang">
+                            <img src="../../../../assets/icon/noun_supervised_3507969.png" class="fa fa-caret-down" aria-hidden="true"/>{{ language }}
+                        </option>
+                    </select>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</nav>

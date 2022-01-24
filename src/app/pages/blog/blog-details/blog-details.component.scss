@@ -1,0 +1,76 @@
+.corporate-office {
+    width: 100%;
+}
+
+.remote-work-header{
+    h3{
+        font-family: "Quicksand-Bold";
+    }
+    p{
+        font-family: "Quicksand-SemiBold";
+    }
+}
+
+.profile-div {
+    border-top: 1px solid rgb(238 238 238 / 100%);
+    border-bottom: 1px solid rgb(238 238 238 / 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .profile-details{
+       h6{
+        font-family: "Quicksand-Bold" !important;
+       } 
+    }
+}
+
+.width-75{
+    width: 75%;
+    margin: auto !important;
+}
+
+ul{
+    .new-topic-list {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 20px;
+        position: relative;
+      }
+    
+      .new-topic-list::before {
+        content: url("../../../../assets/images/Oval.png");
+        position: absolute;
+        left: 0px;
+        top: 2px;
+      }
+}
+
+.rectangle-div{
+    background: url("../../../../assets/images/Rectangle.png");
+    // position: relative;
+    .rectangle-div-content{
+       padding-top: 40px;
+       padding-bottom:40px;
+    }
+}
+
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 575px) {
+
+    .width-75{
+        width: 100% !important;
+    }
+}
+
+

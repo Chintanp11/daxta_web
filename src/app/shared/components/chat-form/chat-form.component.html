@@ -1,0 +1,17 @@
+<div [hidden]="isShow">
+    <div class="chat-popup">
+        <form class="form-container">
+            <input type="text" class="form-control form-input-class" id="company"
+                placeholder="Write Something">
+        </form>
+      </div>
+</div>
+
+<div class="button-popup">
+    <div class="chat-box" [hidden]="isShow" (click)="toggleShow()">
+        <img class="chat-image" src="../../../assets/images/close_circle.png" />
+    </div>
+    <div class="chat-box" [hidden]="!isShow" (click)="toggleShow()">
+        <img class="chat-image" src="../../../assets/images/chat-icon.png" />
+    </div>
+</div>

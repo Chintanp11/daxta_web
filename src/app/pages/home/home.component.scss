@@ -1,221 +1,164 @@
-// // section 1
-.mainclass {
-  margin-bottom: 100px;
-  background-image: url("../../../assets/images/bannerimag.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  margin-bottom: 20px;
-  min-height: 100vh;
+.section1 {
+    position: relative;
+    .home-header {
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+    }
+    .contact-us-button {
+        margin-left: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .section1-image {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        .home-section1 {
+            max-width: 700px;
+        }
+    }
+    .our-service-button {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 }
 
-.img-back {
-  background-image: url("../../../assets/images/daxtablur.svg");
-  background-repeat: no-repeat;
-  background-position: 100% 40%;
-  background-origin: content-box;
-}
-
-.contact-btn {
-  border-radius: 30px;
-  background-color: #fff;
-  color: #fff;
-  padding: 10px 40px 10px 40px;
-  border: 1px solid #ea1b64;
-  color: var(--secondary-color);
-  margin-left: 40px;
-}
-
-.service-btn {
-  border-radius: 30px;
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 10px 60px 10px 60px;
-  border: 0px;
-}
-
-.tagp {
-  font-family: "Quicksand-Bold";
-  margin-top: 200px;
-  font-size: 20px;
-}
-
-.tag-p {
-  font-family: "Quicksand-Bold";
-  color: var(--primary-color);
-  line-height: normal;
-}
-
-.tag-p1 {
-  color: var(--primary-color);
-  margin-top: 10px;
-}
-
-.play-img {
-  margin-bottom: 220px;
-}
-
-.card-head1 {
-  color: var(--secondary-color);
-  font-size: 20px;
-  font-family: "Quicksand-Bold";
-  margin-top: 100px;
-}
-//   // section 3
-
-.clinic-back {
-  background-color: #fdfbff;
-}
-
-.card-grop1 {
-  border-radius: 10px;
-  box-shadow: rgb(21 87 153 / 8%) 0px 2px 10px;
-  border: 0px;
-  margin-bottom: 50px;
-}
-
-.card-text3 {
-  color: var(--primary-color);
-  font-size: 14px;
-  font-family: "Quicksand-Medium";
-}
-
-.card-title3 {
-  color: var(--primary-color);
-  margin-top: 15px;
-  font-family: "Quicksand-semiBold";
-}
-
-.card-horizontal {
-  margin-top: 50px;
-}
-
-.backimg {
-  background-image: url("../../../assets/images/couse_back1.svg");
-  background-repeat: no-repeat;
-  background-position: 88% 12%;
-}
-
-.card-grop2 {
-  border-radius: 10px;
-  box-shadow: rgb(21 87 153 / 8%) 0px 2px 10px;
-  border: 0px;
-  margin-bottom: 50px;
-}
-
-//   // section 4
-
-.background-img {
-  background-image: url("../../../assets/images/course_back.png");
-  background-repeat: no-repeat;
-  display: block;
-  position: relative;
-  width: auto;
-  background-size: cover;
-  margin-top: 80px;
-  margin-bottom: 50px;
-}
-
-.card-title {
-  color: var(--secondary-color);
-  font-family: "Quicksand-SemiBold";
-}
-
-.card-text {
-  color: var(--secondary-color);
-  font-size: 19px;
-  font-family: "Quicksand-Medium";
-  line-height: normal;
-}
-.card-class h5 {
-  color: var(--primary-color);
-  font-family: "Quicksand-Bold";
-}
-
-.card-div {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.crad-horizontal {
-  margin-left: -100px;
-  margin-right: 100px;
-}
-
-.item-img {
-  width: 70%;
-}
-
-.ACE {
-  position: absolute;
-  bottom: -35px;
-  left: 85px;
-  border-radius: 80px;
-}
-
-.invalid-feedback {
-  color: red;
-}
-
-// section 5
-.card-group {
-  border-radius: 10px;
-  border-left: #0a2360 5px solid;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.card-group1 {
-  border-radius: 10px;
-  border-left: #ea1b64 5px solid;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-// section 6
-
-@media only screen and (max-width: 1400px) {
-  .mainclass {
-    background-image: none;
-  }
-}
-
-@media (max-width: 1200px) and (min-width: 992px) {
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .crad-horizontal {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .item-img {
-    width: 80%;
-  }
-  .ACE {
-    bottom: -70px;
-    left: 30px;
-  }
-  .card {
-    margin-top: 0px !important;
-  }
-  .tagp {
+.section2 {
     margin-top: 50px;
-  }
+    .clinical-ser-div {
+        margin-top: 100px;
+        .clinical-ser-cont {
+            width: 80%;
+        }
+    }
+    .primary-button {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .ACE {
-    bottom: -35px;
-    left: 140px;
-  }
-  .crad-horizontal {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .tagp {
-    margin-top: 50px;
-  }
+.section3 {
+    margin-top: 100px;
+    position: relative;
+    .grp22-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(0%, 50%);
+        z-index: -1;
+    }
+    .swimmers-image {
+        width: 100%;
+    }
+    .sport-image {
+        width: 100%;
+        padding-top: 230px;
+    }
+    .ace-image {
+        width: auto;
+        height: 100%;
+        padding-top: 100px;
+    }
+    .courses-div {
+        width: 80%;
+    }
+    .card-even {
+        padding-left: 100px;
+    }
+    .card-odd {
+        padding-right: 100px;
+    }
+    .all-courses-btn{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    h6{
+        font-family: "Quicksand-Bold" !important;
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1139px) {
+.clinical-services-card {
+    border-radius: 20px;
+    border: none;
+}
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+    .home-header {
+        min-height: 400px !important;
+    }
+    .home-section1 {
+        max-width: 500px !important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .home-header {
+        min-height: 400px !important;
+    }
+    .home-section1 {
+        max-width: 500px !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .home-header {
+        min-height: 500px !important;
+    }
+    .home-section1 {
+        max-width: 500px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-header {
+        min-height: 400px !important;
+    }
+    .home-section1 {
+        max-width: 400px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .home-header {
+        min-height: 500px !important;
+    }
+    .home-section1 {
+        max-width: 350px !important;
+    }
+    .card-even {
+        padding-left: 0px !important;
+    }
+    .card-odd {
+        padding-right: 0px !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .home-header {
+        min-height: 700px !important;
+        width: 100% !important;
+    }
+    .home-section1 {
+        max-width: 180px !important;
+    }
+    .section2 {
+        margin-top: 0px !important;
+        .clinical-ser-cont {
+            width: 100% !important;
+        }
+        .clinical-ser-div{
+            margin-top: 0px !important;
+        }
+    }
+    .section3 {
+        .courses-div {
+            width: 100% !important;
+        }
+    }
+    .card-even {
+        padding-left: 0px !important;
+    }
+    .card-odd {
+        padding-right: 0px !important;
+    }
 }

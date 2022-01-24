@@ -1,0 +1,29 @@
+.form-component{
+    background: url("../../../../assets/images/form-back.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 35px 45px 35px 100px;
+}
+
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 575px) {
+    .form-component{
+        padding: 0px !important;
+    }
+    
+}

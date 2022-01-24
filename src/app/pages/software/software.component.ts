@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./software.component.scss']
 })
 export class SoftwareComponent implements OnInit {
-  isReadMore = true
-  constructor() { }
+
+  constructor() { 
+    window.scrollTo(0, 0);
+  }
 
   ngOnInit(): void {
   }
-  showText() {
-    this.isReadMore = !this.isReadMore
- }
+
 }

@@ -1,0 +1,105 @@
+.job-lists {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    .read-more {
+        cursor: pointer;
+        color: var(--secondary-color) !important;
+        font-family: "Quicksand-Bold" !important;
+    }
+    h5 {
+        font-family: "Quicksand-Bold" !important;
+    }
+    .joblist-left-content {
+        width: 85%;
+        .limitTextHeight {
+            height: 45px;
+            overflow: hidden;
+        }
+        .f-18 {
+            display: flex;
+            color: #707070;
+            align-items: center;
+            span {
+                font-family: "Quicksand-SemiBold" !important;
+                padding-left: 10px;
+            }
+        }
+    }
+    .joblist-right-content {
+        width: 15%;
+        text-align: center;
+        .secondary-button {
+            border-radius: 5px !important;
+        }
+    }
+    .job-description {
+        background: var(--secondary-color);
+        h1,
+        p {
+            color: var(--white-color) !important;
+        }
+        .inquiry-now {
+            border-radius: 25px !important;
+            font-family: "Quicksand-SemiBold" !important;
+            border: 1px solid var(--white-color) !important;
+        }
+        .inquiry-now:hover {
+            color: var(--secondary-color) !important;
+            background-color: var(--white-color) !important;
+        }
+    }
+    .latest-jobs{
+        border-radius: 20px;
+        border: none;
+    }
+}
+
+//<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 1024px) {
+    .job-lists{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .joblist-left-content{
+        width: 65% !important;
+    }
+    .joblist-right-content{
+        width: 35% !important;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 768px) {
+    .job-lists{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+
+    .joblist-left-content{
+        width: 65% !important;
+    }
+    .joblist-right-content{
+        width: 35% !important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .job-lists{
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .joblist-left-content{
+        width: 65% !important;
+    }
+    .joblist-right-content{
+        width: 35% !important;
+    }
+}
