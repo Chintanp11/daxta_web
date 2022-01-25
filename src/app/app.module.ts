@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';  
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'; 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -40,6 +40,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     AppRoutingModule,
     ReactiveFormsModule,
     SharedModule,
+    FormsModule,
     TranslateModule.forRoot({  
       loader: {  
          provide: TranslateLoader,  

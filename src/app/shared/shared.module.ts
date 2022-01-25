@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
@@ -16,6 +16,7 @@ import { NgxFlagPickerModule } from 'ngx-flag-picker';
 @NgModule({
   imports: [CommonModule, RouterModule, ReactiveFormsModule,NgxFlagPickerModule,
     HttpClientModule,
+    FormsModule,
     TranslateModule.forRoot({  
         loader: {  
            provide: TranslateLoader,  
