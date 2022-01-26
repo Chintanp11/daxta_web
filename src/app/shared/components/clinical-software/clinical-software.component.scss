@@ -15,7 +15,21 @@
         }
     }
 }
-
+ul {
+    padding-left: 0px;
+    li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 25px;
+        position: relative;
+    }
+    li:before {
+        content: url("../../../../assets/images/Check_Mark.png");
+        position: absolute;
+        left: 0px;
+        top: 5px;
+    }
+}
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
 
 @media only screen and (max-width: 1440px) {
