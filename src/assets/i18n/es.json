@@ -34,5 +34,9 @@
   },
   "CONTACTUSPAGE":{
     "GETINTOUCH":"Ponerse en contacto"
+  },
+  "FOOTER":{
+    "FACEBOOKLINK":"https://www.facebook.com/profile.php?id=100063564880070",
+    "INSTAGRAMLINK":"https://www.instagram.com/daxta_america_latina/"
   }
 }

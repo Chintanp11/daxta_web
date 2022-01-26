@@ -10,13 +10,14 @@
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
                             <label for="name">First Name</label>
-                            <input type="text" class="form-control form-input-class" id="name" placeholder="Your name">
+                            <input type="text" class="form-control form-input-class" id="name" placeholder="First Name">
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
                             <label for="lastname">Last Name</label>
-                            <input type="text" class="form-control form-input-class" id="lastname" placeholder="Last">
+                            <input type="text" class="form-control form-input-class" id="lastname"
+                                placeholder="Last Name">
                         </div>
                     </div>
                     <!-- <div class="col-md-6 mt-4">
@@ -30,25 +31,26 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control form-input-class" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
+                                aria-describedby="emailHelp" placeholder="Email address">
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="company">Company Name</label>
+                            <label for="company">Company Name (if any)</label>
                             <input type="text" class="form-control form-input-class" id="company"
-                                placeholder="Your Company Name">
+                                placeholder="Company Name">
                         </div>
                     </div>
+
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="city">City</label>
+                            <label for="country">Country</label>
                             <div>
-                                <select>
-                                    <option value="Select Your City">Select Your City</option>
-                                    <option>Mumbai</option>
+                                <select #myContry (change)='onContrySelected(myContry.value)'
+                                    [(ngModel)]="selectedCountry" [ngModelOptions]="{standalone: true}">
+                                    <option value="">Select Country</option>
+                                    <option *ngFor="let s of Country" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
-                                <!-- <img src="../../../../assets/images/down-dropdown.png"/> -->
                             </div>
                         </div>
                     </div>
@@ -56,21 +58,23 @@
                         <div class="form-group">
                             <label for="state">State</label>
                             <div>
-                                <select>
-                                    <option value="Select Your State">Select Your State</option>
-                                    <option>Maharashtra</option>
+                                <select #myState (change)='onStateSelected(myContry.value, myState.value)'
+                                    [(ngModel)]="selectedState" [ngModelOptions]="{standalone: true}">
+                                    <option value="">Select State</option>
+                                    <option *ngFor="let s of dropdownState" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="country">Country</label>
+                            <label for="city">City</label>
                             <div>
-                                <select>
-                                    <option value="Select Your Country">Select Your Country</option>
-                                    <option>India</option>
+                                <select [(ngModel)]="selectedCity" [ngModelOptions]="{standalone: true}">
+                                    <option value="">Select City</option>
+                                    <option *ngFor="let s of dropdownCity" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
+                                <!-- <img src="../../../../assets/images/down-dropdown.png"/> -->
                             </div>
                         </div>
                     </div>
