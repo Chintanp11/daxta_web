@@ -10,21 +10,58 @@
     "COURSES": "Courses",
     "BLOG": "Blog",
     "CONTACTUS": "Contact Us",
-    "OURTEAM": "Our Team"
+    "OURTEAM": "Our Team",
+    "COMPANY":"Company",
+    "TERMOFUSE":"Terms Of Use",
+    "PRIVACYPOLICY":"Privacy Policy"
+
   },
   "HOMEPAGE": {
-    "HOMESECTION1": " ''Globally elevating care for autism and other developmental disabilities'' ",
-    "HOMESECTION2":"Increasing quality and efficiency by increasing effectiveness and capacity of service providers via consultation, supervision, training, and software development. "
+    "HOMESECTION1": " Globally elevating behavior analytic treatment for autism and other developmental disabilities",
+    "HOMESECTION2":"Increasing quality and efficiency of treatment by increasing the effectiveness and capacity of service provides via consultation, supervision, training, and software.",
+    "CLINICALSERVICE":"Clinical Services",
+    "CLINICALCONTENT":"Your need is matched with our expertise",
+    "CLINICALCARD":"Executive Organizational Consultation",
+    "CLINICALCARD1":"Clinical Supervision",
+    "CLINICALCARD2":"Clinical Consultation",
+    "CLINICALCARD3":"Personalized Training",
+    "CARDCONTENT":"Individualized service tailored to clinical leaders oriented towards clinical, organizational, administrative, and operational needs",
+    "CARDCONTENT2":"Supervision of aspiring behavior analysts pursuing a credential",
+    "CARDCONTENT1":"Support for clinical supervisors of treatment based on applied behavior analysis regarding all aspects of case supervision",
+    "CARDCONTENT3":"Training created and delivered based on our competence and your staff’s needs",
+    "COURSESCONTENT":"“Every month we will publish new continuing education courses and training to help refine your behavior analytic skillset.”"
+
   },
   "ABOUTUSPAGE": {
-    "ABOUT": "About"
+    "ABOUT": "About",
+    "ABOUTUS":"One in fourty-four children are diagnosed with an autism spectrum disorder in the United States (Centers for Disease Control and Prevention, 2021). Interventions based on the science of applied behavior analysis (ABA) are the evidence-based best-practice treatment for autism spectrum disorders. Founded in 2018, DAXTA is a growing company with the mission to globally elevate accessibility and quality of behavior analytic treatment by increasing the effectiveness and capacity of clinical service providers. We do this through our software, trainings, and by providing clinical supervision as well as consultation for ABA clinical service providers.",
+    "EXCELLENCE":"Excellence",
+    "EXCELLENCECONTENT1":"If we are going to do something, we will do it well",
+    "EXCELLENCECONTENT2":"We incorporate best practices in our work",
+    "EXCELLENCECONTENT3":"We strive to build systems that will promote the use of evidence-based practices by clinical providers",
+    "TEAMCENTERED":"Team Centered",
+    "TEAMCENTEREDCONTENT1":"Our team is our asset. At DAXTA, team members are loyal and we want them to remain loyal",
+    "TEAMCENTEREDCONTENT2":"If our team members are well-equipped, qualified and happy, the customer experience will be as well",
+    "TEAMCENTEREDCONTENT3":"We want to grow, and we want our team members to grow with us",
+    "OURCOREVALUE":"Our Core Values",
+    "OURCOREVALUECONTENT":"All the work we do revolves around our core values",
+    "CUSTOMEROBSESSED":"Customer Obsessed",
+    "CUSTOMEROBSESSEDCONTENT1":"We strive to provide efficient and effective customer support",
+    "CUSTOMEROBSESSEDCONTENT2":"We are open to all feedback",
+    "CUSTOMEROBSESSEDCONTENT3":"We are always attempting to implement feedback and requests that match our mission",
+    "CUSTOMEROBSESSEDCONTENT4":"We strive to have open and honest communication with our customers ",
+    "LATESTJOB":"Latest Jobs",
+    "LATESTJOBCONTENT":"Become one of our valued team members. Apply below!"
+
   },
   "OURSERVICESPAGE": {
     "OUR": "Our",
-    "SERVICES": "Services"
+    "SERVICES": "Services",
+    "OURSERVICECONTENT":"DAXTA can help your company increase quality and efficiency in the treatment of autism and other developmental disabilities. At DAXTA, we provide support and guidance to service providers in areas related to system development and implementation to evaluate and increase quality of services, as well as build capacity for their staff. Our services include:",
+    "EXECUTIVE":"Executive Organizational Consultation"
   },
   "SOFTWAREPAGE": {
-    "PAGEHEADER": "Get the right plan for the future product"
+    "PAGEHEADER": "Created by behavior analysts for behavior analysts. "
   },
   "COURSESPAGE": {
     "OUR": "Our",
@@ -38,6 +75,7 @@
   },
   "FOOTER":{
     "FACEBOOKLINK":"https://www.facebook.com/DaxtaABA",
-    "INSTAGRAMLINK":"https://www.instagram.com/daxta_aba/"
+    "INSTAGRAMLINK":"https://www.instagram.com/daxta_aba/",
+    "CONTACTCONTENT":"Interested in receiving information from DAXTA? Subscribe to our mailing list!"
   }
 }

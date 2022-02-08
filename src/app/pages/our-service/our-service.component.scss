@@ -44,6 +44,20 @@ ul {
     left: 0px;
     top: 2px;
   }
+  .child-li1::before{
+    content: url("../../../assets/icon/Ellipse\ 1.png");
+    position: absolute;
+    left: 40px;
+    top: 3px;
+    
+  }
+  .child-li1 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 60px;
+    position: relative;
+  }
+
 }
 
 //<--------------//MEDIA_QUERIES----------------------------------------------->>

@@ -10,13 +10,47 @@
     "COURSES": "Cursos",
     "BLOG": "Blog",
     "CONTACTUS": "Contacta con nosotros",
-    "OURTEAM": "Our Team"
+    "OURTEAM": "Our Team",
+    "COMPANY":"Compañía",
+    "TERMOFUSE":"Términos de Uso",
+    "PRIVACYPOLICY":"Política de privacidad"
   },
   "HOMEPAGE": {
-    "HOMESECTION1": "Elevando globalmente la atención para el autismo y otras discapacidades del desarrollo"
+    "HOMESECTION1": "Elevando globalmente la atención para el autismo y otras discapacidades del desarrollo",
+    "HOMESECTION2":"Aumentar la calidad y la eficiencia aumentando la eficacia y la capacidad de los proveedores de servicios a través de la consulta, la supervisión, la capacitación y el desarrollo de software.",
+    "CLINICALSERVICE":"Servicios Clínicos",
+    "CLINICALCONTENT":"Su necesidad se combina con nuestra experiencia",
+    "CLINICALCARD":"Consulta organizacional ejecutiva",
+    "CLINICALCARD1":"Supervisión Clínica",
+    "CLINICALCARD2":"Consulta Clínica",
+    "CLINICALCARD3":"Formación personalizada",
+    "CARDCONTENT":"Servicio individualizado a la medida de los líderes clínicos orientados a las necesidades clínicas, organizacionales, administrativas y operativas",
+    "CARDCONTENT2":"Supervisión de aspirantes a analistas de comportamiento que buscan una credencial",
+    "CARDCONTENT1":"Apoyo a los supervisores clínicos de tratamiento basado en el análisis de comportamiento aplicado en todos los aspectos de la supervisión de casos",
+    "CARDCONTENT3":"Capacitación creada y entregada en base a nuestra competencia y las necesidades de su personal",
+    "COURSESCONTENT":"“Cada mes publicaremos nuevos cursos de educación continua y capacitación para ayudarlo a refinar su conjunto de habilidades analíticas de comportamiento”."
   },
   "ABOUTUSPAGE":{
-    "ABOUT":"Acerca de"
+    "ABOUT":"Acerca de",
+    "ABOUTUS":"A uno de cada cuarenta y cuatro niños se le diagnostica un trastorno del espectro autista en los Estados Unidos (Centros para el Control y la Prevención de Enfermedades, 2021). Las intervenciones basadas en la ciencia del análisis conductual aplicado (ABA) son el tratamiento de mejores prácticas basado en la evidencia para los trastornos del espectro autista. Fundada en 2018, DAXTA es una empresa en crecimiento con la misión de elevar globalmente la accesibilidad y la calidad del tratamiento analítico del comportamiento al aumentar la eficacia y la capacidad de los proveedores de servicios clínicos. Hacemos esto a través de nuestro software, capacitaciones y brindando supervisión clínica y consulta para los proveedores de servicios clínicos de ABA",
+    "EXCELLENCE":"Excelencia",
+    "EXCELLENCECONTENT1":"Si vamos a hacer algo, lo haremos bien.",
+    "EXCELLENCECONTENT2":"Incorporamos las mejores prácticas en nuestro trabajo",
+    "EXCELLENCECONTENT3":"Nos esforzamos por construir sistemas que promuevan el uso de prácticas basadas en evidencia por parte de los proveedores clínicos.",
+    "TEAMCENTERED":"Centrada en equipo",
+    "TEAMCENTEREDCONTENT1":"Nuestro equipo es nuestro activo. En DAXTA, los miembros del equipo son leales y queremos que sigan siendo leales",
+    "TEAMCENTEREDCONTENT2":"Si los miembros de nuestro equipo están bien equipados, calificados y contentos, la experiencia del cliente también lo será.",
+    "TEAMCENTEREDCONTENT3":"Queremos crecer y queremos que los miembros de nuestro equipo crezcan con nosotros.",
+    "OURCOREVALUE":"Nuestros valores mas importantes",
+    "OURCOREVALUECONTENT":"Todo el trabajo que hacemos gira en torno a nuestros valores fundamentales.",
+    "CUSTOMEROBSESSED":"Cliente obsesionado",
+    "CUSTOMEROBSESSEDCONTENT1":"Nos esforzamos por proporcionar un servicio de atención al cliente eficiente y eficaz.",
+    "CUSTOMEROBSESSEDCONTENT2":"Estamos abiertos a todos los comentarios.",
+    "CUSTOMEROBSESSEDCONTENT3":"Siempre intentamos implementar comentarios y solicitudes que coincidan con nuestra misión.",
+    "CUSTOMEROBSESSEDCONTENT4":"Nos esforzamos por tener una comunicación abierta y honesta con nuestros clientes. ",
+    "LATESTJOB":"Ultimos trabajos",
+    "LATESTJOBCONTENT":"Conviértase en uno de nuestros valiosos miembros del equipo. Aplicar a continuación!"
+
   },
   "OURSERVICESPAGE":{
     "OUR": "Nuestro",
@@ -37,6 +71,7 @@
   },
   "FOOTER":{
     "FACEBOOKLINK":"https://www.facebook.com/profile.php?id=100063564880070",
-    "INSTAGRAMLINK":"https://www.instagram.com/daxta_america_latina/"
+    "INSTAGRAMLINK":"https://www.instagram.com/daxta_america_latina/",
+    "CONTACTCONTENT":"¿Interesado en recibir información de DAXTA? Suscríbase a nuestra lista de correo"
   }
 }

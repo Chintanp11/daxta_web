@@ -5,19 +5,28 @@
         </div>
         <div class="col-md-7">
             <h4>Do you have any questions or want to learn more about our services?</h4>
-            <form>
+            <form class="input-group" [formGroup]="reactiveForm" (ngSubmit)="onsubmit()">
                 <div class="row">
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label for="name">First Name</label>
-                            <input type="text" class="form-control form-input-class" id="name" placeholder="First Name">
+                            <label>First Name</label>
+                            <input formControlName="firstname" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
+                                class="form-control form-input-class" placeholder="First Name..">
+                            <div *ngIf="submitted && f.firstname.errors">
+                                <div *ngIf="f.firstname.errors.required" class="error">Firstname is required.</div>
+                                <div *ngIf="f.firstname.errors.pattern" class="error">Do not enter Whitespace</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label for="lastname">Last Name</label>
-                            <input type="text" class="form-control form-input-class" id="lastname"
-                                placeholder="Last Name">
+                            <label>Last Name</label>
+                            <input formControlName="lastName" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
+                                class="form-control form-input-class" placeholder="Last Name..">
+                            <div *ngIf="submitted && f.lastName.errors">
+                                <div *ngIf="f.lastName.errors.required" class="error">Lastname is required.</div>
+                                <div *ngIf="f.lastName.errors.pattern" class="error">Do not enter Whitespace</div>
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 mt-4">
@@ -29,16 +38,25 @@
                     </div> -->
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control form-input-class" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Email address">
+                            <label>Email</label>
+                            <input formControlName="Email" id="name" type="emial"
+                                class="form-control form-input-class" placeholder="Email Address">
+                            <div *ngIf="submitted && f.Email.errors">
+                                <div *ngIf="f.Email.errors.required" class="error">Email is required.</div>
+                                <!-- <div *ngIf="f.Email.errors.pattern" class="error">Enter a valid email.</div> -->
+                                <!-- <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div> -->
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="company">Company Name (if any)</label>
-                            <input type="text" class="form-control form-input-class" id="company"
-                                placeholder="Company Name">
+                            <label>Company Name (if any)</label>
+                            <input formControlName="Companyname" id="name" type="emial"
+                                class="form-control form-input-class" placeholder="Company name">
+                            <div *ngIf="submitted && f.Companyname.errors">
+                                <div *ngIf="f.Companyname.errors.required" class="error">Companyname is required.</div>
+                                <div *ngIf="f.Companyname.errors.pattern" class="error">Do not enter Whitespace</div>
+                            </div>
                         </div>
                     </div>
 
@@ -47,10 +65,14 @@
                             <label for="country">Country</label>
                             <div>
                                 <select #myContry (change)='onContrySelected(myContry.value)'
-                                    [(ngModel)]="selectedCountry" [ngModelOptions]="{standalone: true}">
+                                    formControlName="countryName" required>
                                     <option value="">Select Country</option>
                                     <option *ngFor="let s of Country" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
+                               
+                                <div *ngIf="submitted && f.countryName.errors">
+                                    <div *ngIf="f.countryName.errors.required" class="error">Country is required.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,10 +81,13 @@
                             <label for="state">State</label>
                             <div>
                                 <select #myState (change)='onStateSelected(myContry.value, myState.value)'
-                                    [(ngModel)]="selectedState" [ngModelOptions]="{standalone: true}">
+                                formControlName="stateName" required>
                                     <option value="">Select State</option>
                                     <option *ngFor="let s of dropdownState" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
+                                <div *ngIf="submitted && f.stateName.errors">
+                                    <div *ngIf="f.stateName.errors.required" class="error">State is required.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,19 +95,25 @@
                         <div class="form-group">
                             <label for="city">City</label>
                             <div>
-                                <select [(ngModel)]="selectedCity" [ngModelOptions]="{standalone: true}">
+                                <select [(ngModel)]="selectedCity"  formControlName="cityName" >
                                     <option value="">Select City</option>
                                     <option *ngFor="let s of dropdownCity" [value]="s.isoCode">{{s.name}}</option>
                                 </select>
+                                <div *ngIf="submitted && f.cityName.errors">
+                                    <div *ngIf="f.cityName.errors.required" class="error">city is required.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 mt-4">
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1" class="form-label">How can we help?</label>
-                            <textarea class="form-control form-input-class" id="exampleFormControlTextarea1" rows="5"
+                            <label>How can we help?</label>
+                            <textarea formControlName="Description" class="form-control form-input-class" id="exampleFormControlTextarea1" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" rows="5"
                                 placeholder="Tell Us More About What You Are Looking For"></textarea>
-                        </div>
+                            <div *ngIf="submitted && f.Description.errors">
+                                <div *ngIf="f.Description.errors.required" class="error">Description is required.</div>
+                            </div>
+                        </div> 
                     </div>
                 </div>
                 <div class="mt-5">

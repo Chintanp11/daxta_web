@@ -3,8 +3,7 @@
         <div class="row">
             <div class="col-md-3">
                 <img class="logo" src="../../../assets/images/logo.png">
-                <p class="pt-4 pb-4">Elevating quality and efficiency in the treatment of autism and other developmental
-                    disabilities</p>
+                <p class="pt-4 pb-4">Globally elevating behavior-analytic treatment for autism and other developmental disabilities</p>
                 <div class="social-icons d-flex flex-row">
                     <a href="{{'FOOTER.FACEBOOKLINK' | translate}}" target="_blank"><img class="icon-size"
                             src="../../../assets/icon/Facebook.svg"></a>
@@ -15,48 +14,56 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <h5 routerLink="/about">About Us</h5>
+                <h5 routerLink="/about">{{'HEADER.ABOUTUS' |
+                    translate}}</h5>
                 <ul>
                     <li>
-                        <a routerLink="/ourservice">Our Services</a>
+                        <a routerLink="/ourservice">{{'HEADER.OURSERVICES' | translate}}</a>
                     </li>
                     <li>
-                        <a routerLink="/software">Software</a>
+                        <a routerLink="/software">{{'HEADER.SOFTWARE' | translate}}</a>
                     </li>
                     <li>
-                        <a routerLink="/courses">Courses</a>
+                        <a routerLink="/courses">{{'HEADER.COURSES' | translate}}</a>
                     </li>
                     <!-- <li>
                         <a routerLink="/blog">Blog</a>
                     </li> -->
                     <li>
-                        <a routerLink="/contactus">Contact Us</a>
+                        <a routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5>Company</h5>
+                <h5>{{'HEADER.COMPANY' | translate}}</h5>
                 <ul>
                     <li>
-                        <a routerLink="/terms-of-use">Terms Of Use</a>
+                        <a routerLink="/terms-of-use">{{'HEADER.TERMOFUSE' | translate}}</a>
                     </li>
                     <li>
-                        <a routerLink="/privacy-policy">Privacy Policy</a>
+                        <a routerLink="/privacy-policy">{{'HEADER.PRIVACYPOLICY' | translate}}</a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5 routerLink="/contactus"> Contact Us</h5>
-                <p class="mt-4">Interested in receiving information from DAXTA? Subscribe to our mailing list!</p>
-                <div class="d-flex flex-row align-items-center justify-content-between mt-3">
-                    <div class="form-group">
-                        <input type="text" class="form-control form-input-class" id="company"
-                            placeholder="Enter Your Email Id">
+                <h5 routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</h5>
+                <p class="mt-4">{{'FOOTER.CONTACTCONTENT' | translate}}</p>
+                <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+                    <div class="d-flex flex-row align-items-center justify-content-between mt-3">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input formControlName="Email" id="name" type="emial"
+                                class="form-control form-input-class" placeholder="Email Address">
+                            <div *ngIf="submitted && f.Email.errors">
+                                <div *ngIf="f.Email.errors.required" class="error">Email is required.</div>
+                                <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 30px;">
+                            <button class="btn primary-button subscribe-button" type="button">Subscribe</button>
+                        </div>
                     </div>
-                    <div>
-                        <button class="btn primary-button subscribe-button" type="button">Subscribe</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
         <div class="row text-center copyright">

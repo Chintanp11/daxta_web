@@ -1,43 +1,79 @@
 {
-    "PORTUGUESE": "",
-    "HEADER": {
-      "HOME": "Casa",
-      "ABOUTUS": "Sobre nós",
-      "PHONE": "Telefone",
-      "EMAIL": "E-mail",
-      "OURSERVICES": "Nossos serviços",
-      "SOFTWARE": "Programas",
-      "COURSES": "Cursos",
-      "BLOG": "Blog",
-      "CONTACTUS": "Entre em contato conosco",
-      "OURTEAM": "Our Team"
-    },
-    "HOMEPAGE": {
-      "HOMESECTION1": "Elevando globalmente o cuidado para o autismo e outras deficiências de desenvolvimento"
-    },
-    "ABOUTUSPAGE":{
-      "ABOUT":"Cerca de"
-    },
-    "OURSERVICESPAGE":{
-      "OUR": "Nossos",
-      "SERVICES": "serviços"
-    },
-    "SOFTWAREPAGE":{
-      "PAGEHEADER":"Obtenha o plano certo para o produto futuro"
-    },
-    "COURSESPAGE": {
-      "OUR": "Nossos",
-      "COURSES": "Cursos"
-    },
-    "TEAMPAGE":{
-      "TEAMMEMBERS":"Membros do time"
-    },
-    "CONTACTUSPAGE":{
-      "GETINTOUCH":"Entrar em contato"
-    },
-    "FOOTER":{
-      "FACEBOOKLINK":"https://www.facebook.com/profile.php?id=100063626946202",
-      "INSTAGRAMLINK":"https://www.instagram.com/daxta_brasil/"
-    }
+  "PORTUGUESE": "",
+  "HEADER": {
+    "HOME": "Casa",
+    "ABOUTUS": "Sobre nós",
+    "PHONE": "Telefone",
+    "EMAIL": "E-mail",
+    "OURSERVICES": "Nossos serviços",
+    "SOFTWARE": "Programas",
+    "COURSES": "Cursos",
+    "BLOG": "Blog",
+    "CONTACTUS": "Entre em contato conosco",
+    "OURTEAM": "Our Team",
+    "COMPANY":"Companhia",
+    "TERMOFUSE":"Termos de uso",
+    "PRIVACYPOLICY":"Política de Privacidade"
+  },
+  "HOMEPAGE": {
+    "HOMESECTION1": "Elevando globalmente o cuidado para o autismo e outras deficiências de desenvolvimento",
+    "HOMESECTION2": "Aumentar a qualidade e a eficiência aumentando a eficácia e a capacidade dos provedores de serviços por meio de consultoria, supervisão, treinamento e desenvolvimento de software.",
+    "CLINICALSERVICE": "Serviços Clínicos",
+    "CLINICALCONTENT": "Sua necessidade combina com nossa experiência",
+    "CLINICALCARD":"Consultoria Organizacional Executiva",
+    "CLINICALCARD1":"Supervisão Clínica",
+    "CLINICALCARD2":"Consulta Clínica",
+    "CLINICALCARD3":"Treinamento personalizado",
+    "CARDCONTENT":"Serviço individualizado adaptado aos líderes clínicos orientados para as necessidades clínicas, organizacionais, administrativas e operacionais",
+    "CARDCONTENT2":"Supervisão de aspirantes a analistas do comportamento buscando uma credencial",
+    "CARDCONTENT1":" Apoio aos supervisores clínicos de tratamento com base na análise comportamental aplicada em todos os aspectos da supervisão de caso",
+    "CARDCONTENT3":"Treinamento criado e entregue com base em nossa competência e nas necessidades de sua equipe",
+    "COURSESCONTENT":"“Todos os meses publicaremos novos cursos e treinamentos de educação continuada para ajudar a refinar seu conjunto de habilidades analíticas de comportamento.”"  
+  },
+  "ABOUTUSPAGE": {
+    "ABOUT": "Cerca de",
+    "ABOUTUS":"Uma em cada quarenta e quatro crianças é diagnosticada com um transtorno do espectro do autismo nos Estados Unidos (Centros de Controle e Prevenção de Doenças, 2021). Intervenções baseadas na ciência da análise comportamental aplicada (ABA) são o tratamento de melhores práticas baseado em evidências para transtornos do espectro do autismo. Fundada em 2018, a DAXTA é uma empresa em crescimento com a missão de elevar globalmente a acessibilidade e a qualidade do tratamento analítico do comportamento, aumentando a eficácia e a capacidade dos provedores de serviços clínicos. Fazemos isso por meio de nosso software, treinamentos e fornecendo supervisão clínica, bem como consultoria para prestadores de serviços clínicos da ABA.",
+    "EXCELLENCE":"Excelência",
+    "EXCELLENCECONTENT1":"Se vamos fazer algo, vamos fazê-lo bem",
+    "EXCELLENCECONTENT2":"Incorporamos as melhores práticas em nosso trabalho",
+    "EXCELLENCECONTENT3":"Nós nos esforçamos para construir sistemas que promovam o uso de práticas baseadas em evidências por provedores clínicos",
+    "TEAMCENTERED":"Centralizado na equipe",
+    "TEAMCENTEREDCONTENT1":"A nossa equipa é o nosso trunfo. Na DAXTA, os membros da equipe são leais e queremos que permaneçam leais",
+    "TEAMCENTEREDCONTENT2":"Se os membros de nossa equipe estiverem bem equipados, qualificados e satisfeitos, a experiência do cliente também será",
+    "TEAMCENTEREDCONTENT3":"Queremos crescer e queremos que os membros da nossa equipe cresçam conosco",
+    "OURCOREVALUE":"Nossos principais valores",
+    "OURCOREVALUECONTENT":"Todo o trabalho que fazemos gira em torno de nossos valores fundamentais",
+    "CUSTOMEROBSESSED":"Obcecado pelo cliente",
+    "CUSTOMEROBSESSEDCONTENT1":"Nós nos esforçamos para fornecer suporte ao cliente eficiente e eficaz",
+    "CUSTOMEROBSESSEDCONTENT2":"Estamos abertos a todos os comentários",
+    "CUSTOMEROBSESSEDCONTENT3":"Estamos sempre tentando implementar feedback e solicitações que correspondam à nossa missão",
+    "CUSTOMEROBSESSEDCONTENT4":"Nós nos esforçamos para ter uma comunicação aberta e honesta com nossos clientes",
+    "LATESTJOB":"Últimos empregos",
+    "LATESTJOBCONTENT":"Torne-se um dos nossos valiosos membros da equipe. Candidate-se abaixo!"
+
+
+
+  },
+  "OURSERVICESPAGE": {
+    "OUR": "Nossos",
+    "SERVICES": "serviços"
+  },
+  "SOFTWAREPAGE": {
+    "PAGEHEADER": "Obtenha o plano certo para o produto futuro"
+  },
+  "COURSESPAGE": {
+    "OUR": "Nossos",
+    "COURSES": "Cursos"
+  },
+  "TEAMPAGE": {
+    "TEAMMEMBERS": "Membros do time"
+  },
+  "CONTACTUSPAGE": {
+    "GETINTOUCH": "Entrar em contato"
+  },
+  "FOOTER": {
+    "FACEBOOKLINK": "https://www.facebook.com/profile.php?id=100063626946202",
+    "INSTAGRAMLINK": "https://www.instagram.com/daxta_brasil/",
+    "CONTACTCONTENT":"Interessado em receber informações da DAXTA? Assine nossa lista de e-mails!"
   }
-  
+}
