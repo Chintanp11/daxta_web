@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 clinical-ser-div">
-                    <h2>{{'HOMEPAGE.CLINICALSERVICE' | translate}}</h2>
+                    <h2  (click)="gotoourservice()">{{'HOMEPAGE.CLINICALSERVICE' | translate}}</h2>
                     <p class="pt-3 pb-3 clinical-ser-cont">{{'HOMEPAGE.CLINICALCONTENT' | translate}}</p>
                     <div>
                         <button type="button" class="btn primary-button" (click)="gotoourservice()">More
@@ -37,7 +37,7 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/OUTLINE.png" />
-                                    <h5 class="card-title pt-3 pb-3">{{'HOMEPAGE.CLINICALCARD' | translate}}</h5>
+                                    <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">{{'HOMEPAGE.CLINICALCARD' | translate}}</h5>
                                     <p class="card-text">{{'HOMEPAGE.CARDCONTENT' | translate}}</p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/conversation.png" />
-                                    <h5 class="card-title pt-3 pb-3">{{'HOMEPAGE.CLINICALCARD1' | translate}}</h5>
+                                    <h5 class="card-title pt-3 pb-3"  (click)="gotoourservice()">{{'HOMEPAGE.CLINICALCARD1' | translate}}</h5>
                                     <p class="card-text">{{'HOMEPAGE.CARDCONTENT1' | translate}}</p>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/noun_supervised_3507969.png" />
-                                    <h5 class="card-title pt-3 pb-3">{{'HOMEPAGE.CLINICALCARD2' | translate}}</h5>
+                                    <h5 class="card-title pt-3 pb-3"  (click)="gotoourservice()">{{'HOMEPAGE.CLINICALCARD2' | translate}}</h5>
                                     <p class="card-text">{{'HOMEPAGE.CARDCONTENT2' | translate}}
                                     </p>
                                 </div>
@@ -65,7 +65,7 @@
                             <div class="card clinical-services-card shadowElement">
                                 <div class="card-body">
                                     <img src="../../../assets/icon/noun_training_1422944.png" />
-                                    <h5 class="card-title pt-3 pb-3">{{'HOMEPAGE.CLINICALCARD3' | translate}}</h5>
+                                    <h5 class="card-title pt-3 pb-3"  (click)="gotoourservice()">{{'HOMEPAGE.CLINICALCARD3' | translate}}</h5>
                                     <p class="card-text">{{'HOMEPAGE.CARDCONTENT3' | translate}}</p>
                                 </div>
                             </div>
@@ -76,9 +76,7 @@
 
         </div>
     </div>
-    <div class="section5">
-        <app-clinical-software></app-clinical-software>
-    </div>
+  
     <div class="section3">
         <div class="container">
             <div class="row">
@@ -177,7 +175,9 @@
     </div>
 
 
-
+    <div class="section5">
+        <app-clinical-software></app-clinical-software>
+    </div>
 
     <div class="container">
         <div class="section4">
