@@ -79,11 +79,59 @@
     "CLINICALCONSULTATIONCONTENT3":"Clinical consultation related to service expansion",
     "CLINICALCONSULTATIONCONTENT4":"If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well",
 
-    "SUPERVISION":"Supervision"
+    "SUPERVISION":"Supervision",
+    "SUPERVISIONCONTENT":"At DAXTA we provide clinical support, supervision, and training for aspiring behavior analysts in the treatment of autism and other developmental disabilities. Our behavior analysts are qualified to provide remote supervision according to the Behavior Analyst Certification Board and the Qualified Applied Behavior Analyst Credentialing Board. Our supervisees receive ongoing supervision in the following area:",
+    "SUPERVISIONINNERCONTENT1":"Assessment and evaluation of behaviors targeted for increase or decrease",
+    "SUPERVISIONINNERCONTENT2":"Development of clinical goals and programs",
+    "SUPERVISIONINNERCONTENT3":"Graphing and data analysis",
+    "SUPERVISIONINNERCONTENT4":"Data-based decisions",
+    "SUPERVISIONINNERCONTENT5":"Treatment integrity",
+    "SUPERVISIONINNERCONTENT6":"Performance feedback",
+    "SUPERVISIONCONTENT1":"We ensure our supervisees receive supervision in the topics outlined by each credentialing board as part of the examination requirements and provide ongoing feedback and resources throughout the supervisory relationship. Our supervision experience is customized to match each supervisee’s individual needs and practicum setting. ",
+
+    "TRAINING":"Training",
+    "TRAININGCONTENT":"",
+    "TRAININGINNERCONTENT":"",
+    "TRAININGINNERCONTENT1":"",
+    "TRAININGINNERCONTENT2":"",
+    "TRAININGINNERCONTENT3":"",
+    "TRAININGINNERCONTENT4":""
+
+
 
   },
   "SOFTWAREPAGE": {
-    "PAGEHEADER": "Created by behavior analysts for behavior analysts."
+    "PAGEHEADER": "Created by behavior analysts for behavior analysts.",
+    "PAGEHEADERCONTENT":"Our team is constantly searching for better ways to support practitioners and researchers to collect and analyze data. We have developed a powerful and flexible tool that helps practitioners provide top-quality behavior-analytic services and make efficient decisions driven by data. ",
+    "FEATURES":"Features",
+    "FEATURES1":"Offline data collection ",
+    "FEATURESCONTENT1":"Collect data from anywhere without internet connection",
+    "FEATURES2":"Automatic transition of targets",
+    "FEATURESCONTENT2":"Targets can move automatically across phases and transition criteria",
+    "FEATURES3":"Supports any type of measurement system",
+    "FEATURESCONTENT3":"Including trials, event, duration, interval, latency, inter-response time, and more!",
+    "FEATURES4":"Supports any type of prompting ",
+    "FEATURESCONTENT4":"Identify and individualize prompting procedures and prompts",
+    "FEATURES5":"Supports any type of teaching procedure",
+    "FEATURESCONTENT5":"Targets can move automatically across phases and transition criteria",
+    "FEATURES6":"Ability to program for generalization ",
+    "FEATURESCONTENT6":"Targets can move automatically across phases and transition criteria",
+    "FEATURES7":"Automatic transition of targets",
+    "FEATURESCONTENT7":"Targets can move automatically across phases and transition criteria",
+    "FEATURES8":"Queued trials",
+    "FEATURESCONTENT8":"Queue order of trials to occur automatically",
+    "FEATURES9":"Curriculum bank",
+    "FEATURESCONTENT9":"Save program templates and individualize across clients",
+    "FEATURES10":"Flexible data collection",
+    "FEATURESCONTENT10":"Collect data for direct care and research",
+    "FEATURES11":"Available in multiple languages",
+    "FEATURESCONTENT11":"Available in English and Portuguese. More languages to come!",
+
+    "TABLECONTENT":"Choose the right product for your organization",
+    "TABLECONTENT1":"Compare our products below. Our team is ready to help you select the plan that fits your organization’s needs."
+    
+
+
     
   },
   "COURSESPAGE": {

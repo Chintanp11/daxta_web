@@ -18,6 +18,7 @@ import { LatestJobContentComponent } from './shared/components/latest-job-conten
 import { SharedModule } from './shared/shared.module';
 import { TermsOfUseComponent } from './pages/terms-of-use/terms-of-use.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { OurTeamInnerComponent } from './pages/our-team/our-team-inner/our-team-inner.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     OurTeamComponent,
     LatestJobContentComponent,
     TermsOfUseComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    OurTeamInnerComponent
   ],
   imports: [
     BrowserModule,

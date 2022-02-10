@@ -56,7 +56,47 @@
   },
   "OURSERVICESPAGE": {
     "OUR": "Nossos",
-    "SERVICES": "serviços"
+    "SERVICES": "serviços",
+
+    "OURSERVICECONTENT":"A DAXTA pode ajudar sua empresa a aumentar a qualidade e eficiência no tratamento do autismo e outras deficiências de desenvolvimento. Na DAXTA, fornecemos suporte e orientação a prestadores de serviços em áreas relacionadas ao desenvolvimento e implementação de sistemas para avaliar e aumentar a qualidade dos serviços, bem como capacitar seus funcionários. Nossos serviços incluem:",
+    "EXECUTIVE":"Consultoria Organizacional Executiva",
+    "EXECUTIVECONTENT1":"A DAXTA presta consultoria remota a prestadores de serviços em áreas relacionadas à administração e operações da empresa. Nossa consultoria executiva é um atendimento personalizado e adaptado às necessidades da sua empresa e pode abranger diversos temas:",
+    "EXECUTIVEINNERCONTENT":"Gerenciamento de tempo",
+    "EXECUTIVEINNERCONTENT1":"Monitoramento de desempenho",
+    "EXECUTIVEINNERCONTENT2":"Feedback de desempenho",
+    "EXECUTIVEINNERCONTENT3":"Desenvolvimento, avaliação e manutenção do sistema",
+    "EXECUTIVEINNERCONTENT4":"Sistemas operacionais padronizados para promover a eficiência e aumentar a capacidade interna",
+    "EXECUTIVECONTENT2":"Nosso Grupo de Mentoria Executiva foi desenvolvido para líderes de pequenas e grandes clínicas e se reúne mensalmente para discutir assuntos relacionados à administração da empresa, operações e assuntos clínicos. Os tópicos são discutidos em um ambiente de grupo e os membros têm a oportunidade de interagir e receber feedback sobre sua prática atual.",
+    
+    "CLINICALCONSULTATION":"Consulta Clínica",
+    "CLINICALCONSULTATIONCONTENT":"A DAXTA fornece consultoria remota a prestadores de serviços em áreas relacionadas a serviços clínicos, treinamento, supervisão, construção de sistemas, gerenciamento e operações, incluindo:",
+    "CLINICALCONSULTATIONINNERCONTENT":"Desenvolvimento de sistemas clínicos para promover eficiência e eficácia nos processos internos, incluindo:",
+    "CLINICALCONSULTATIONINNERCONTENT1":"Treinamento inicial e contínuo da equipe",
+    "CLINICALCONSULTATIONINNERCONTENT2":"Sistema de supervisão e ferramentas para avaliação de desempenho",
+    "CLINICALCONSULTATIONINNERCONTENT3":"Avaliação da qualidade do tratamento",
+    "CLINICALCONSULTATIONINNERCONTENT4":"Revisão por pares para casos clínicos",
+    "CLINICALCONSULTATIONCONTENT1":"Identificação e desenvolvimento de padrões clínicos e ferramentas para promover a alta qualidade e eficiência dos serviços",
+    "CLINICALCONSULTATIONCONTENT2":"Mentoria e consultoria clínica",
+    "CLINICALCONSULTATIONCONTENT3":"Consulta clínica relacionada à expansão do serviço",
+    "CLINICALCONSULTATIONCONTENT4":"If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well",
+
+    "SUPERVISION":"Supervisão",
+    "SUPERVISIONCONTENT":"Na DAXTA, fornecemos suporte clínico, supervisão e treinamento para aspirantes a analistas do comportamento no tratamento de autismo e outras deficiências de desenvolvimento. Nossos analistas de comportamento são qualificados para fornecer supervisão remota de acordo com o Conselho de Certificação de Analista de Comportamento e o Conselho de Credenciamento de Analista de Comportamento Aplicado Qualificado. Nossos supervisionados recebem supervisão permanente na seguinte área:",
+    "SUPERVISIONINNERCONTENT1":"Avaliação e avaliação de comportamentos direcionados para aumento ou diminuição",
+    "SUPERVISIONINNERCONTENT2":"Desenvolvimento de metas e programas clínicos",
+    "SUPERVISIONINNERCONTENT3":"Gráficos e análise de dados",
+    "SUPERVISIONINNERCONTENT4":"Decisões baseadas em dados",
+    "SUPERVISIONINNERCONTENT5":"Integridade do tratamento",
+    "SUPERVISIONINNERCONTENT6":"Feedback de desempenho",
+    "SUPERVISIONCONTENT1":"Garantimos que nossos supervisionados recebam supervisão nos tópicos descritos por cada conselho de credenciamento como parte dos requisitos do exame e fornecemos feedback e recursos contínuos em todo o relacionamento de supervisão. Nossa experiência de supervisão é personalizada para atender às necessidades individuais de cada supervisionado e ao ambiente de prática.",
+
+    "TRAINING":"Training",
+    "TRAININGCONTENT":"",
+    "TRAININGINNERCONTENT":"",
+    "TRAININGINNERCONTENT1":"",
+    "TRAININGINNERCONTENT2":"",
+    "TRAININGINNERCONTENT3":"",
+    "TRAININGINNERCONTENT4":""
   },
   "SOFTWAREPAGE": {
     "PAGEHEADER": "Obtenha o plano certo para o produto futuro"

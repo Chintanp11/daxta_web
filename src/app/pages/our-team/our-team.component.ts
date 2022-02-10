@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-our-team',
@@ -9,7 +10,7 @@ export class OurTeamComponent implements OnInit {
 
   isShow = true;
 
-  constructor() {
+  constructor(private router:Router) {
     window.scrollTo(0, 0);
    }
 
@@ -18,5 +19,8 @@ export class OurTeamComponent implements OnInit {
 
   toggleShow() {
     this.isShow = !this.isShow;
+  }
+  loadpage(){
+    this.router.navigateByUrl('/ourteam/ourteaminner')
   }
 }
