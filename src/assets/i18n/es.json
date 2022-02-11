@@ -73,5 +73,41 @@
     "FACEBOOKLINK":"https://www.facebook.com/profile.php?id=100063564880070",
     "INSTAGRAMLINK":"https://www.instagram.com/daxta_america_latina/",
     "CONTACTCONTENT":"¿Interesado en recibir información de DAXTA? Suscríbase a nuestra lista de correo"
+  },
+  "FORM":{
+    "TALK":"Habla con nosotras:",
+    "TALKCONTENT":"¿Tienes alguna duda o quieres saber más sobre nuestros servicios?",
+    "FIRSTNAME":"Primer nombre",
+    "LASTNAME":"Apellido",
+    "EMAIL":"Correo electrónico",
+    "COMPANYNAME":"Nombre de la empresa (si corresponde)",
+    "COUNTRY":"País",
+    "STATE":"Expresar",
+    "CITY":"Ciudad",
+    "HELP":"¿Cómo podemos ayudar?"
+  },
+  "BUTTONS":{
+    "CONTECTUS":"Contacta con nosotras",
+    "MOREINFO":"Más información",
+    "ALLCOURSE":"Todos los cursos",
+    "SCHEDULEDEMO":"Programar demostración",
+    "SUBMIT":"Entregar",
+    "APPLYNOW":"Aplica ya",
+    "INQUIRYNOW":"consulta ahora",
+    "VIEWMORE":"Ver más",
+    "READMORE":"Lee mas"
+  },
+
+  "CLINICALSOFTWARE":{
+    "CLINICALHEADER":"Software clínico DAXTA",
+    "CLINICALCONTENT1":"Aumente su eficiencia y calidad de trabajo al:",
+    "CLINICALCONTENT2":"Implementar cualquier procedimiento de adquisición de habilidades o reducción de comportamiento.",
+    "CLINICALCONTENT3":"Uso de cualquier tipo de sistema de medición.",
+    "CLINICALCONTENT4":"Recopilación de datos en línea o fuera de línea",
+    "CLINICALCONTENT5":"Metas en transición automática",
+    "CLINICALCONTENT6":"Resumir y analizar sus datos de cualquier manera",
+    "CLINICALCONTENT7":"Guardar protocolos en el banco de currículos",
+    "CLINICALCONTENT8":"… ¡y mucho más!"
+
   }
 }

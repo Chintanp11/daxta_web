@@ -1,0 +1,54 @@
+// .content{
+//     height: 100vh;
+// }
+h2{
+    font-family: "Quicksand-Bold";
+}
+ul {
+    padding-left: 0px;
+    li {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 25px;
+      position: relative;
+    }
+    li:before {
+      content: url("../../../../assets/icon/Ellipse\ 1.png");
+      position: absolute;
+      left: 0px;
+      top: 5px;
+    }
+  
+    .child-li {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 20px;
+      position: relative;
+    }
+  
+    // .child-li::before {
+    //   content: url("../../../assets/images/Path_Right.png");
+    //   position: absolute;
+    //   left: 0px;
+    //   top: 2px;
+    // }
+    .child-li1::before{
+      content: url("../../../../assets/icon/Ellipse\ 1.png");
+      position: absolute;
+      left: 40px;
+      top: 3px;
+      
+    }
+    .child-li1 {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 60px;
+      position: relative;
+      font-size: 16px;
+    }
+  
+  }
+  p{
+      font-size: 16px;
+      font-weight: 70px;
+  }

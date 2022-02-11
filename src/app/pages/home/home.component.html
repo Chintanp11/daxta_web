@@ -10,7 +10,7 @@
                         <div>
                             <!-- <button type="button" class="btn primary-button our-service-button">Our Services</button> -->
                             <button type="button" class="btn primary-button contact-us-button"
-                                (click)="gotocontactus()">Contact Us</button>
+                                (click)="gotocontactus()">{{'BUTTONS.CONTECTUS' | translate}}</button>
                         </div>
                     </div>
                 </div>
@@ -27,8 +27,7 @@
                     <h2  (click)="gotoourservice()">{{'HOMEPAGE.CLINICALSERVICE' | translate}}</h2>
                     <p class="pt-3 pb-3 clinical-ser-cont">{{'HOMEPAGE.CLINICALCONTENT' | translate}}</p>
                     <div>
-                        <button type="button" class="btn primary-button" (click)="gotoourservice()">More
-                            Information</button>
+                        <button type="button" class="btn primary-button" (click)="gotoourservice()">{{'BUTTONS.MOREINFO' | translate}}</button>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -165,8 +164,7 @@
                         </div>
                     </div>
                     <div class="mt-5">
-                        <button type="button" class="btn all-courses-btn primary-button" (click)="gotocoursers()">All
-                            Courses</button>
+                        <button type="button" class="btn all-courses-btn primary-button" (click)="gotocoursers()">{{'BUTTONS.ALLCOURSE' | translate}}</button>
                     </div>
                 </div>
             </div>

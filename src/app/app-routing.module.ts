@@ -11,19 +11,26 @@ import { SoftwareComponent } from './pages/software/software.component';
 import { BlogModule } from './pages/blog/blog.module';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { TermsOfUseComponent } from './pages/terms-of-use/terms-of-use.component';
+import { OurTeamModule } from './pages/our-team/our-team.module'
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path:'about' , component:AboutComponent},
   { path:'ourservice' , component:OurServiceComponent},
-  { path:'ourteam' , component:OurTeamComponent},
+  // { path:'ourteam' , component:OurTeamComponent},
   { path:'software' , component:SoftwareComponent},
   { path:'courses' , component:CoursesComponent},
   {
     path: 'blog',
     loadChildren: () =>
       import('./pages/blog/blog.module').then((m) => m.BlogModule),
+  },
+
+  {
+    path: 'our-team',
+    loadChildren: () =>
+      import('./pages/our-team/our-team.module').then((m) => m.OurTeamModule),
   },
   // { path:'blog' , component:BlogComponent},
   { path:'contactus' , component:ContactUsComponent},

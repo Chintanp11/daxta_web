@@ -1,15 +1,15 @@
 <div class="form-component">
     <div class="row">
         <div class="col-md-5">
-            <h2>Talk to us :</h2>
+            <h2>{{'FORM.TALK'| translate}}</h2>
         </div>
         <div class="col-md-7">
-            <h4>Do you have any questions or want to learn more about our services?</h4>
+            <h4>{{'FORM.TALKCONTENT'| translate}}</h4>
             <form class="input-group" [formGroup]="reactiveForm" (ngSubmit)="onsubmit()">
                 <div class="row">
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label>First Name</label>
+                            <label>{{'FORM.FIRSTNAME'| translate}}</label>
                             <input formControlName="firstname" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
                                 class="form-control form-input-class" placeholder="First Name..">
                             <div *ngIf="submitted && f.firstname.errors">
@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label>Last Name</label>
+                            <label>{{'FORM.LASTNAME'| translate}}</label>
                             <input formControlName="lastName" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
                                 class="form-control form-input-class" placeholder="Last Name..">
                             <div *ngIf="submitted && f.lastName.errors">
@@ -38,7 +38,7 @@
                     </div> -->
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label>Email</label>
+                            <label>{{'FORM.EMAIL'| translate}}</label>
                             <input formControlName="Email" id="name" type="emial"
                                 class="form-control form-input-class" placeholder="Email Address">
                             <div *ngIf="submitted && f.Email.errors">
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label>Company Name (if any)</label>
+                            <label>{{'FORM.COMPANYNAME'| translate}}</label>
                             <input formControlName="Companyname" id="name" type="emial"
                                 class="form-control form-input-class" placeholder="Company name">
                             <div *ngIf="submitted && f.Companyname.errors">
@@ -62,7 +62,7 @@
 
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="country">Country</label>
+                            <label for="country">{{'FORM.COUNTRY'| translate}}</label>
                             <div>
                                 <select #myContry (change)='onContrySelected(myContry.value)'
                                     formControlName="countryName" required>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="state">State</label>
+                            <label for="state">{{'FORM.STATE'| translate}}</label>
                             <div>
                                 <select #myState (change)='onStateSelected(myContry.value, myState.value)'
                                 formControlName="stateName" required>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="city">City</label>
+                            <label for="city">{{'FORM.CITY'| translate}}</label>
                             <div>
                                 <select [(ngModel)]="selectedCity"  formControlName="cityName" >
                                     <option value="">Select City</option>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-md-12 mt-4">
                         <div class="form-group">
-                            <label>How can we help?</label>
+                            <label>{{'FORM.HELP'| translate}}</label>
                             <textarea formControlName="Description" class="form-control form-input-class" id="exampleFormControlTextarea1" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" rows="5"
                                 placeholder="Tell Us More About What You Are Looking For"></textarea>
                             <div *ngIf="submitted && f.Description.errors">
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="mt-5">
-                    <button type="submit" class="btn primary-button">Submit</button>
+                    <button type="submit" class="btn primary-button">{{'BUTTONS.SUBMIT' | translate}}</button>
                 </div>
             </form>
         </div>

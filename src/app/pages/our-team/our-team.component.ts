@@ -20,7 +20,14 @@ export class OurTeamComponent implements OnInit {
   toggleShow() {
     this.isShow = !this.isShow;
   }
-  loadpage(){
-    this.router.navigateByUrl('/ourteam/ourteaminner')
+  
+  goToDetails(){
+    this.router.navigate(['our-team/our-details']);
+  }
+  goToDetails1(){
+    this.router.navigate(['our-team/our-details1']);
+  }
+  goToDetails2(){
+    this.router.navigate(['our-team/our-details2']);
   }
 }

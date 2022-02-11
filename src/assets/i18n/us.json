@@ -139,7 +139,9 @@
     "COURSES": "Courses"
   },
   "TEAMPAGE":{
-    "TEAMMEMBERS":"Team Members"
+    "TEAM":"Team",
+    "MEMBER":"Members",
+    "TEAMMEMBERCONTENT":"Meet our talented and unique team members!"
   },
   "CONTACTUSPAGE":{
     "GETINTOUCH":"Get In Touch"
@@ -148,5 +150,43 @@
     "FACEBOOKLINK":"https://www.facebook.com/DaxtaABA",
     "INSTAGRAMLINK":"https://www.instagram.com/daxta_aba/",
     "CONTACTCONTENT":"Interested in receiving information from DAXTA? Subscribe to our mailing list!"
+  },
+  "FORM":{
+    "TALK":"Talk to us :",
+    "TALKCONTENT":"Do you have any questions or want to learn more about our services?",
+    "FIRSTNAME":"First Name",
+    "LASTNAME":"Last Name",
+    "EMAIL":"Email",
+    "COMPANYNAME":"Company Name (if any)",
+    "COUNTRY":"Country",
+    "STATE":"State",
+    "CITY":"City",
+    "HELP":"How can we help?"
+  },
+
+  "BUTTONS":{
+    "CONTECTUS":"Contact Us",
+    "MOREINFO":"More Information",
+    "ALLCOURSE":"All Courses",
+    "SCHEDULEDEMO":"Schedule Demo",
+    "SUBMIT":"Submit",
+    "APPLYNOW":"Apply Now",
+    "INQUIRYNOW":"Inquiry Now",
+    "VIEWMORE":"View More",
+    "READMORE":"Read More"
+  },
+
+  "CLINICALSOFTWARE":{
+    "CLINICALHEADER":"DAXTA Clinical Software",
+    "CLINICALCONTENT1":"Increase your efficiency and quality of work by:",
+    "CLINICALCONTENT2":"Implementing any skill acquisition or behavior reduction procedure",
+    "CLINICALCONTENT3":"Using any type of measurement system",
+    "CLINICALCONTENT4":"Collecting data online or offline",
+    "CLINICALCONTENT5":"Automatically transitioning targets",
+    "CLINICALCONTENT6":"Summarizing and analyzing your data in any way",
+    "CLINICALCONTENT7":"Saving protocols to the curriculum bank",
+    "CLINICALCONTENT8":"… and much more!"
+
   }
+
 }
