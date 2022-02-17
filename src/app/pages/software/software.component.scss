@@ -110,12 +110,23 @@ ul {
 @media only screen and (max-width: 1440px) {
 }
 @media only screen and (max-width: 1199px) {
+    // .daxta-card-body{
+    //     background-color: transparent;
+    //     height: 170px;
+    //     border: 1px solid black;
+    //   }
 }
 @media only screen and (max-width: 1024px) {
+    .daxta-card-body{
+        height: 170px;
+      }
 }
 @media only screen and (max-width: 991px) {
 }
 @media only screen and (max-width: 768px) {
+    .daxta-card-body{
+        height: 190px;
+      }
 }
 @media only screen and (max-width: 575px) {
     .counts-row{
@@ -146,4 +157,17 @@ ul {
     border: 1px solid black;
     opacity: 1;
     padding: 10px;
+  }
+
+  .daxta-card-body{
+    background-color: transparent;
+    min-height: 140px;
+    // border: 1px solid black;
+  }
+ h2{
+     font-weight: bold;
+ }
+
+  h4{
+      font-weight: bold;
   }

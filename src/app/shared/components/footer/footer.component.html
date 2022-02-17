@@ -1,69 +1,71 @@
 <div class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <img class="logo" src="../../../assets/images/logo.png">
-                <p class="pt-4 pb-4">Globally elevating behavior-analytic treatment for autism and other developmental disabilities</p>
-                <div class="social-icons d-flex flex-row">
-                    <a href="{{'FOOTER.FACEBOOKLINK' | translate}}" target="_blank"><img class="icon-size"
-                            src="../../../assets/icon/Facebook.svg"></a>
-                    <a href="{{'FOOTER.INSTAGRAMLINK' | translate}}" target="_blank"><img class="icon-size"
-                            src="../../../assets/icon/instagram.svg"></a>
-                    <a href="https://www.linkedin.com/company/daxta/ " target="_blank"><img class="icon-size"
-                            src="../../../assets/icon/_x31_0.Linkedin.svg"></a>
+        <div class="col-xl-10 mx-auto px-0">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="logo" src="../../../assets/images/logo.png">
+                    <p class="pt-4 pb-4">Globally elevating behavior-analytic treatment for autism and other developmental disabilities</p>
+                    <div class="social-icons d-flex flex-row">
+                        <a href="{{'FOOTER.FACEBOOKLINK' | translate}}" target="_blank"><img class="icon-size"
+                                src="../../../assets/icon/Facebook.svg"></a>
+                        <a href="{{'FOOTER.INSTAGRAMLINK' | translate}}" target="_blank"><img class="icon-size"
+                                src="../../../assets/icon/instagram.svg"></a>
+                        <a href="https://www.linkedin.com/company/daxta/ " target="_blank"><img class="icon-size"
+                                src="../../../assets/icon/_x31_0.Linkedin.svg"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <h5 routerLink="/about">{{'HEADER.ABOUTUS' |
-                    translate}}</h5>
-                <ul>
-                    <li>
-                        <a routerLink="/ourservice">{{'HEADER.OURSERVICES' | translate}}</a>
-                    </li>
-                    <li>
-                        <a routerLink="/software">{{'HEADER.SOFTWARE' | translate}}</a>
-                    </li>
-                    <li>
-                        <a routerLink="/courses">{{'HEADER.COURSES' | translate}}</a>
-                    </li>
-                    <!-- <li>
-                        <a routerLink="/blog">Blog</a>
-                    </li> -->
-                    <li>
-                        <a routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5>{{'HEADER.COMPANY' | translate}}</h5>
-                <ul>
-                    <li>
-                        <a routerLink="/terms-of-use">{{'HEADER.TERMOFUSE' | translate}}</a>
-                    </li>
-                    <li>
-                        <a routerLink="/privacy-policy">{{'HEADER.PRIVACYPOLICY' | translate}}</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
-                <h5 routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</h5>
-                <p class="mt-4">{{'FOOTER.CONTACTCONTENT' | translate}}</p>
-                <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
-                    <div class="d-flex flex-row align-items-center justify-content-between mt-3">
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input formControlName="Email" id="name" type="emial"
-                                class="form-control form-input-class" placeholder="Email Address">
-                            <div *ngIf="submitted && f.Email.errors">
-                                <div *ngIf="f.Email.errors.required" class="error">Email is required.</div>
-                                <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div>
+                <div class="col-md-3 d-md-flex align-items-md-center flex-md-column">
+                    <h5 routerLink="/about" class="mb-2">{{'HEADER.ABOUTUS' |
+                        translate}}</h5>
+                    <ul>
+                        <li>
+                            <a routerLink="/ourservice">{{'HEADER.OURSERVICES' | translate}}</a>
+                        </li>
+                        <li>
+                            <a routerLink="/software">{{'HEADER.SOFTWARE' | translate}}</a>
+                        </li>
+                        <li>
+                            <a routerLink="/courses">{{'HEADER.COURSES' | translate}}</a>
+                        </li>
+                        <!-- <li>
+                            <a routerLink="/blog">Blog</a>
+                        </li> -->
+                        <li>
+                            <a routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 d-md-flex align-items-md-center flex-md-column">
+                    <h5>{{'HEADER.COMPANY' | translate}}</h5>
+                    <ul>
+                        <li>
+                            <a routerLink="/terms-of-use">{{'HEADER.TERMOFUSE' | translate}}</a>
+                        </li>
+                        <li>
+                            <a routerLink="/privacy-policy">{{'HEADER.PRIVACYPOLICY' | translate}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</h5>
+                    <p class="mt-4">{{'FOOTER.CONTACTCONTENT' | translate}}</p>
+                    <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+                        <div class="d-flex flex-row align-items-center justify-content-between mt-3">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input formControlName="Email" id="name" type="emial"
+                                    class="form-control form-input-class" placeholder="Email Address">
+                                <div *ngIf="submitted && f.Email.errors">
+                                    <div *ngIf="f.Email.errors.required" class="error">Email is required.</div>
+                                    <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 30px;">
+                                <button class="btn primary-button subscribe-button" type="button">Subscribe</button>
                             </div>
                         </div>
-                        <div style="margin-top: 30px;">
-                            <button class="btn primary-button subscribe-button" type="button">Subscribe</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="row text-center copyright">

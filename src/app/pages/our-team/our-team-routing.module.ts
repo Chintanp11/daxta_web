@@ -10,9 +10,6 @@ const routes: Routes = [
   {
     path: '',
     component: OurTeamComponent,
-    // children: [
-    //   { path: "blog-details", component: BlogDetailsComponent},
-    // ],
   },
   {
     path: 'our-details',

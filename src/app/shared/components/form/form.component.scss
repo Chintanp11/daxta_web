@@ -7,10 +7,13 @@
     background-size: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 35px 45px 35px 100px;
+    padding: 70px 100px 50px;
 }
 .error{
     color: red;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-top: 5px;
 }
 
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
@@ -28,11 +31,14 @@
 }
 @media only screen and (max-width: 575px) {
     .form-component{
-        padding: 0px !important;
+        padding: 50px 30px !important;
     }
     
 }
 .btn{
     padding-left: 50px;
     padding-right: 50px;
+}
+.error{
+    color: red;
 }

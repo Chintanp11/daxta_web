@@ -12,9 +12,11 @@
             padding-bottom: 10px;
             .contact-number {
                 // padding-right: 30px;
-                p,
-                span {
+                p {
                     color: var(--white-color) !important;
+                }
+                span {
+                    color: rgba(255,255,255,0.5) !important;
                 }
             }
             .contact-icon{
@@ -109,34 +111,19 @@
 @media only screen and (max-width: 1199px) {
 }
 @media only screen and (max-width: 1024px) {
-
 }
 @media only screen and (max-width: 991px) {
+    .header-first-row {
+            border-bottom: 0px solid var(--white-color) !important;
+        }
     .navbar-light .navbar-toggler-icon {
         background-image: url("../../../../assets/images/collapse_button.png") !important;
         width: 20px;
         height: 15px;
-    }
-    .navbar {
-        box-shadow: 0 2px 8px -2px grey;
-    }
-    .navbar-light .navbar-toggler {
-        border: none;
-        font-size: 0px !important;
-    }
-    .contact-info-responsive{
-        display: block !important;
-        p,span{
-            color: var(--white-color) !important;
-        }
     }
 }
 @media only screen and (max-width: 768px) {
-    .navbar-light .navbar-toggler-icon {
-        background-image: url("../../../../assets/images/collapse_button.png") !important;
-        width: 20px;
-        height: 15px;
-    }
+    
     .navbar {
         box-shadow: 0 2px 8px -2px grey;
     }
@@ -153,6 +140,7 @@
             color: var(--white-color) !important;
         }
     }
+    
 }
 @media only screen and (max-width: 575px) {
     .contact-info {

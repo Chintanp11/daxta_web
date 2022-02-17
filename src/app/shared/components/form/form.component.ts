@@ -26,7 +26,7 @@ export class FormComponent implements OnInit {
   constructor(private formBuilder: FormBuilder ,  private router:Router) {
     this.reactiveForm = this.formBuilder.group({
       firstname: new FormControl('', [Validators.required, Validators.pattern('[^-\s][a-zA-Z0-9-_\\s]+$')]),
-      Email: new FormControl('', [Validators.required, Validators.pattern('/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/')]),
+      email: new FormControl('', [Validators.required, Validators.pattern('/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/')]),
       lastName:  new FormControl('', [Validators.required, Validators.pattern('[^-\s][a-zA-Z0-9-_\\s]+$')]),
       // Country:  new FormControl('', [Validators.required]),
       Companyname: new FormControl('', [Validators.required]),

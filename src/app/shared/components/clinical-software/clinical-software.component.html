@@ -1,29 +1,31 @@
-<div class="clinical-soft">
-    <div class="d-flex flex-row align-items-center clinical-soft-main">
-        <div class="last-content d-flex align-items-center">
-            <div class="last-content-div">
-                <h2>{{'CLINICALSOFTWARE.CLINICALHEADER'| translate}}</h2>
-                <ul><p>{{'CLINICALSOFTWARE.CLINICALCONTENT1' | translate}}</p>
-                 
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT2' | translate}}</li>
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT3' | translate}}</li>
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT4' | translate}}</li>
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT5' | translate}}</li>
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT6' | translate}}</li>
-                    <li>{{'CLINICALSOFTWARE.CLINICALCONTENT7' | translate}}</li>
-                    <P> {{'CLINICALSOFTWARE.CLINICALCONTENT8' | translate}}</P>
-                   
-                </ul>
-                <!-- <p class="pt-4 pb-4">Increase your capacity and quality of work
-                   
-                    Implement any procedure, collect any data… online or offline, automatically transition targets, summarize and analyze your data in any way! 
-                    </p> -->
-                <button type="button" class="btn secondary-button" (click)="gotocontactus()">{{'BUTTONS.SCHEDULEDEMO'| translate}}</button>
-                <button type="button" class="btn secondary-button more-info-button" (click)="gotosoftware()">{{'BUTTONS.MOREINFO'| translate}}</button>
+<div class="clinical-soft container">
+    <div class="row align-items-center clinical-soft-main mx-0">
+        <div class="last-content col-md-7 py-4 px-3">
+            <div class="row">
+                
+                <div class="last-content-div col-md-9">
+                    <h2 class="mb-2">DAXTA Clinical Software</h2>
+                    <ul>
+                        Increase your efficiency and quality of work by:
+                        <li>Implementing any skill acquisition or behavior reduction procedure</li>
+                        <li>Using any type of measurement system</li>
+                        <li>Collecting data online or offline</li>
+                        <li>Automatically transitioning targets</li>
+                        <li>Summarizing and analyzing your data in any way</li>
+                        <li>Saving protocols to the curriculum bank</li>
+                        … and much more!
+                    </ul>
+                    <!-- <p class="pt-4 pb-4">Increase your capacity and quality of work
+                       
+                        Implement any procedure, collect any data… online or offline, automatically transition targets, summarize and analyze your data in any way! 
+                        </p> -->
+                    <button type="button" class="btn secondary-button mb-2" (click)="gotocontactus()">Schedule Demo</button>
+                    <button type="button" class="btn secondary-button more-info-button mb-2" (click)="gotosoftware()">More Information</button>
+                </div>
             </div>
         </div>
-        <div class="tablet-image">
-            <img width="100%" src="../../../../assets/images/Ipad.png"/>
+        <div class="tablet-image col-md-5" style="padding-left: 0px;">
+            <img width="100%" src="../../../../assets/images/iPad.png" />
         </div>
     </div>
 </div>
