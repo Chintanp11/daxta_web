@@ -1,10 +1,10 @@
-.clinical-soft{
+.clinical-soft {
     // padding-right: 140px;
     margin-top: 100px;
     margin-bottom: 100px;
     .last-content {
         background-image: linear-gradient(90deg, var(--white-color), var(--secondary-color));
-        .last-content-div{
+        .last-content-div {
             .more-info-button {
                 margin-left: 30px;
             }
@@ -33,10 +33,10 @@ ul {
 @media only screen and (max-width: 1199px) {
 }
 @media only screen and (max-width: 1024px) {
-    .clinical-soft{
+    .clinical-soft {
         padding: 0px !important;
     }
-    .last-content-div{
+    .last-content-div {
         padding-left: 45px !important;
         padding-right: 45px !important;
         width: 100% !important;
@@ -45,43 +45,47 @@ ul {
 @media only screen and (max-width: 991px) {
 }
 @media only screen and (max-width: 768px) {
-    .clinical-soft{
+    .clinical-soft {
         padding: 0px !important;
     }
-    .last-content-div{
+    .last-content-div {
         padding-left: 40px !important;
         padding-right: 40px !important;
         width: 100% !important;
     }
-    .clinical-soft-main{
+    .clinical-soft-main {
         flex-direction: column !important;
     }
-    .tablet-image{
+    .tablet-image {
         padding-left: 40px !important;
         padding-right: 40px !important;
         padding-top: 15px;
     }
-    .last-content-div{
-            .more-info-button {
-                margin-left: 0px !important;
-            }
-        }
+    // .last-content-div {
+    //     // .more-info-button {
+    //     //     margin-left: 0px !important;
+    //     // }
+    // }
+    // .more-info-button {
+    //     margin-left: 30px;
+    // }
 }
 @media only screen and (max-width: 575px) {
-    .clinical-soft{
+    .clinical-soft {
         padding: 0px !important;
     }
-    .last-content-div{
+    .last-content-div {
         padding-left: 15px !important;
         padding-right: 15px !important;
         width: 100% !important;
     }
-    .clinical-soft-main{
+    .clinical-soft-main {
         flex-direction: column !important;
     }
-    .tablet-image{
+    .tablet-image {
         padding-left: 15px !important;
         padding-right: 15px !important;
         padding-top: 15px;
     }
+  
 }

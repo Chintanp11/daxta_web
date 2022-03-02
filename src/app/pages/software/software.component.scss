@@ -89,21 +89,20 @@ ul {
 }
 
 .software-card {
-    height: 150px;
-    width: 140px;
-    margin-right: 40px !important;
+    min-height: 100px;
+    width: 100%;
+    // margin-right: 40px !important;
     border: none;
     .software-card-body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        h4,p{
+        h4,
+        p {
             font-family: "Quicksand-Bold";
         }
     }
 }
-
-
 
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
 
@@ -117,57 +116,246 @@ ul {
     //   }
 }
 @media only screen and (max-width: 1024px) {
-    .daxta-card-body{
-        height: 170px;
-      }
+    .daxta-card-body {
+        min-height: 70px !important;
+    }
 }
 @media only screen and (max-width: 991px) {
 }
 @media only screen and (max-width: 768px) {
-    .daxta-card-body{
-        height: 190px;
-      }
+    // .daxta-card-body {
+    //     height: 190px;
+    // }
+    .daxta-card-body {
+        background-color: transparent;
+        min-height: 160px;
+    }
 }
 @media only screen and (max-width: 575px) {
-    .counts-row{
+    .counts-row {
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
     }
 
-    .width-50{
+    .width-50 {
         width: 100% !important;
     }
-    .width-75{
+    .width-75 {
         width: 100% !important;
+    }
+    .icon-1 {
+        width: 30px;
+        height: 30px;
+    }
+    .daxta-card-body {
+        background-color: transparent;
+        min-height: 160px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .icon-1 {
+        width: 30px;
+        height: 30px;
+    }
+    .daxta-card-body {
+        background-color: transparent;
+        min-height: 160px;
     }
 }
 
 
 .animate-show-hide.ng-hide {
     opacity: 0;
-  }
-  
-  .animate-show-hide.ng-hide-add,
-  .animate-show-hide.ng-hide-remove {
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
     transition: all linear 0.5s;
-  }
-  
-  .check-element {
+}
+
+.check-element {
     border: 1px solid black;
     opacity: 1;
     padding: 10px;
-  }
+}
 
-  .daxta-card-body{
+.daxta-card-body:hover {
+    background-color: var(--secondary-color);
+ 
+}
+.daxta-card-body {
     background-color: transparent;
-    min-height: 140px;
-    // border: 1px solid black;
-  }
- h2{
-     font-weight: bold;
- }
+    min-height: 160px;
+}
+h2 {
+    font-weight: bold;
+}
 
-  h4{
-      font-weight: bold;
-  }
+h4 {
+    font-weight: bold;
+}
+
+.featares-back {
+    background-color: #fefafe;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 50px;
+}
+
+.icone-img {
+    padding-right: 20px;
+}
+
+.icone-img:hover::before {
+    content: url("../../../assets/icon/2.png");
+    padding-right: 20px;
+}
+
+.daxta-card-body:hover h4 {
+    color: #fff;
+}
+.daxta-card-body:hover h6 {
+    color: #fff;
+}
+
+.icon-1 {
+    background: url(../../../assets/icon/1.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-1 {
+    background: url(../../../assets/icon/i1.png) no-repeat;
+    width: 87px;
+    height: 100px;
+}
+
+.icon-2 {
+    background: url(../../../assets/icon/7.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-2 {
+    background: url(../../../assets/icon/2.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-3 {
+    background: url(../../../assets/icon/3.png) no-repeat;
+    width: 120px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-3 {
+    background: url(../../../assets/icon/i3.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-4 {
+    background: url(../../../assets/icon/4.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-4 {
+    background: url(../../../assets/icon/i4.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-5 {
+    background: url(../../../assets/icon/5.png) no-repeat;
+    width: 120px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-5 {
+    background: url(../../../assets/icon/i5.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-6 {
+    background: url(../../../assets/icon/6.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-6 {
+    background: url(../../../assets/icon/i6.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-7 {
+    background: url(../../../assets/icon/7.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-7 {
+    background: url(../../../assets/icon/2.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-8{
+    background: url(../../../assets/icon/8.png) no-repeat;
+    width: 70px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-8 {
+    background: url(../../../assets/icon/i8.png) no-repeat;
+    width: 70px;
+    height: 100px;
+}
+.icon-9 {
+    background: url(../../../assets/icon/9.png) no-repeat;
+    width: 80px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-9 {
+    background: url(../../../assets/icon/i9.png) no-repeat;
+    width: 80px;
+    height: 100px;
+}
+
+.icon-10 {
+    background: url(../../../assets/icon/10.png) no-repeat;
+    width: 60px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-10 {
+    background: url(../../../assets/icon/i10.png) no-repeat;
+    width: 60px;
+    height: 100px;
+}
+.icon-11 {
+    background: url(../../../assets/icon/11.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-11 {
+    background: url(../../../assets/icon/i11.png) no-repeat;
+    width: 100px;
+    height: 100px;
+}
+.icon-12 {
+    background: url(../../../assets/icon/12.png) no-repeat;
+    width: 130px;
+    height: 100px;
+}
+.daxta-card-body:hover .icon-12 {
+    background: url(../../../assets/icon/i7.png) no-repeat;
+    width: 130px;
+    height: 100px;
+}
+.job-description {
+    background: var(--secondary-color);
+    h2,
+    p {
+        color: var(--white-color) !important;
+    }
+}
+.inquiry-now{
+    border-radius: 25px !important;
+    font-family: "Quicksand-SemiBold" !important;
+    border: 1px solid var(--white-color) !important;
+    margin-top: 20px;
+}
+.latest-jobs1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+}

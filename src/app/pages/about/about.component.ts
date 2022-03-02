@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { 
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 9999);
+    
   }
 
   ngOnInit(): void {

@@ -15,8 +15,11 @@
                     </div>
                 </div>
                 <div class="col-md-3 d-md-flex align-items-md-center flex-md-column">
-                    <h5 routerLink="/about" class="mb-2">{{'HEADER.ABOUTUS' |
-                        translate}}</h5>
+                    <div style="    margin-right: 17px;">
+                        <h5 routerLink="/about" class="mb-2">{{'HEADER.ABOUTUS' |
+                            translate}}</h5>
+                    </div>
+                    
                     <ul>
                         <li>
                             <a routerLink="/ourservice">{{'HEADER.OURSERVICES' | translate}}</a>
@@ -35,10 +38,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-center flex-md-column">
+                <div class="col-md-2 d-md-flex align-items-md-start flex-md-column">
                     <h5>{{'HEADER.COMPANY' | translate}}</h5>
                     <ul>
-                        <li>
+                        <li style="    margin-top: 8px;">
                             <a routerLink="/terms-of-use">{{'HEADER.TERMOFUSE' | translate}}</a>
                         </li>
                         <li>
@@ -46,9 +49,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h5 routerLink="/contactus">{{'HEADER.CONTACTUS' | translate}}</h5>
-                    <p class="mt-4">{{'FOOTER.CONTACTCONTENT' | translate}}</p>
+                    <p class="mt-2">{{'FOOTER.CONTACTCONTENT' | translate}}</p>
                     <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
                         <div class="d-flex flex-row align-items-center justify-content-between mt-3">
                             <div class="form-group">
@@ -60,7 +63,7 @@
                                     <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div>
                                 </div>
                             </div>
-                            <div style="margin-top: 30px;">
+                            <div style="margin-top: 25px;">
                                 <button class="btn primary-button subscribe-button" type="button">Subscribe</button>
                             </div>
                         </div>

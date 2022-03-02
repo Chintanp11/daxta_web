@@ -68,7 +68,7 @@
                         <div class="form-group">
                             <label>Number of Clients (if any)</label>
                             <input formControlName="Companyname" id="name" type="emial"
-                                class="form-control form-input-class" placeholder="number of clients">
+                                class="form-control form-input-class" placeholder="Number of clients">
                             <div *ngIf="submitted && f.Companyname.errors">
                                 <div *ngIf="f.Companyname.errors.required" class="error">Number of client is required.</div>
                                 <div *ngIf="f.Companyname.errors.pattern" class="error">Do not enter Whitespace</div>
@@ -110,7 +110,7 @@
                         <div class="form-group">
                             <label>How can we help?</label>
                             <textarea formControlName="Description" class="form-control form-input-class" id="exampleFormControlTextarea1" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" rows="5"
-                                placeholder="Tell Us More About What You Are Looking For"></textarea>
+                                placeholder="Tell us more about what you are looking for"></textarea>
                             <div *ngIf="submitted && f.Description.errors">
                                 <div *ngIf="f.Description.errors.required" class="error">Description is required.</div>
                             </div>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="mt-5">
-                    <button type="submit" class="btn primary-button">Get a consultation</button>
+                    <button type="submit" class="btn primary-button">Submit</button>
                 </div>
             </form>
         </div>

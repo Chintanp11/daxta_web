@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   x:any;
   constructor(private formBuilder: FormBuilder ,  private router:Router) { 
 
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 9999);
 
     this.reactiveForm = this.formBuilder.group({
       Name: ['', Validators.required],

@@ -32,14 +32,29 @@
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
 
 @media only screen and (max-width: 1440px) {
+  
 }
 @media only screen and (max-width: 1199px) {
+  
 }
 @media only screen and (max-width: 1024px) {
+    .customer-div{
+        padding-top: 10rem !important;
+    }
+   
 }
 @media only screen and (max-width: 991px) {
+    .service-list {
+        display: none;
+      }
 }
 @media only screen and (max-width: 768px) {
+    .service-list {
+        display: none;
+      }
+      .customer-div{
+          padding-top: 8rem !important;
+      }
 }
 @media only screen and (max-width: 575px) {
     .excellence-div, .customer-div, .team-members-div{

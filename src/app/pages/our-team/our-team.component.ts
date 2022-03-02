@@ -11,7 +11,7 @@ export class OurTeamComponent implements OnInit {
   isShow = true;
 
   constructor(private router:Router) {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 9999);
    }
 
   ngOnInit(): void {

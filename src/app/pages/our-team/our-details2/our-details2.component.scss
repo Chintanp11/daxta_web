@@ -61,3 +61,37 @@ ul {
     justify-content: end;
     display: flex;
   }
+  h1{
+    color: var(--secondary-color) !important;
+  }
+
+  .text{
+    font-family: 'Quicksand-Bold';
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1440px) {
+  }
+  @media only screen and (max-width: 1199px) {
+  }
+  @media only screen and (max-width: 1024px) {
+  
+  }
+  @media only screen and (max-width: 991px) {
+  
+      .service-list {
+          display: none;
+        }
+  
+  }
+  @media only screen and (max-width: 768px) {
+        .service-list {
+          display: none;
+        }
+    
+  }
+  @media only screen and (max-width: 575px) {
+  
+    .service-list {
+      display: none;
+    }
+  }
