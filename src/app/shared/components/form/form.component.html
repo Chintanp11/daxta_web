@@ -1,31 +1,31 @@
 <div class="form-component">
     <div class="row">
         <div class="col-md-5">
-            <h2>Talk to us:</h2>
+            <h2>{{'FORM.TALK' | translate}}</h2>
         </div>
         <div class="col-md-7">
-            <h4 class="light-gray-color">Do you have any questions or want to learn more about<br/> our services?</h4>
+            <h4 class="light-gray-color">{{'FORM.TALKCONTENT' | translate}}</h4>
             <form class="input-group" [formGroup]="reactiveForm" (ngSubmit)="onsubmit()">
                 <div class="row">
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label>First Name</label>
+                            <label>{{'FORM.FIRSTNAME' | translate}}</label>
                             <input formControlName="firstname" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
                                 class="form-control form-input-class" placeholder="First Name">
                             <div *ngIf="submitted && f.firstname.errors">
-                                <div *ngIf="f.firstname.errors.required" class="error">Firstname is required.</div>
-                                <div *ngIf="f.firstname.errors.pattern" class="error">Do not enter Whitespace</div>
+                                <div *ngIf="f.firstname.errors.required" class="error">{{'FORM.FIRSTERROR' | translate}}</div>
+                                <div *ngIf="f.firstname.errors.pattern" class="error">Do not enter a symbol</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
                         <div class="form-group">
-                            <label>Last Name</label>
+                            <label>{{'FORM.LASTNAME' | translate}}</label>
                             <input formControlName="lastName" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" id="name" type="text"
                                 class="form-control form-input-class" placeholder="Last Name">
                             <div *ngIf="submitted && f.lastName.errors">
-                                <div *ngIf="f.lastName.errors.required" class="error">Lastname is required.</div>
-                                <div *ngIf="f.lastName.errors.pattern" class="error">Do not enter Whitespace</div>
+                                <div *ngIf="f.lastName.errors.required" class="error">{{'FORM.LASTERROR' | translate}}</div>
+                                <div *ngIf="f.lastName.errors.pattern" class="error">Do not enter a symbol</div>
                             </div>
                         </div>
                     </div>
@@ -38,19 +38,19 @@
                     </div> -->
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label>Email</label>
+                            <label>{{'FORM.EMAIL' | translate}}</label>
                             <input formControlName="email" id="name" type="email"
                                 class="form-control form-input-class" placeholder="Email Address">
                             <div *ngIf="submitted && f.email.errors">
-                                <div *ngIf="f.email.errors.required" class="error">Email is required.</div>
-                                <!-- <div *ngIf="f.Email.errors.pattern" class="error">Enter a valid email.</div> -->
+                                <div *ngIf="f.email.errors.required" class="error">{{'FORM.EMAILERROR' | translate}}</div>
+                                <div *ngIf="f.email.errors.email" class="error">Enter a valid email.</div>
                                 <!-- <div *ngIf="f.Email.errors.pattern" class="error">Do not enter Whitespace</div> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label for="country">Country</label>
+                            <label for="country">{{'FORM.COUNTRY' | translate}}</label>
                             <div>
                                 <select #myContry (change)='onContrySelected(myContry.value)'
                                     formControlName="countryName" required>
@@ -59,20 +59,20 @@
                                 </select>
                                
                                 <div *ngIf="submitted && f.countryName.errors">
-                                    <div *ngIf="f.countryName.errors.required" class="error">Country is required.</div>
+                                    <div *ngIf="f.countryName.errors.required" class="error">{{'FORM.COUNTRYERROR' | translate}}</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4">
                         <div class="form-group">
-                            <label>Number of Clients (if any)</label>
-                            <input formControlName="Companyname" id="name" type="emial"
-                                class="form-control form-input-class" placeholder="Number of clients">
-                            <div *ngIf="submitted && f.Companyname.errors">
+                            <label>{{'FORM.COMPANYNAME' | translate}}</label>
+                            <input id="name" type="text"
+                                class="form-control form-input-class" placeholder="Number of Clients">
+                            <!-- <div *ngIf="submitted && f.Companyname.errors">
                                 <div *ngIf="f.Companyname.errors.required" class="error">Number of client is required.</div>
-                                <div *ngIf="f.Companyname.errors.pattern" class="error">Do not enter Whitespace</div>
-                            </div>
+                              
+                            </div> -->
                         </div>
                     </div>
 
@@ -108,17 +108,17 @@
                     </div> -->
                     <div class="col-md-12 mt-4">
                         <div class="form-group">
-                            <label>How can we help?</label>
-                            <textarea formControlName="Description" class="form-control form-input-class" id="exampleFormControlTextarea1" pattern="[a-zA-Z]+(\s+[a-zA-Z]+)*" rows="5"
+                            <label>{{'FORM.HELP' | translate}}</label>
+                            <textarea formControlName="Description" class="form-control form-input-class" id="exampleFormControlTextarea1"  rows="5"
                                 placeholder="Tell us more about what you are looking for"></textarea>
                             <div *ngIf="submitted && f.Description.errors">
-                                <div *ngIf="f.Description.errors.required" class="error">Description is required.</div>
+                                <div *ngIf="f.Description.errors.required" class="error">{{'FORM.DESCRIPTIONERROR' | translate}}</div>
                             </div>
                         </div> 
                     </div>
                 </div>
                 <div class="mt-5">
-                    <button type="submit" class="btn primary-button">Submit</button>
+                    <button class="btn primary-button">{{'BUTTONS.SUBMIT' | translate}}</button>
                 </div>
             </form>
         </div>

@@ -11,7 +11,7 @@
                 <div class="contact-info">
                     <div class="d-flex flex-row phone-number">
                         <div class="contact-icon">
-                            <i class="fa fa-brands fa-whatsapp  fa-2x" style="color:#54cc6c;" ></i>
+                            <i class="fa fa-brands fa-whatsapp  fa-2x" style="color:#54cc6c;"></i>
                         </div>
                         <div class="contact-number">
                             <p>{{'HEADER.PHONE' | translate}}</p>
@@ -37,25 +37,26 @@
                     <div class="d-flex flex-row">
                         <div class="d-flex flex-row">
                             <div class="contact-icon mx-2">
-                                <img src="../../../assets/images/Shape.png" />
+                                <i class="fa fa-brands fa-whatsapp  fa-2x" style="color:#54cc6c;"></i>
+                                <!-- <img src="../../../assets/images/Shape.png" /> -->
                             </div>
                             <div class="contact-number">
                                 <p>{{'HEADER.PHONE' | translate}}</p>
                                 <span>+2 342 5440 07</span>
                             </div>
                         </div>
-    
+
                         <div class="d-flex flex-row mx-2">
                             <div class="contact-icon mx-2">
                                 <img src="../../../assets/images/mail.png" />
                             </div>
                             <div class="contact-number">
                                 <P>{{'HEADER.EMAIL' | translate}}</P>
-                                <span>contact@gmail.com</span>
+                                <a href="mailto:contact@daxta.com"><span>contact@daxta.com</span></a>
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
@@ -63,39 +64,52 @@
                             routerLinkActive="router-link-active">{{'HEADER.HOME' | translate}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/about" routerLinkActive="router-link-active">{{'HEADER.ABOUTUS' |
+                        <a class="nav-link" routerLink="/about" routerLinkActive="router-link-active">{{'HEADER.ABOUTUS'
+                            |
                             translate}}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" routerLink="/ourservice"
                             routerLinkActive="router-link-active">{{'HEADER.OURSERVICES' | translate}}</a>
                     </li>
-                   
-                    <li class="nav-item">
-                        <a class="nav-link" routerLink="/courses" routerLinkActive="router-link-active">{{'HEADER.COURSES' | translate}}</a>
+
+                    <li class="nav-item" *ngIf="showTab2">
+                        <a class="nav-link" href="{{'HEADER.COURSES_LINK' | translate}}" target="_blank"
+                            routerLink="/courses" routerLinkActive="router-link-active">{{'HEADER.COURSES' |
+                            translate}}</a>
+                        <!-- href="{{'HEADER.COURSES_LINK' | translate}}" target="_blank"  -->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/our-team" routerLinkActive="router-link-active">{{'HEADER.OURTEAM' | translate}}</a>
+                        <a class="nav-link" href="https://tudoaba.daxta.com/" target="_blank"
+                            routerLinkActive="router-link-active">{{'HEADER.PODCAST' | translate}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/software" routerLinkActive="router-link-active">{{'HEADER.SOFTWARE' | translate}}</a>
+                        <a class="nav-link" routerLink="/our-team"
+                            routerLinkActive="router-link-active">{{'HEADER.OURTEAM' | translate}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/software"
+                            routerLinkActive="router-link-active">{{'HEADER.SOFTWARE' | translate}}</a>
                     </li>
                     <!-- <li class="nav-item">
-                        <a class="nav-link" routerLink="/blog" routerLinkActive="router-link-active">{{'Blog' |
-                            translate}}</a>
+                        <a class="nav-link" routerLink="/blog" routerLinkActive="router-link-active">blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/contactus" routerLinkActive="router-link-active">{{'HEADER.CONTACTUS' | translate}}</a>
+                        <a class="nav-link" routerLink="/contactus"
+                            routerLinkActive="router-link-active">{{'HEADER.CONTACTUS' | translate}}</a>
                     </li>
+
+                 
                 </ul>
                 <div class="lang-flags-div">
-                    <ngx-flag-picker
-                      [selectedCountryCode]="selectedCountryCode"
-                      [countryCodes]="countryCodes"
-                      [showLabels]="false"
-                      (changedCountryCode)="changeSelectedCountryCode($event)">
+                    <ngx-flag-picker 
+                     [selectedCountryCode]="selectedCountryCode"
+                        [countryCodes]="countryCodes" 
+                        [showLabels]="false"
+                        (changedCountryCode)="changeSelectedCountryCode($event)"
+                        >
                     </ngx-flag-picker>
-                  </div>
+                </div>
                 <!-- <div>
                     <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
                         <option *ngFor="let language of translate.getLangs()" [value]="language"

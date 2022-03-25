@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,13 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SoftwareComponent implements OnInit {
   isReadMore = true
-  constructor() { 
-    window.scrollTo(0, 9999);
+  constructor(private router : Router) { 
+    window.scrollTo(0, 0);
   }
 
   ngOnInit(): void {
   }
   showText() {
     this.isReadMore = !this.isReadMore
+ }
+
+ gotowishlist(){
+this.router.navigateByUrl('/contactus')
  }
 }

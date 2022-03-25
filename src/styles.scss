@@ -3,6 +3,9 @@
 
 // $flag-icon-css-path: '~flag-icon-css/flags' !default;
 // @import "~flag-icon-css/css/flag-icons.css";
+html {
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: "Quicksand-Bold";
@@ -208,7 +211,7 @@ select:focus-visible {
   border: none !important;
   .daxta-card-body {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     border-radius: 10px !important;
     .daxta-card-text {
       padding-top: 10px;
@@ -273,10 +276,13 @@ select:focus-visible {
   }
 }
 @media only screen and (max-width: 991px) {
+  .section1-header {
+    padding: 50px 0px !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section1-header {
-    padding: 50px 80px !important;
+    padding: 50px 10px !important;
   }
   .content {
     min-height: calc(100vh - 505px) !important;
@@ -284,6 +290,50 @@ select:focus-visible {
 }
 @media only screen and (max-width: 575px) {
   .section1-header {
-    padding: 0px !important;
+    padding: 50px 10px !important;
   }
+}
+
+
+
+// .toast-container {
+//   background-image: linear-gradient(purple,red) !important;
+//   border-radius: 22px !important; 
+//   box-shadow: -5px 8px 16px 0px rgba(0,0,0,0.3) !important;
+//   margin-bottom: 2px !important;
+// }
+
+.toast-container .toast {
+  margin: 2px !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  background-color: #fff !important;
+  margin-top: 45px !important;
+}
+
+// .toast-success{
+//   background-image: none !important;
+// }
+
+// .toast-success::after{
+//   content: '\f00c' !important;
+//   font-family: 'FontAwesome' !important;
+//   position: absolute !important;
+//   top: 14px !important;
+//   left: 15px !important;
+//   color: #333 !important;
+//   font-size: 1.5em !important;
+// }
+
+// .toast-title{
+//   color: purple !important;
+//   font-size: 16px !important;
+// }
+
+.toast-message{
+  color:#fff !important;
+}
+
+.toast-top-center {
+  top: 400px;
 }

@@ -1,7 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Country, State, City } from 'country-state-city';
-import { FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
+import {
+  FormBuilder,
+  FormGroup,
+  Validators,
+  FormControl,
+} from '@angular/forms';
 import { Router } from '@angular/router';
+import { LOGIN } from '../../../gql/query';
+import { Apollo } from 'apollo-angular';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-form',
@@ -15,7 +23,7 @@ export class FormComponent implements OnInit {
   selectedCountry: any = '';
   selectedCity: any = '';
   selectedState: any = '';
-  
+
   dropdownState: any = [];
   dropdownCity: any = [];
 
@@ -23,17 +31,25 @@ export class FormComponent implements OnInit {
   State: any = [];
   City: any = [];
 
-  constructor(private formBuilder: FormBuilder ,  private router:Router) {
+  constructor(
+    private formBuilder: FormBuilder,
+    private router: Router,
+    private apollo: Apollo,
+    private toastr: ToastrService
+  ) {
     this.reactiveForm = this.formBuilder.group({
-      firstname: new FormControl('', [Validators.required, Validators.pattern('[^-\s][a-zA-Z0-9-_\\s]+$')]),
-      email: new FormControl('', [Validators.required, Validators.pattern('/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/')]),
-      lastName:  new FormControl('', [Validators.required, Validators.pattern('[^-\s][a-zA-Z0-9-_\\s]+$')]),
+      firstname: new FormControl('', [
+        Validators.required,
+        Validators.pattern("^[a-zA-Z -']+"),
+      ]),
+      email: new FormControl('', [Validators.required, Validators.email]),
+      lastName: new FormControl('', [
+        Validators.required,
+        Validators.pattern("^[a-zA-Z -']+"),
+      ]),
       // Country:  new FormControl('', [Validators.required]),
-      Companyname: new FormControl('', [Validators.required]),
-      Description:new FormControl('',[Validators.required]),
+      Description: new FormControl('', [Validators.required]),
       countryName: new FormControl('', [Validators.required]),
-      stateName: new FormControl('', [Validators.required]),
-      cityName: new FormControl('', [Validators.required])
     });
   }
 
@@ -45,19 +61,39 @@ export class FormComponent implements OnInit {
     this.dropdownState = State.getStatesOfCountry(value);
   }
 
-  onStateSelected(value: string, value2: string){
+  onStateSelected(value: string, value2: string) {
     this.dropdownCity = City.getCitiesOfState(value, value2);
   }
-  get f() { return this.reactiveForm.controls; }
+  get f() {
+    return this.reactiveForm.controls;
+  }
 
   onsubmit() {
     this.submitted = true;
-    if (this.reactiveForm.invalid) {
+    console.log(this.reactiveForm.status);
+    if (this.reactiveForm.status == 'VALID') {
+      this.apollo
+        .mutate({
+          mutation: LOGIN,
+          variables: {
+            ContactUsForm: {
+              email: this.reactiveForm.value.email,
+              firstName: this.reactiveForm.value.firstname,
+              lastName: this.reactiveForm.value.lastName,
+              message: this.reactiveForm.value.Description,
+              numberOfClients: this.reactiveForm.value.numberOfClients,
+            },
+          },
+        })
+        .subscribe();
+        this.toastr.success('', 'Thank you! A Team Member will be in touch via e-mail shortly!', {
+          timeOut: 3000,
+          positionClass: 'toast-top-center',
+          
+        });
+         
+      this.reactiveForm.reset();
       return;
     }
-    localStorage.setItem('form-data', JSON.stringify(this.reactiveForm.value));
-    console.log(this.reactiveForm.value)
-   
-    this.router.navigate(['/about']);
   }
 }

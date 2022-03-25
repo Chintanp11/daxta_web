@@ -1,3 +1,5 @@
+import { OurTeamModule } from './pages/our-team/our-team.module';
+import { BlogModule } from './pages/blog/blog.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +20,14 @@ import { LatestJobContentComponent } from './shared/components/latest-job-conten
 import { SharedModule } from './shared/shared.module';
 import { TermsOfUseComponent } from './pages/terms-of-use/terms-of-use.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
-// import { OurTeamInnerComponent } from './pages/our-team/our-team-inner/our-team-inner.component';
+import { InMemoryCache } from '@apollo/client/core';
+import { GqlModule } from './gql/gql.module';
+import {ApolloModule, APOLLO_OPTIONS} from 'apollo-angular';
+import {HttpLink} from 'apollo-angular/http';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+// import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 @NgModule({
   declarations: [
@@ -34,7 +43,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     LatestJobContentComponent,
     TermsOfUseComponent,
     PrivacyPolicyComponent,
-    // OurTeamInnerComponent
+
   ],
   imports: [
     BrowserModule,
@@ -42,7 +51,14 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     AppRoutingModule,
     ReactiveFormsModule,
     SharedModule,
+    OurTeamModule,
+    BlogModule,
     FormsModule,
+    ApolloModule,
+    GqlModule,
+    NgxPageScrollCoreModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     TranslateModule.forRoot({  
       loader: {  
          provide: TranslateLoader,  
@@ -51,7 +67,20 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
          }  
       }) 
   ],
-  providers: [],
+  providers: [
+    {
+      provide: APOLLO_OPTIONS,
+      useFactory: (httpLink: HttpLink) => {
+        // return {
+        //   cache: new InMemoryCache(),
+        //   link: httpLink.create({
+        //     uri: 'URI',
+        //   }),
+        // };
+      },
+      deps: [HttpLink],
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { 

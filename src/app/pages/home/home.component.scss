@@ -41,7 +41,8 @@
     .card-text{
     	color: rgba(10,35,96,0.5);
     }
-    .card-title{font-weight:600}
+    .card-title{font-weight:600;
+    cursor: pointer;}
 }
 
 .section3 {
@@ -64,7 +65,7 @@
     .ace-image {
         width: auto;
         height: 100%;
-        padding-top: 100px;
+        padding-top: 30px;
     }
     .courses-div {
         width: 80%;
@@ -84,16 +85,104 @@
     }
 }
 
+.header-clinic{
+    cursor: pointer;
+}
 .clinical-services-card {
     border-radius: 20px;
     border: none;
 }
 
+.icon-1{
+    
+    background-image: url('../../../assets/icon/OUTLINE.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon-1:hover{
+    background-image: url('../../../assets/icon/4blue.png') ;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+
+.icon-2{
+    background-image: url('../../../assets/icon/noun_supervised_3507969.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon-2:hover{
+    background-image: url('../../../assets/icon/2blue.png') ;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+
+.icon-3{
+    background-image: url('../../../assets/icon/conversation.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon-3:hover{
+    background-image: url('../../../assets/icon/1blue.png') ;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-4{
+    background-image: url('../../../assets/icon/noun_training_1422944.png');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.icon-4:hover{
+    background-image: url('../../../assets/icon/3blue.png') ;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h5:hover{
+    color: var(--secondary-color);
+}
+
+.daxta-card-body.card-body{
+justify-content: space-between;
+padding-top:0px ;
+}
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
+
+
+@media only screen and (max-width: 320px) {
+    .logo-image{
+        width: 60% !important;
+    }
+    .aec{
+        justify-content: center;
+        display: flex;
+    }
+    .home-header {
+        margin-top: 80px;
+    }
+    }
 
 @media only screen and (max-width: 1440px) {
     .home-header {
-        min-height: 400px !important;
+        min-height: 600px !important;
     }
     .home-section1 {
         max-width: 500px !important;
@@ -101,7 +190,7 @@
 }
 @media only screen and (max-width: 1199px) {
     .home-header {
-        min-height: 400px !important;
+        min-height: 600px !important;
     }
     .home-section1 {
         max-width: 500px !important;
@@ -109,7 +198,7 @@
 }
 @media only screen and (max-width: 1024px) {
     .home-header {
-        min-height: 500px !important;
+        min-height: 600px !important;
     }
     .home-section1 {
         max-width: 500px !important;
@@ -122,10 +211,12 @@
     .home-section1 {
         max-width: 400px !important;
     }
+    
 }
 @media only screen and (max-width: 768px) {
     .home-header {
-        min-height: 500px !important;
+        min-height: 600px !important;
+        width: 64% !important;
     }
     .home-section1 {
         max-width: 350px !important;
@@ -165,4 +256,17 @@
     .card-odd {
         padding-right: 0px !important;
     }
+    .logo-image{
+        width: 60% !important;
+        margin: 10px;
+    }
+    .aec{
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
+.logo-image{
+    width: 100%;
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -8,8 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { 
-    window.scrollTo(0, 9999);
-    
+    window.scroll(0, 0);
   }
 
   ngOnInit(): void {

@@ -60,6 +60,11 @@ ul {
 
 }
 
+.logo-img{
+justify-content: center;
+display: flex;
+}
+
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
 
 @media only screen and (max-width: 1440px) {
@@ -73,11 +78,11 @@ ul {
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 575px) {
-  .service-list:nth-child(odd) {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-  }
+  // .service-list:nth-child(odd) {
+  //   display: flex;
+  //   flex-direction: column-reverse;
+  //   flex-wrap: wrap;
+  // }
 
   .executive-organizational{
     margin-top: 50px;

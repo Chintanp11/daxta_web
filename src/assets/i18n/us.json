@@ -11,180 +11,247 @@
     "BLOG": "Blog",
     "CONTACTUS": "Contact Us",
     "OURTEAM": "Our Team",
-    "COMPANY":"Company",
-    "TERMOFUSE":"Terms Of Use",
-    "PRIVACYPOLICY":"Privacy Policy"
-
+    "COMPANY": "Company",
+    "TERMOFUSE": "Terms of Use",
+    "PRIVACYPOLICY": "Privacy Policy",
+    "PODCAST":"Podcast"
   },
   "HOMEPAGE": {
+
     "HOMESECTION1": " Globally elevating behavior-analytic treatment for autism and other developmental disabilities",
-    "HOMESECTION2":"Increasing quality and efficiency of treatment by increasing the effectiveness and capacity of service providers via consultation, supervision, training, and software.",
-    "CLINICALSERVICE":"Clinical Services",  
-    "CLINICALCONTENT":"Your need is matched with our expertise",
-    "CLINICALCARD":"Executive Organizational Consultation",
-    "CLINICALCARD1":"Clinical Supervision",
-    "CLINICALCARD2":"Clinical Consultation",
-    "CLINICALCARD3":"Personalized Training",
-    "CARDCONTENT":"Individualized service oriented towards clinical, organizational, administrative, and operational needs for clinical leaders",
-    "CARDCONTENT2":"Support for clinical supervisors of treatment based on applied behavior analysis regarding all aspects of case supervision",
-    "CARDCONTENT1":"Supervision of aspiring behavior analysts pursuing a credential" ,
-    "CARDCONTENT3":"Training created and delivered based on our competence and your staff’s needs",
-    "COURSESCONTENT":"Every month we will publish new continuing education courses and training to help refine your behavior analytic skillset."
+    "HOMESECTION2": "Increasing quality and efficiency of treatment by increasing the effectiveness and capacity of service providers via consultation, supervision, training, and software.",
+    "PODCAST": "Podcast Tudo ABA",
+    "PODCASTCONTENT": "Conversations among behavior analysts about anything and everything related to applied behavior analysis in Portuguese.",
+    "PODCASTCONTENT1": "Can be found in Spotify, Apple Podcast, Google Podcast or anywhere you listen to your podcasts!",
+    "CLINICALSERVICE": "Clinical Services",
+    "CLINICALCONTENT": "Your need is matched with our expertise.",
+    "CLINICALCARD": "Executive Organizational Consultation",
+    "CARDCONTENT": "Individualized service oriented towards clinical, organizational, administrative, and operational needs of clinical leaders",
+    "CLINICALCARD2": "Clinical Consultation",
+    "CARDCONTENT2": "Support for clinical supervisors regarding all aspects of case supervision of treatment based on applied behavior analysis",
+    "CLINICALCARD1": "Clinical Supervision",
+    "CARDCONTENT1": "Supervision of aspiring behavior analysts pursuing a credential",
+    "CLINICALCARD3": "Personalized Training",
+    "CARDCONTENT3": "Training created and delivered based on our competence and your staff’s needs",
+    "COURSESCONTENT": "Every month we will publish new continuing education courses and training to help refine your behavior analytic skillset."
 
   },
+
+
   "ABOUTUSPAGE": {
-    "ABOUT": "About",
-    "ABOUTUS":"One in fourty-four children are diagnosed with an autism spectrum disorder in the United States (Centers for Disease Control and Prevention, 2021). Interventions based on the science of applied behavior analysis (ABA) are the evidence-based best-practice treatment for autism spectrum disorders. Founded in 2018, DAXTA is a growing company with the mission to globally elevate accessibility and quality of behavior analytic treatment by increasing the effectiveness and capacity of clinical service providers. We do this through our software, trainings, and by providing clinical supervision as well as consultation for ABA clinical service providers.",
-    "EXCELLENCE":"Excellence",
-    "EXCELLENCECONTENT1":"If we are going to do something, we will do it well",
-    "EXCELLENCECONTENT2":"We incorporate best practices in our work",
-    "EXCELLENCECONTENT3":"We strive to build systems that will promote the use of evidence-based practices by clinical providers",
-    "TEAMCENTERED":"Team Centered",
-    "TEAMCENTEREDCONTENT1":"Our team is our asset. At DAXTA, team members are loyal and we want them to remain loyal",
-    "TEAMCENTEREDCONTENT2":"If our team members are well-equipped, qualified and happy, the customer experience will be as well",
-    "TEAMCENTEREDCONTENT3":"We want to grow, and we want our team members to grow with us",
-    "OURCOREVALUE":"Our Core Values",
-    "OURCOREVALUECONTENT":"All the work we do revolves around our core values",
-    "CUSTOMEROBSESSED":"Customer Obsessed",
-    "CUSTOMEROBSESSEDCONTENT1":"We strive to provide efficient and effective customer support",
-    "CUSTOMEROBSESSEDCONTENT2":"We are open to all feedback",
-    "CUSTOMEROBSESSEDCONTENT3":"We are always attempting to implement feedback and requests that match our mission",
-    "CUSTOMEROBSESSEDCONTENT4":"We strive to have open and honest communication with our customers ",
-    "LATESTJOB":"Latest Jobs",
-    "LATESTJOBCONTENT":"Become one of our valued team members. Apply below!"
 
+    "ABOUT": "About",
+    "ABOUTUS": "One in fourty-four children are diagnosed with an autism spectrum disorder in the United States (Center for Disease Control and Prevention, 2021). Interventions based on the science of applied behavior-analysis (ABA) are the evidence-based best-practice treatment for autism spectrum disorders. Founded in 2018, DAXTA is a growing company with the mission to globally elevate accessibility and quality of behavior-analytic treatment by increasing the effectiveness and capacity of clinical service providers. We do this through our software, trainings, and by providing clinical supervision as well as consultation for ABA clinical service providers.",
+    "EXCELLENCE": "Excellence",
+    "EXCELLENCECONTENT1": "If we are going to do something, we will do it well",
+    "EXCELLENCECONTENT2": "We incorporate best practices in our work",
+    "EXCELLENCECONTENT3": "We strive to build systems that will promote the use of evidence-based practices by clinical providers",
+    "TEAMCENTERED": "Team Centered",
+    "TEAMCENTEREDCONTENT1": "Our team is our asset. At DAXTA, team members are loyal and we want them to remain loyal",
+    "TEAMCENTEREDCONTENT2": "If our team members are well-equipped, qualified and happy, the customer experience will be as well",
+    "TEAMCENTEREDCONTENT3": "We want to grow, and we want our team members to grow with us",
+    "OURCOREVALUE": "Our Core Values",
+    "OURCOREVALUECONTENT": "All the work we do revolves around our core values",
+    "CUSTOMEROBSESSED": "Customer Obsessed",
+    "CUSTOMEROBSESSEDCONTENT1": "We strive to provide efficient and effective customer support",
+    "CUSTOMEROBSESSEDCONTENT2": "We are open to all feedback",
+    "CUSTOMEROBSESSEDCONTENT3": "We are always attempting to implement feedback and requests that match our mission",
+    "CUSTOMEROBSESSEDCONTENT4": "We strive to have open and honest communication with our customers "
+    
   },
+
+
   "OURSERVICESPAGE": {
     "OUR": "Our",
     "SERVICES": "Services",
-    "OURSERVICECONTENT":"DAXTA can help your company increase quality and efficiency in the treatment of autism and other developmental disabilities. At DAXTA, we provide support and guidance to service providers in areas related to system development and implementation to evaluate and increase quality of services, as well as build capacity for their staff. Our services include:",
-    "EXECUTIVE":"Executive Organizational Consultation",
-    "EXECUTIVECONTENT1":"DAXTA provides remote consultation to service providers in areas related to company administration and operations. Our executive consultation is a personalized service tailored to your company’s needs and can cover a range of topics:",
-    "EXECUTIVEINNERCONTENT":"Time management",
-    "EXECUTIVEINNERCONTENT1":"Performance monitoring",
-    "EXECUTIVEINNERCONTENT2":"Performance feedback",
-    "EXECUTIVEINNERCONTENT3":"System development, evaluation, and maintenance",
-    "EXECUTIVEINNERCONTENT4":"Standardized operational systems to promote efficiency and increase internal capacity",
-    "EXECUTIVECONTENT2":"Our Executive Mentorship Group is designed for small and large clinic leaders and meets monthly to discuss subjects related to company administration, operations, and clinical matters. Topics are discussed in a group setting and members are given an opportunity to network and receive feedback about their current practices.",
-    
-    "CLINICALCONSULTATION":"Clinical Consultation",
-    "CLINICALCONSULTATIONCONTENT":"DAXTA provides remote consultation to service providers in areas related to clinical services, training, supervision, system building, management, and operations including:",
-    "CLINICALCONSULTATIONINNERCONTENT":"Development of clinical systems to promote efficiency and effectiveness in internal processes, including:",
-    "CLINICALCONSULTATIONINNERCONTENT1":"Initial and ongoing staff training",
-    "CLINICALCONSULTATIONINNERCONTENT2":"Supervision system and tools for performance evaluation",
-    "CLINICALCONSULTATIONINNERCONTENT3":"Evaluation of treatment quality",
-    "CLINICALCONSULTATIONINNERCONTENT4":"Peer-review for clinical cases",
-    "CLINICALCONSULTATIONCONTENT1":"Identification and development of clinical standards and tools to promote high-quality and efficiency of services",
-    "CLINICALCONSULTATIONCONTENT2":"Clinical mentoring and consultation",
-    "CLINICALCONSULTATIONCONTENT3":"Clinical consultation related to service expansion",
-    "CLINICALCONSULTATIONCONTENT4":"If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well If we are going to do something, we will do it well",
+    "OURSERVICECONTENT": "DAXTA can help your company increase quality and efficiency in the treatment of autism and other developmental disabilities. At DAXTA, we provide support and guidance to service providers in areas related to system development and implementation to evaluate and increase quality of services, as well as build capacity for their staff. Our services include:",
+    "EXECUTIVE": "Executive Organizational Consultation",
+    "EXECUTIVECONTENT1": "DAXTA provides remote consultation to service providers in areas related to company administration and operations. Our executive consultation is a personalized service tailored to your company’s needs and can cover a range of topics:",
+    "EXECUTIVEINNERCONTENT": "Time management",
+    "EXECUTIVEINNERCONTENT1": "Performance monitoring",
+    "EXECUTIVEINNERCONTENT2": "Performance feedback",
+    "EXECUTIVEINNERCONTENT3": "System development, evaluation, and maintenance",
+    "EXECUTIVEINNERCONTENT4": "Standardized operational systems to promote efficiency and increase internal capacity",
+    "EXECUTIVECONTENT2": "Our Executive Mentorship Group is designed for small and large clinic leaders and meets monthly to discuss subjects related to company administration, operations, and clinical matters. Topics are discussed in a group setting and members are given an opportunity to network and receive feedback about their current practices.",
 
-    "SUPERVISION":"Supervision",
-    "SUPERVISIONCONTENT":"At DAXTA we provide clinical support, supervision, and training for aspiring behavior analysts in the treatment of autism and other developmental disabilities. Our behavior analysts are qualified to provide remote supervision according to the Behavior Analyst Certification Board and the Qualified Applied Behavior Analyst Credentialing Board.Our supervisees receiving ongoing supervision in areas that include:",
-    "SUPERVISIONINNERCONTENT1":"Assessment and evaluation of behaviors targeted for increase or decrease",
-    "SUPERVISIONINNERCONTENT2":"Development of clinical goals and programs",
-    "SUPERVISIONINNERCONTENT3":"Graphing and data analysis",
-    "SUPERVISIONINNERCONTENT4":"Data-based decisions",
-    "SUPERVISIONINNERCONTENT5":"Treatment integrity",
-    "SUPERVISIONINNERCONTENT6":"Performance feedback",
-    "SUPERVISIONCONTENT1":"We ensure our supervisees receive supervision in the topics outlined by each credentialing board as part of the examination requirements and provide ongoing feedback and resources throughout the supervisory relationship. The supervision experience is customized to match each supervisee’s individual needs and practicum setting./ ",
+    "CLINICALCONSULTATION": "Clinical Consultation",
+    "CLINICALCONSULTATIONCONTENT": "DAXTA provides remote consultation to service providers in areas related to clinical services, training, supervision, system building, management, and operations including:",
+    "CLINICALCONSULTATIONINNERCONTENT": "Development of clinical systems to promote efficiency and effectiveness in internal processes, including:",
+    "CLINICALCONSULTATIONINNERCONTENT1": "Initial and ongoing staff training",
+    "CLINICALCONSULTATIONINNERCONTENT2": "Supervision system and tools for performance evaluation",
+    "CLINICALCONSULTATIONINNERCONTENT3": "Evaluation of treatment quality",
+    "CLINICALCONSULTATIONINNERCONTENT4": "Peer-review for clinical cases",
+    "CLINICALCONSULTATIONCONTENT1": "Identification and development of clinical standards and tools to promote high-quality and efficiency of services",
+    "CLINICALCONSULTATIONCONTENT2": "Clinical mentoring and consultation",
+    "CLINICALCONSULTATIONCONTENT3": "Clinical consultation related to service expansion",
+   
 
-    "TRAINING":"Training",
-    "TRAININGCONTENT":"",
-    "TRAININGINNERCONTENT":"",
-    "TRAININGINNERCONTENT1":"",
-    "TRAININGINNERCONTENT2":"",
-    "TRAININGINNERCONTENT3":"",
-    "TRAININGINNERCONTENT4":""
+    "SUPERVISION": "Supervision",
+    "SUPERVISIONCONTENT": "At DAXTA we provide clinical support, supervision, and training for aspiring behavior analysts in the treatment of autism and other developmental disabilities. Our behavior analysts are qualified to provide remote supervision according to the (BACB) Behavior Analyst Certification Board and the (QABA) Qualified Applied Behavior Analyst Credentialing Board. Our supervisees receiving ongoing supervision in areas that include:",
+    "SUPERVISIONINNERCONTENT1": "Assessment and treatment of behaviors targeted for increase or decrease",
+    "SUPERVISIONINNERCONTENT2": "Development of clinical goals and programs",
+    "SUPERVISIONINNERCONTENT3": "Graphing and data analysis",
+    "SUPERVISIONINNERCONTENT4": "Data-based decisions",
+    "SUPERVISIONINNERCONTENT5": "Treatment integrity",
+    "SUPERVISIONINNERCONTENT6": "Performance feedback",
+    "SUPERVISIONCONTENT1": "We ensure our supervisees receive supervision in the topics outlined by each credentialing board as part of the examination requirements and provide ongoing feedback and resources throughout the supervisory relationship. The supervision experience is customized to match each supervisee’s individual needs and practicum setting.",
 
+    "TRAINING": "Training",
+    "TRAININGCONTENT": "DAXTA designs and delivers training individualized to your needs. Choose between a one-time training or a personalized training curriculum. Our team is prepared to offer high-quality training in ABA focused on our clients’ needs. Trainings can cover a range of topics including:",
+    "TRAININGINNERCONTENT": "Behavior-analytic principles",
+    "TRAININGINNERCONTENT1": "Behavior management",
+    "TRAININGINNERCONTENT2": "Measurement systems",
+    "TRAININGINNERCONTENT3": "Experimental designs",
+    "TRAININGINNERCONTENT4": "Supervision",
+    "TRAININGINNERCONTENT5": "Ethics",
+    "TRAININGINNERCONTENT6": "And more…",
+    "TRAININGCONTENT1": "DAXTA is an approved continuing education provider for the Behavior Analysis Certification Board (BACB ®), and continuing education credit may be provided for qualifying training content.",
+
+    "COURSES": "Courses",
+    "COURSESCONTENT": "DAXTA is always searching for ways to spread knowledge, and one way we do so is via courses. Find new on-demand and live courses every month to continue to develop and refine your professional skills or to learn about something new.",
+    "COURSESCONTENT1": "Are you looking to maintain your credential? We are an authorized continuing education provider by the Behavior Analyst Certification Board (BACB) and Qualified Applied Behavior Analysis Credentialing Board (QABA), and we offer continuing education units (CEUs) in many of our courses!"
 
 
   },
+
   "SOFTWAREPAGE": {
-    "PAGEHEADER": "Created by behavior-analysts for behavior analysts.",
-    "PAGEHEADERCONTENT":"Our team is constantly searching for better ways to support practitioners and researchers to collect and analyze data. We have developed a powerful and flexible tool that helps practitioners provide top-quality behavior-analytic services and make efficient decisions driven by data. ",
-    "FEATURES":"Features",
-    "FEATURES1":"Offline data collection ",
-    "FEATURESCONTENT1":"Collect data from anywhere without internet connection",
-    "FEATURES2":"Automatic transition of targets",
-    "FEATURESCONTENT2":"Targets can move automatically across phases and transition criteria",
-    "FEATURES3":"Supports any type of measurement system",
-    "FEATURESCONTENT3":"Including trials, event, duration, interval, latency, inter-response time, and more!",
-    "FEATURES4":"Supports any type of prompting ",
-    "FEATURESCONTENT4":"Identify and individualize prompting procedures and prompts",
-    "FEATURES5":"Supports any type of teaching procedure",
-    "FEATURESCONTENT5":"Targets can move automatically across phases and transition criteria",
-    "FEATURES6":"Ability to program for generalization ",
-    "FEATURESCONTENT6":"Targets can move automatically across phases and transition criteria",
-    "FEATURES7":"Automatic transition of targets",
-    "FEATURESCONTENT7":"Targets can move automatically across phases and transition criteria",
-    "FEATURES8":"Queued trials",
-    "FEATURESCONTENT8":"Queue order of trials to occur automatically",
-    "FEATURES9":"Curriculum bank",
-    "FEATURESCONTENT9":"Save program templates and individualize across clients",
-    "FEATURES10":"Flexible data collection",
-    "FEATURESCONTENT10":"Collect data for direct care and research",
-    "FEATURES11":"Available in multiple languages",
-    "FEATURESCONTENT11":"Available in English and Portuguese. More languages to come!",
+    "PAGEHEADER": "Created by behavior analysts for behavior analysts",
+    "PAGEHEADERCONTENT": "Our team is constantly searching for better ways to support practitioners and researchers to collect and analyze data. We have developed a powerful and flexible tool that helps practitioners provide top-quality behavior analytic services and make efficient decisions driven by data. ",
+    "FEATURES": "Features",
+    "FEATURES1": "Offline data collection ",
+    "FEATURESCONTENT1": "Collect data from anywhere without internet connection",
+    "FEATURES2": "Automatic transition of targets",
+    "FEATURESCONTENT2": "Targets can move automatically across phases and transition criteria",
+    "FEATURES3": "Supports any type of measurement system",
+    "FEATURESCONTENT3": "Including trials, event, duration, interval, latency, inter-response time, and more!",
+    "FEATURES4": "Supports any type of prompting ",
+    "FEATURESCONTENT4": "Identify and individualize prompting procedures and prompts",
+    "FEATURES5": "Supports any type of teaching procedure",
+    "FEATURESCONTENT5": "Including discrete-trial teaching, naturalistic teaching, and task analyses",
+    "FEATURES6": "Ability to program for generalization ",
+    "FEATURESCONTENT6": "Plan for generalization across behaviors, settings, individuals, stimuli with the option to use multiple exemplar training",
+    "FEATURES7": "Automated graphing and custom graphing",
+    "FEATURESCONTENT7": "Pre-set graphs allow you to analyze data in various ways, while our custom graphs allow you to go even further while analyzing your data",
+    "FEATURES8": "Queued trials",
+    "FEATURESCONTENT8": "Queue order of trials to occur automatically",
+    "FEATURES9": "Curriculum bank",
+    "FEATURESCONTENT9": "Save program templates and individualize across clients",
+    "FEATURES10": "Flexible data collection",
+    "FEATURESCONTENT10": "Collect data for direct care and research",
+    "FEATURES11": "Available in multiple languages",
+    "FEATURESCONTENT11": "Coming soon in Spanish",
+    "TABLECONTENT": "Choose the right product for your organization",
+    "TABLECONTENT1": "Compare our products below. Our team is ready to help you select the plan that fits your organization’s needs.",
+    "SOFTWARECOMING": "Coming soon! Interested in our software?"
 
-    "TABLECONTENT":"Choose the right product for your organization",
-    "TABLECONTENT1":"Compare our products below. Our team is ready to help you select the plan that fits your organization’s needs."
-    
 
-
-    
   },
+
   "COURSESPAGE": {
     "OUR": "Our",
     "COURSES": "Courses"
   },
-  "TEAMPAGE":{
-    "TEAM":"Team",
-    "MEMBER":"Members",
-    "TEAMMEMBERCONTENT":"Meet our talented and unique team members!"
-  },
-  "CONTACTUSPAGE":{
-    "GETINTOUCH":"Get In Touch"
-  },
-  "FOOTER":{
-    "FACEBOOKLINK":"https://www.facebook.com/DaxtaABA",
-    "INSTAGRAMLINK":"https://www.instagram.com/daxta_aba/",
-    "CONTACTCONTENT":"Interested in receiving information from DAXTA? Subscribe to our mailing list!"
-  },
-  "FORM":{
-    "TALK":"Talk to us:",
-    "TALKCONTENT":"Do you have any questions or want to learn more about our services?",
-    "FIRSTNAME":"First Name",
-    "LASTNAME":"Last Name",
-    "EMAIL":"Email",
-    "COMPANYNAME":"Number of Clients (if any)",
-    "COUNTRY":"Country",
-    "HELP":"How can we help?"
+
+  
+  "TEAMPAGE": {
+    "TEAM": "Team",
+    "MEMBER": "Members",
+    "TEAMMEMBERCONTENT": "Meet our talented and unique team members!",
+    "LAYLA": "Layla A. Sump",
+    "LAYLADEGREE": "Ph.D., BCBA-D, QBA, LBA",
+    "FOUNDER": "Co-Founder",
+    "LAYLACONTENT": "Dr. Layla Sump is the Co-Founder of DAXTA. She received her undergraduate and masters’ degrees in Psychology from Jacksonville State University, and her Ph.D. from Texas Tech University. Dr. Sump completed her Post-Doctoral Fellowship at Trumpet Behavioral Health (TBH), where she went on to serve as Clinical Director, Director of Training and Director of Clinical Services. Dr. Sump has also served as an Adjunct Professor at Pepperdine University. Dr. Sump was inspired to start DAXTA to fulfill a life-long professional goal of paying forward the benefit of her education to globally underserved populations, especially in her home country of Brazil.",
+    "GABRIELLA": "Gabriella Ulloa ",
+    "GABRIELLADEGREE": "M.A., BCBA, QBA",
+    "FOUNDER1": "Director of Product Development",
+    "GABRIELLACONTENT": "Gabriella Ulloa is a board-certified behavior analyst with nine years of experience in the field. Gabriella was born and raised in Miami, FL and is of Salvadoran and Peruvian descent. She obtained a bachelor’s degree in psychology from the University of Florida in 2013, and a master’s degree in human services psychology with an emphasis in applied behavior analysis from the University of Maryland, Baltimore County in 2016. While she lived in Maryland, she completed her practicum at the Kennedy Krieger Institute, a Johns Hopkins Hospital affiliate, where she gained experience in the assessment and treatment of severe problem behavior as well as severe feeding disorders.",
+    "MARIANA": "Mariana Cherchinaro Guimarães",
+    "MARINADEGREE": " M.S., BCBA, QBA",
+    "FOUNDER2":"Clinical Specialist",
+    "MARINACONTENT": "Mariana Chernicharo Guimaraes is a doctoral student in Applied Behavior Analysis (ABA) at the Western New England University. She completed her undergraduate degree at Pontifical Catholic University of Minas Gerais in 2007, and she received her master’s degree in Experimental Psychology: Behavior Analysis at the Pontifical Catholic University of São Paulo in 2010.",
+
+    "LAYLACONTENT2": "Dr. Sump has authored several publications in peer-reviewed journals including the Journal of Applied Behavior Analysis, Behavior Analysis in Practice, Research in Developmental Disabilities, Journal of Intellectual Disability Research, Journal of Developmental and Physical Disabilities, and Journal of Mental Health Research in Intellectual Disabilities. She has also presented her research at national and international conferences. Dr. Sump has served as a guest reviewer for the Journal of Applied Behavior Analysis, Behavior Analysis in Practice, The Analysis of Verbal Behavior, and Journal of Behavioral Education.",
+    "PUBLICATION": "PUBLICATIONS",
+    "LAYLAPUBLICATION1": "LeBlanc, L. A., Sump, L. A., Leaf, J. B., & Cihon, J. (2020). The effects of standard and enhanced data sheets on the implementation of conditional discrimination training. Behavior Analysis in Practice, 13, 53-62.",
+    "LAYLAPUBLICATION2": "Brewer, A., Richman, D., Grubb, L., Sump, L., & Hayes, W. (2018). An Analysis of idiosyncratic response persistence across individuals with autism spectrum disorder. Experimental Analysis of Human Behavior Bulletin, 31, 18-31.",
+    "LAYLAPUBLICATION3": "Sump, L. A., Mottau, B., & LeBlanc, L. A. (2018). Evaluation of effects of behavioral skills training in teaching basic computer skills to a young adult with autism. Behavior Analysis in Practice, 12, 331-334.",
+    "LAYLAPUBLICATION4": "Sump, L. A., Richman, D. M., Schaefer, A. M., Grubb, L. M., & Brewer, A. T. (2018). Telehealth and in-person training outcomes for novice discrete trial training therapists. Journal of Applied Behavior Analysis, 51, 466-481.",
+    "LAYLAPUBLICATION5": "Barnard-Brak, L., Abby, L., Richman, D. M, & Chesnut, S. (2017). Facial emotion recognition among typically developing young children: A psychometric validation of a subset of NimStim stimuli. Psychiatry Research, 249, 109-114.",
+    "LAYLAPUBLICATION6": "Richman, D. M., Barnard-Brak, L., Abby, L., & Grubb, L. (2016). Multiple-stimulus without replacement preference assessment: Reducing the number of sessions to identify preferred stimuli. Journal of Developmental and Physical Disabilities, 28, 469-477.",
+    "LAYLAPUBLICATION7": "Richman, D. M., Barnard-Brak, L., Grubb, L. M., Bosch, A., & Abby, L. (2015). Meta-analysis of noncontingent reinforcement effects on problem behavior. Journal of Applied Behavior Analysis, 48, 131-152.",
+    "LAYLAPUBLICATION8": "Schroeder, S. R., Richman, D. M., Abby, L., Courtemanche, A. B., & Oyama-Ganiko, R. (2014). Functional analysis outcomes and comparison of direct observations and informant rating scales in the assessment of severe behavior problems of infants and toddlers at-risk for developmental delays. Journal of Developmental and Physical Disabilities, 26, 325-334.",
+    "LAYLAPUBLICATION9": "Dotson, W. H., Richman, D. M., Abby, L., Thompson, S., & Plotner, A. (2013). Teaching skills related to self-employment to adults with developmental disabilities: An analogue analysis. Research in Developmental Disabilities, 34, 2236-2350.",
+    "LAYLAPUBLICATION10": "Rojahn, J., Barnard-Brak, L., Richman, D. M., Dotson, W. H., Medeiros, K., Wei, T., & Abby, L. (2013). Behavior problems in individuals with Cornelia de Lange Syndrome: Population-specific validation of the Behavior Problem Inventory-01. Journal of Developmental and Physical Disabilities, 25, 505-515.",
+    "LAYLAPUBLICATION11": "Richman, D. M., Barnard-Brak, L., Bosch, A., Thompson, S., Grubb, L. M., & Abby, L. (2013). Predictors of self-injurious behaviour exhibited by individuals with autism spectrum disorder. Journal of Intellectual Disability Research, 57, 429-439.",
+    "LAYLAPUBLICATION12": "McKerchar, P. M., & Abby, L. (2012). Systematic evaluation of variables contributing to noncompliance: A replication and extension. Journal of Applied Behavior Analysis, 45, 607-611.",
+    "LAYLAPUBLICATION13": "Richman, D. M., Dotson, W. H., Rose, C. A., Thompson, S., & Abby, L. (2012). Effects of age on the types and severity of excessive fears in children and young adults with autism. Journal of Mental Health Research in Intellectual Disabilities, 5, 215-235.",
+    "LAYLAPUBLICATION14": "Bitgood, S., Dukes, S., & Abby, L. (2007). Interest and effort as predictors of reading: A test of the general value principle. Current trends in audience research and evaluation. AAM Committee on Audience Research and Evaluation, 19/20, 5-10.",
+    "GABRALACONTENT2": "Following her graduation, she worked as a clinical supervisor for Trumpet Behavioral Health (TBH) in Southern California. At TBH, she gained experience in early intervention and skill acquisition for individuals with autism and other developmental disabilities. In August of 2018, Gabriella moved to Costa Rica and began working toward raising local awareness of evidence-based treatment for autism and other developmental disabilities. Additionally, she provided supervision to aspiring behavior analysts in Latin America. In January of 2021, she moved to Panama City, Panama.",
+    "GABRALACONTENT3": "Gabriella’s recent experiences have made her a passionate advocate for the ethical dissemination of sound behavior analytic therapy. DAXTA’s mission to globally elevate accessibility and quality of behavior analytic treatment falls directly in line with Gabriella’s values and interests to disseminate behavior analysis internationally. Gabriella’s current responsibilities include the management of software development, development of clinical tools, as well as providing behavior analytic supervision and consultation to clinical service providers.",
+    "GABRALAPUBLICATION": "Ulloa, G., Borrero, C. S., & Borrero, J. C. (2019) Behavioral interventions for pediatric food refusal maintain effectiveness despite integrity degradation: A preliminary demonstration. Behavior Modification, 44 (5), p. 746-772. doi: 10.1177/0145445519847626",
+    "MARINACONTENT2": "Mariana has 15 years of experience working with autistic children. Throughout her clinical experience, Mariana worked at the Applied Behavioral Learning Services (ABLS) and at the New England Center for Children (NECC) delivering ABA treatment for autistic children across several settings including in-home, center-based and school. Mariana’s main interests are in early intervention, development of prerequisite and verbal repertoires in children with autism spectrum disorder (ASD), and functional behavior assessment. Additionally, Mariana has five years of experience working as a professor teaching several courses in ABA and ASD in undergraduate and post-graduate specialization programs in Brazil.",
+    "MARINACONTENT3": "Mariana’s current roll includes providing clinical consultation for ABA service providers, supervision for individuals seeking behavior analytic credentials, developing and delivering clinical training, and building internal systems.",
+    "MARINAPUBLICATION1": "Guimarães, M.C. & Micheletto, N. (2017). Procedimento para ensino de mandos e para promover variação na topografia das respostas em crianças autistas. Estudos em Psicologia, 22 (4), 366-377.",
+    "MARINAPUBLICATION2": "Pereira, M. E. M, Micheletto, N., Amorim, V.V.C., Bast, D.D.F., Benett, S., Bernardo, A., Guimaraes, M.C., Mendonca, M.M., Neto, N.N., & Scassiotti, A.P.F. (2008). Correspondência no auto-relato de crianças: As relações entre o dizer-fazer dizer sob contingências específicas. Behaviors, 12, 2-21.",
+    "MARINAPUBLICATION3": "Guedes, M.C., Guimarães, M.C., Pessôa, C. (2008). O que fazem os Mestres formados pelo Programa de Estudos Pós-Graduados e, Psicologia Experimental Análise do Comportamento. Behaviors, 12, 61.",
+    "MARINAPUBLICATION4": "Guedes, M.C., Guimarães, M.C., Pessôa, C., Andery, M.A. (2008). O que fazem os Mestres do Programa de Estudos Pós-Graduados e, Psicologia Experimental Análise do Comportamento. Behaviors, 12, 62.",
+
+    "LATESTJOB": "Want to join our team?",
+    "LATESTJOBCONTENT": "Can’t find a suitable position that matches your skill set, but are still interested? Get in touch with us!"
   },
 
-  "BUTTONS":{
-    "CONTECTUS":"Contact Us",
-    "MOREINFO":"More Information",
-    "ALLCOURSE":"All Courses",
-    "SCHEDULEDEMO":"Schedule Demo",
-    "SUBMIT":"Submit",
-    "APPLYNOW":"Apply Now",
-    "INQUIRYNOW":"Inquiry Now",
-    "VIEWMORE":"View More",
-    "READMORE":"Read More"
+  "CONTACTUSPAGE": {
+    "GETINTOUCH": "Get In Touch",
+    "GETINCONTENT": "Want to chat with our team? Call us, email us, or fill out the contact form below. We are looking forward to chatting with you!"
   },
 
-  "CLINICALSOFTWARE":{
-    "CLINICALHEADER":"DAXTA Clinical Software",
-    "CLINICALCONTENT1":"Increase your efficiency and quality of work by:",
-    "CLINICALCONTENT2":"Implementing any skill acquisition or behavior reduction procedure",
-    "CLINICALCONTENT3":"Using any type of measurement system",
-    "CLINICALCONTENT4":"Collecting data online or offline",
-    "CLINICALCONTENT5":"Automatically transitioning targets",
-    "CLINICALCONTENT6":"Summarizing and analyzing your data in any way",
-    "CLINICALCONTENT7":"Saving protocols to the curriculum bank",
-    "CLINICALCONTENT8":"… and much more!"
+  "FOOTER": {
+    "FACEBOOKLINK": "https://www.facebook.com/DaxtaABA",
+    "INSTAGRAMLINK": "https://www.instagram.com/daxta_aba/",
+    "CONTACTCONTENT": "Interested in receiving information from DAXTA? Subscribe to our mailing list!"
+  },
 
+  "FORM": {
+    "TALK": "Talk to us:",
+    "TALKCONTENT": "Do you have any questions or want to learn more about our services?",
+    "FIRSTNAME": "First Name",
+    "LASTNAME": "Last Name",
+    "EMAIL": "Email",
+    "COMPANYNAME": "Number of clients (if any)",
+    "COUNTRY": "Country",
+    "HELP": "How can we help?",
+    "FIRSTERROR":"First name is required",
+    "LASTERROR":"Last name is required",
+    "EMAILERROR":"Email is required",
+    "COUNTRYERROR":"Country is required",
+    "DESCRIPTIONERROR":"Description is required"
+  },
+
+  "BUTTONS": {
+    "CONTECTUS": "Contact Us",
+    "MOREINFO": "More Information",
+    "ALLCOURSE": "All Courses",
+    "SCHEDULEDEMO": "Schedule Demo",
+    "SUBMIT": "Submit",
+    "APPLYNOW": "Apply Now",
+    "INQUIRYNOW": "Inquiry Now",
+    "VIEWMORE": "View More",
+    "READMORE": "Read More",
+    "JOIN": "join our waitlist!",
+    "COURSE":"Courses on demand"
+    
+  },
+
+  "CLINICALSOFTWARE": {
+    "CLINICALHEADER": "DAXTA Clinical Software",
+    "CLINICALCONTENT1": "Increase your efficiency and quality of work by:",
+    "CLINICALCONTENT2": "Implementing any skill acquisition or behavior reduction procedure",
+    "CLINICALCONTENT3": "Using any type of measurement system",
+    "CLINICALCONTENT4": "Collecting data online or offline",
+    "CLINICALCONTENT5": "Automatically transitioning targets",
+    "CLINICALCONTENT6": "Summarizing and analyzing your data in any way",
+    "CLINICALCONTENT7": "Saving protocols to the curriculum bank",
+    "CLINICALCONTENT8": "… and much more!"
   }
 
 }

@@ -10,7 +10,7 @@
                         <div>
                             <!-- <button type="button" class="btn primary-button our-service-button">Our Services</button> -->
                             <button type="button" class="btn primary-button contact-us-button"
-                                (click)="gotocontactus()">Contact Us</button>
+                                (click)="gotocontactus()">{{'BUTTONS.CONTECTUS' | translate}}</button>
                         </div>
                     </div>
                 </div>
@@ -24,41 +24,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 clinical-ser-div">
-                    <img src="../../../assets/images/todoABA.png" style="width: 100%;">
+                    <a href="https://tudoaba.daxta.com/" target="_blank"> <img src="../../../assets/images/todoABA.png"
+                            style="width: 100%;"></a>
                 </div>
                 <div class="col-md-6 clinical-ser-div">
                     <div>
-                        <h2>Podcast Tudo ABA</h2>
-                        <p class="pt-3 pb-3 clinical-ser-cont">Conversations among behavior analysts about anything and
-                            everything related to applied behavior analysis in Brazilian Portuguese</p>
-                        <p class="pb-3 clinical-ser-cont">Can be found in Spotify, Apple Podcast, Google Podcast, YouTube or anywhere you listen to your podcasts!</p>
+                        <a href="https://tudoaba.daxta.com/" target="_blank" style="border: 0px;">
+                            <h2>{{'HOMEPAGE.PODCAST' | translate}}</h2>
+                        </a>
+                        <p class="pt-3 pb-3 clinical-ser-cont">{{'HOMEPAGE.PODCASTCONTENT' | translate}}</p>
+                        <p class="pb-3 clinical-ser-cont">{{'HOMEPAGE.PODCASTCONTENT1' | translate}}</p>
                     </div>
                     <div class=" d-flex flex-row">
-                        <div class="m-3" >
-                            <i class="fa fa-brands fa-spotify fa-2x" style="color: #00d95a;"></i>
+                        <div class="m-3">
+                            <a href="https://open.spotify.com/show/3nx2cpeVVqCfo2X8VKKawj" target="_blank"><i
+                                    class="fa fa-brands fa-spotify fa-2x" style="color: #1ed760;"></i></a>
                         </div>
-                        <div class="m-3" >
-                           <img  style="height: 30px; width: 30px;" src="../../../assets/icon/APPLE podcast.png">
+                        <div class="m-3">
+                            <a href="https://podcasts.apple.com/us/podcast/tudo-aba/id1613277109" target="_blank"><img
+                                    style="height: 30px; width: 30px;" src="../../../assets/icon/APPLE podcast.png"></a>
                         </div>
-                        <div class="m-3" >
-                            <img  style="height: 30px; width: 30px;" src="../../../assets/icon/Google Podcast.png">
-                         </div>
-                        <div class="m-3" >
-                            <i class="fa fa-brands fa-youtube-play fa-2x" style="color:#e60000;"></i>
+                        <div class="m-3">
+                            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xOTUyNDAyLnJzcw?sa=X&ved=0CAIQ9sEGahcKEwjgsomh6Lv2AhUAAAAAHQAAAAAQOg"
+                                target="_blank"><img style="height: 30px; width: 30px;"
+                                    src="../../../assets/icon/Google Podcast.png"></a>
                         </div>
+                        <div class="m-3">
+                            <!-- <i class="fa fa-brands fa-youtube-play fa-2x" style="color:#e60000;"></i> -->
+                        </div>
+
                     </div>
-                      
+                    <iframe src="https://www.buzzsprout.com/1952402/10243044-supervisao-de-caso-e-de-equipe-e-avaliacao-da-supervisao?client_source=small_player&iframe=true&referrer=https%3A%2F%2Fwww.buzzsprout.com%2F1952402.js%3Fcontainer_id%3Dbuzzsprout-small-player%26player%3Dsmall" loading="lazy" width="100%" height="200" frameborder="0" scrolling="no" title="Tudo ABA, Supervisão de Caso e de Equipe e Avaliação da Supervisão\"></iframe>
                 </div>
+
+
             </div>
 
 
             <div class="row" style="margin-top: 80px;">
                 <div class="col-md-6 clinical-ser-div">
-                    <h2 (click)="gotoourservice()">{{'HOMEPAGE.CLINICALSERVICE' | translate}}</h2>
+                    <h2 class="header-clinic" (click)="gotoourservice()">{{'HOMEPAGE.CLINICALSERVICE' | translate}}</h2>
                     <p class="pt-3 pb-3 clinical-ser-cont">{{'HOMEPAGE.CLINICALCONTENT' | translate}}</p>
                     <div>
-                        <button type="button" class="btn primary-button" (click)="gotoourservice()">More
-                            Information</button>
+                        <button type="button" class="btn primary-button" (click)="gotoourservice()">{{'BUTTONS.MOREINFO'
+                            | translate}}</button>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
@@ -66,38 +75,59 @@
                         <div class="col-md-12 col-lg-6">
                             <div class="card clinical-services-card shadowElement mt-4">
                                 <div class="card-body">
-                                    <img src="../../../assets/icon/OUTLINE.png" />
-                                    <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
-                                        {{'HOMEPAGE.CLINICALCARD' | translate}}</h5>
-                                    <p class="card-text">{{'HOMEPAGE.CARDCONTENT' | translate}}</p>
+
+                                    <div class="icon-1" (click)="gotoourservice()">
+
+                                    </div>
+                                    <div class="effect mb-2">
+                                        <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
+                                            {{'HOMEPAGE.CLINICALCARD' | translate}}</h5>
+                                        <p class="card-text">{{'HOMEPAGE.CARDCONTENT' | translate}}</p>
+                                    </div>
+                                    <!-- <img src="../../../assets/icon/OUTLINE.png" class="icon-img" /> -->
+
                                 </div>
                             </div>
                             <div class="card clinical-services-card shadowElement mt-4">
                                 <div class="card-body">
-                                    <img src="../../../assets/icon/noun_supervised_3507969.png" />
-                                    <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
-                                        {{'HOMEPAGE.CLINICALCARD2' | translate}}</h5>
-                                    <p class="card-text">{{'HOMEPAGE.CARDCONTENT2' | translate}}
-                                    </p>
+                                    <div class="icon-2" (click)="gotoourservice()">
+
+                                    </div>
+                                    <div class="effect mb-2">
+                                        <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
+                                            {{'HOMEPAGE.CLINICALCARD2' | translate}}</h5>
+                                        <p class="card-text">{{'HOMEPAGE.CARDCONTENT2' | translate}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="col-md-12 col-lg-6 mt-5">
 
                             <div class="card clinical-services-card shadowElement mt-4">
                                 <div class="card-body">
-                                    <img src="../../../assets/icon/conversation.png" />
-                                    <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
-                                        {{'HOMEPAGE.CLINICALCARD1' | translate}}</h5>
-                                    <p class="card-text">{{'HOMEPAGE.CARDCONTENT1' | translate}}</p>
+                                    <div class="icon-3" (click)="gotoourservice()">
+
+                                    </div>
+                                    <div class="effect mb-2">
+                                        <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
+                                            {{'HOMEPAGE.CLINICALCARD1' | translate}}</h5>
+                                        <p class="card-text">{{'HOMEPAGE.CARDCONTENT1' | translate}}</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card clinical-services-card shadowElement mt-4">
                                 <div class="card-body">
-                                    <img src="../../../assets/icon/noun_training_1422944.png" />
-                                    <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
-                                        {{'HOMEPAGE.CLINICALCARD3' | translate}}</h5>
-                                    <p class="card-text">{{'HOMEPAGE.CARDCONTENT3' | translate}}</p>
+                                    <div class="icon-4" (click)="gotoourservice()">
+
+                                    </div>
+                                    <div class="effect mb-2">
+                                        <h5 class="card-title pt-3 pb-3" (click)="gotoourservice()">
+                                            {{'HOMEPAGE.CLINICALCARD3' | translate}}</h5>
+                                        <p class="card-text">{{'HOMEPAGE.CARDCONTENT3' | translate}}</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -107,69 +137,84 @@
         </div>
     </div>
 
-    <div class="section3">
+    <div *ngIf="section3divHide" class="section3">
         <div class="container">
-            <div class="row">
+            <div class="row" >
                 <div class="col-md-12 col-lg-6">
                     <div class="courses-div">
                         <div class="row">
-                            <h2 (click)="gotocoursers()">{{'HEADER.COURSES' | translate}}</h2>
+                            <a  href="https://courses.daxta.com/" target="_blank"><h2 class="header-clinic">{{'HEADER.COURSES' | translate}}</h2></a>
                             <p class="pt-3 pb-3">{{'HOMEPAGE.COURSESCONTENT' | translate}}
                             </p>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-6">
-                                <!-- <img class="swimmers-image" src="../../../assets/images/group-of-swimmers.png" /> -->
-                                <div class="text-center">
-                                    <img class="ace-image" src="../../../assets/images/ACE.svg" style="width: 100%;" />
-                                </div>
+                        <div class="row" style="margin-top: 100px;">
+
+                            <!-- <img class="swimmers-image" src="../../../assets/images/group-of-swimmers.png" /> -->
+                            <div class="col-md-4 col-lg-4 aec">
+                                <img src="../../../assets/images/ACE.svg" class="logo-image">
                             </div>
-                            <div class="col-md-12 col-lg-6">
-                                <!-- <img class="sport-image" src="../../../assets/images/going-sport.png" /> -->
+                            <div class="col-md-4 col-lg-4 aec">
+                                <img src="../../../assets/images/QABA-PREAPPROVED CEU-PROVIDER LOGO 2017.png"
+                                    class="logo-image">
                             </div>
+
+
+
+                            <!-- <div class="col-md-12 col-lg-6"> -->
+                            <!-- <img class="sport-image" src="../../../assets/images/going-sport.png" /> -->
+                            <!-- </div> -->
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <div class="row">
                         <div class="col-md-12 mt-4">
                             <div class="card-even">
+                                <a  href="https://courses.daxta.com/" target="_blank">
                                 <div class="daxta-card card">
                                     <div class="daxta-card-body card-body">
-                                        <div>
-                                            <div class="card-first-row mb-2">
+                                        <div style="padding-right: 50px;">
+                                            <!-- <div class="card-first-row mb-2">
                                                 <img src="../../../assets/images/calendar-alt.png" />
                                                 <p class="appo-time">29/07/2020 11AM to 15PM</p>
-                                            </div>
-                                            <h6 class="daxta-card-text card-text mb-2">Fermentum Vulputate</h6>
+                                            </div> -->
+                                            <h6 class="daxta-card-text card-text mb-2"> Tudo ABA Podcast: Três Coisas Muito Importantes Para Considerar ao 
+                                                Iniciar Intervenção Com Uma Criança Com Autismo</h6>
                                             <div class="card-third-row mb-2">
-                                                <img src="../../../assets/images/Mask_Little.png" />
-                                                <p class="appo-time">Biance Holmes</p>
+                                                <i class="fa fa-brands fa-user  fa-2x" style="color: #ea1b64;"></i>
+                                                <!-- <img src="../../../assets/images/Mask_Little.png" /> -->
+                                                <p class="appo-time">Educação Continuada</p>
                                             </div>
                                         </div>
-                                        <h5>FREE</h5>
+                                        <h5 class="mt-2">50 Reais</h5>
                                     </div>
                                 </div>
+                            </a>
                             </div>
+                            
                         </div>
-                        <div class="col-md-12 mt-4">
+                        <div class="col-md-12 mt-4" >
                             <div class="card-odd">
+                                <a  href="https://courses.daxta.com/" target="_blank">
                                 <div class="daxta-card card">
                                     <div class="daxta-card-body card-body">
-                                        <div>
-                                            <div class="card-first-row  mb-2">
+                                        <div style="padding-right: 50px;">
+                                            <!-- <div class="card-first-row  mb-2">
                                                 <img src="../../../assets/images/calendar-alt.png" />
                                                 <p class="appo-time">29/07/2020 11AM to 15PM</p>
-                                            </div>
-                                            <h6 class="daxta-card-text card-text mb-2">Fermentum Vulputate</h6>
+                                            </div> -->
+                                            <h6 class="daxta-card-text card-text mb-2"> Tudo ABA Podcast: Supervisão de Caso e de Equipe e Avaliação da 
+                                                Supervisão</h6>
                                             <div class="card-third-row mb-2">
-                                                <img src="../../../assets/images/Mask_Little.png" />
-                                                <p class="appo-time">Biance Holmes</p>
+                                                <!-- <img src="../../../assets/images/Mask_Little.png" /> -->
+                                                <i class="fa fa-brands fa-user  fa-2x" style="color: #ea1b64;"></i>
+                                                <p class="appo-time"> Educação Continuada</p>
                                             </div>
                                         </div>
-                                        <h5>FREE</h5>
+                                        <h5 class="mt-2">50 Reais</h5>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-12 mt-4">
@@ -194,8 +239,8 @@
                         </div>
                     </div>
                     <div class="mt-5">
-                        <button type="button" class="btn all-courses-btn primary-button" (click)="gotocoursers()">All
-                            Courses</button>
+                        <a href="https://courses.daxta.com/" target="_blank">  <button type="button" class="btn all-courses-btn primary-button"
+                          >{{'BUTTONS.ALLCOURSE' | translate}}</button></a>
                     </div>
                 </div>
             </div>

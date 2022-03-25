@@ -33,22 +33,7 @@
             border-radius: 5px !important;
         }
     }
-    .job-description {
-        background: var(--secondary-color);
-        h1,
-        p {
-            color: var(--white-color) !important;
-        }
-        .inquiry-now {
-            border-radius: 25px !important;
-            font-family: "Quicksand-SemiBold" !important;
-            border: 1px solid var(--white-color) !important;
-        }
-        .inquiry-now:hover {
-            color: var(--secondary-color) !important;
-            background-color: var(--white-color) !important;
-        }
-    }
+  
     .latest-jobs{
         border-radius: 20px;
         border: none;
@@ -101,5 +86,24 @@
     }
     .joblist-right-content{
         width: 35% !important;
+    }
+}
+
+
+
+.job-description {
+    background: var(--secondary-color);
+    h1,
+    p {
+        color: var(--white-color) !important;
+    }
+    .inquiry-now {
+        border-radius: 25px !important;
+        font-family: "Quicksand-SemiBold" !important;
+        border: 1px solid var(--white-color) !important;
+    }
+    .inquiry-now:hover {
+        color: var(--secondary-color) !important;
+        background-color: var(--white-color) !important;
     }
 }

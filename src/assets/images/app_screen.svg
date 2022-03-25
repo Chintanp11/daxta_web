@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="791" height="765" viewBox="0 0 791 765">
+  <defs>
+    <filter id="Rectangle_355" x="155.76" y="142.849" width="584.975" height="634.151" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_356" x="-3.429" y="4.526" width="765.714" height="816.206" filterUnits="userSpaceOnUse">
+      <feOffset dx="1.325" dy="23.62" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="31.918" result="blur-2"/>
+      <feFlood flood-color="#292929" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="text_box" x="178.499" y="338.248" width="398.856" height="111.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="7.718" dy="15.147" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-3"/>
+      <feFlood flood-color="#363e93" flood-opacity="0"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="text_box-2" x="178.499" y="392.414" width="398.856" height="111.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="7.718" dy="15.147" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur-4"/>
+      <feFlood flood-color="#363e93" flood-opacity="0"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="791" height="765"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="791" height="765" fill="#fff"/>
+    <g id="daxta_login" data-name="daxta login" transform="translate(-849.05 -6)">
+      <g transform="matrix(1, 0, 0, 1, 849.05, 6)" filter="url(#Rectangle_355)">
+        <rect id="Rectangle_355-2" data-name="Rectangle 355" width="566.975" height="616.151" rx="20" transform="translate(164.76 148.85)" fill="#ffebf2"/>
+      </g>
+      <g id="Group_78" data-name="Group 78" transform="translate(1207.537 6)">
+        <g id="Group_69" data-name="Group 69" transform="translate(0)">
+          <circle id="Ellipse_20" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" fill="#ffebf2"/>
+          <circle id="Ellipse_21" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945)" fill="#ffebf2"/>
+          <circle id="Ellipse_22" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889)" fill="#ffebf2"/>
+          <circle id="Ellipse_23" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834)" fill="#ffebf2"/>
+          <circle id="Ellipse_24" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778)" fill="#ffebf2"/>
+          <circle id="Ellipse_25" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723)" fill="#ffebf2"/>
+          <circle id="Ellipse_26" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667)" fill="#ffebf2"/>
+          <circle id="Ellipse_27" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612)" fill="#ffebf2"/>
+          <circle id="Ellipse_28" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556)" fill="#ffebf2"/>
+          <circle id="Ellipse_29" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501)" fill="#ffebf2"/>
+          <circle id="Ellipse_30" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_70" data-name="Group 70" transform="translate(0 41.945)">
+          <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" fill="#ffebf2"/>
+          <circle id="Ellipse_21-2" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-2" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-2" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-2" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-2" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-2" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-2" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-2" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-2" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_71" data-name="Group 71" transform="translate(0 83.889)">
+          <circle id="Ellipse_20-3" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" fill="#ffebf2"/>
+          <circle id="Ellipse_21-3" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-3" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-3" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-3" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-3" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-3" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-3" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-3" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-3" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-3" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_72" data-name="Group 72" transform="translate(0 125.834)">
+          <circle id="Ellipse_20-4" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" fill="#ffebf2"/>
+          <circle id="Ellipse_21-4" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-4" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-4" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-4" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-4" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-4" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-4" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-4" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-4" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-4" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_73" data-name="Group 73" transform="translate(0 167.778)">
+          <circle id="Ellipse_20-5" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" transform="translate(0 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_21-5" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-5" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-5" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-5" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-5" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-5" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-5" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-5" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-5" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-5" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445 0)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_74" data-name="Group 74" transform="translate(0 209.723)">
+          <circle id="Ellipse_20-6" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" transform="translate(0 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_21-6" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-6" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-6" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-6" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-6" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-6" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-6" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-6" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-6" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-6" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445 0)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_75" data-name="Group 75" transform="translate(0 251.667)">
+          <circle id="Ellipse_20-7" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" transform="translate(0 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_21-7" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-7" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-7" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-7" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-7" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-7" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-7" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-7" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-7" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-7" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445 0)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_76" data-name="Group 76" transform="translate(0 293.612)">
+          <circle id="Ellipse_20-8" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" transform="translate(0 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_21-8" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-8" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-8" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-8" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-8" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-8" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-8" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-8" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-8" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-8" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445 0)" fill="#ffebf2"/>
+        </g>
+        <g id="Group_77" data-name="Group 77" transform="translate(0 335.556)">
+          <circle id="Ellipse_20-9" data-name="Ellipse 20" cx="6.509" cy="6.509" r="6.509" transform="translate(0 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_21-9" data-name="Ellipse 21" cx="6.509" cy="6.509" r="6.509" transform="translate(41.945 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_22-9" data-name="Ellipse 22" cx="6.509" cy="6.509" r="6.509" transform="translate(83.889 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_23-9" data-name="Ellipse 23" cx="6.509" cy="6.509" r="6.509" transform="translate(125.834 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_24-9" data-name="Ellipse 24" cx="6.509" cy="6.509" r="6.509" transform="translate(167.778 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_25-9" data-name="Ellipse 25" cx="6.509" cy="6.509" r="6.509" transform="translate(209.723 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_26-9" data-name="Ellipse 26" cx="6.509" cy="6.509" r="6.509" transform="translate(251.667 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_27-9" data-name="Ellipse 27" cx="6.509" cy="6.509" r="6.509" transform="translate(293.612 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_28-9" data-name="Ellipse 28" cx="6.509" cy="6.509" r="6.509" transform="translate(335.556 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_29-9" data-name="Ellipse 29" cx="6.509" cy="6.509" r="6.509" transform="translate(377.501 0)" fill="#ffebf2"/>
+          <circle id="Ellipse_30-9" data-name="Ellipse 30" cx="6.509" cy="6.509" r="6.509" transform="translate(419.445 0)" fill="#ffebf2"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 849.05, 6)" filter="url(#Rectangle_356)">
+        <rect id="Rectangle_356-2" data-name="Rectangle 356" width="574.206" height="624.698" rx="30" transform="translate(91 76.66)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_163" data-name="Ellipse 163" cx="8.678" cy="8.678" r="8.678" transform="translate(977.654 126.048)" fill="#ff6059"/>
+      <circle id="Ellipse_164" data-name="Ellipse 164" cx="8.678" cy="8.678" r="8.678" transform="translate(1009.474 126.048)" fill="#ffbf2f"/>
+      <circle id="Ellipse_165" data-name="Ellipse 165" cx="8.678" cy="8.678" r="8.678" transform="translate(1041.294 126.048)" fill="#28c941"/>
+    </g>
+    <rect id="line" width="24.074" transform="translate(358.602 305.435)" fill="#5c464d"/>
+    <g id="email" transform="translate(207.281 359.601)">
+      <g transform="matrix(1, 0, 0, 1, -207.28, -359.6)" filter="url(#text_box)">
+        <path id="text_box-3" data-name="text box" d="M19.345,0H306.511a19.345,19.345,0,1,1,0,38.69H19.345a19.345,19.345,0,0,1,0-38.69Z" transform="translate(207.28 359.6)" fill="none" stroke="#0a2360" stroke-width="1"/>
+      </g>
+      <text id="Your_Email" data-name="Your Email" transform="translate(18.915 20.458)" fill="#0a2360" font-size="10" font-family="WorkSans-Regular, Work Sans" letter-spacing="-0.025em"><tspan x="0" y="0">Your Email</tspan></text>
+    </g>
+    <g id="password" transform="translate(207.281 413.767)">
+      <g transform="matrix(1, 0, 0, 1, -207.28, -413.77)" filter="url(#text_box-2)">
+        <path id="text_box-4" data-name="text box" d="M19.345,0H306.511a19.345,19.345,0,1,1,0,38.69H19.345a19.345,19.345,0,0,1,0-38.69Z" transform="translate(207.28 413.77)" fill="none" stroke="#0a2360" stroke-width="1"/>
+      </g>
+      <path id="dot" d="M37.3,1.72a1.562,1.562,0,1,1,3.109,0,1.562,1.562,0,1,1-3.109,0Zm-4.663,0a1.562,1.562,0,1,1,3.109,0,1.562,1.562,0,1,1-3.109,0Zm-4.662,0a1.562,1.562,0,1,1,3.108,0,1.562,1.562,0,1,1-3.108,0Zm-4.663,0a1.562,1.562,0,1,1,3.109,0,1.562,1.562,0,1,1-3.109,0Zm-4.663,0a1.562,1.562,0,1,1,3.109,0,1.562,1.562,0,1,1-3.109,0Zm-4.662,0A1.643,1.643,0,0,1,15.542,0,1.643,1.643,0,0,1,17.1,1.72a1.643,1.643,0,0,1-1.554,1.72A1.643,1.643,0,0,1,13.988,1.72Zm-4.663,0A1.643,1.643,0,0,1,10.879,0a1.643,1.643,0,0,1,1.555,1.72,1.643,1.643,0,0,1-1.555,1.72A1.643,1.643,0,0,1,9.325,1.72Zm-4.663,0A1.643,1.643,0,0,1,6.217,0,1.643,1.643,0,0,1,7.771,1.72a1.643,1.643,0,0,1-1.554,1.72A1.643,1.643,0,0,1,4.662,1.72ZM0,1.72A1.643,1.643,0,0,1,1.554,0,1.643,1.643,0,0,1,3.108,1.72a1.643,1.643,0,0,1-1.554,1.72A1.643,1.643,0,0,1,0,1.72Z" transform="translate(21.494 18.055)" fill="#0a2360"/>
+    </g>
+    <g id="remmember" transform="translate(207.419 473.092)">
+      <text id="Remember_me" data-name="Remember me" transform="translate(17.196 11)" fill="#ea1b64" font-size="10" font-family="WorkSans-Regular, Work Sans" letter-spacing="-0.025em"><tspan x="0" y="0">Remember me</tspan></text>
+      <g id="check_box" data-name="check box" transform="translate(0 2.579)" fill="#fff" stroke="#5c464d" stroke-width="1">
+        <circle cx="6.018" cy="6.018" r="6.018" stroke="none"/>
+        <circle cx="6.018" cy="6.018" r="5.518" fill="none"/>
+      </g>
+    </g>
+    <text id="Forgot_password_" data-name="Forgot password?" transform="translate(440.143 484.092)" fill="#ee0155" font-size="10" font-family="WorkSans-Regular, Work Sans" letter-spacing="-0.025em"><tspan x="0" y="0">Forgot password?</tspan></text>
+    <g id="Group_1022" data-name="Group 1022" transform="translate(207.419 519.506)">
+      <path id="bg_button_copy" data-name="bg button copy" d="M19.426,0H306.154a19.426,19.426,0,1,1,0,38.852H19.426A19.426,19.426,0,0,1,19.426,0Z" transform="translate(0)" fill="#ea1b64"/>
+      <text id="SIGN_IN" data-name="SIGN IN" transform="translate(144.305 21.331)" fill="#fff" font-size="10" font-family="WorkSans-SemiBold, Work Sans" font-weight="600" letter-spacing="-0.025em"><tspan x="0" y="0">SIGN IN</tspan></text>
+    </g>
+    <g id="Rectangle_309" data-name="Rectangle 309" transform="translate(187.936 165.291)" fill="none" stroke="#ea1b64" stroke-width="1">
+      <rect width="367.126" height="451.384" rx="25" stroke="none"/>
+      <rect x="0.5" y="0.5" width="366.126" height="450.384" rx="24.5" fill="none"/>
+    </g>
+    <g id="Icon_feather-eye" data-name="Icon feather-eye" transform="translate(491.394 428.429)">
+      <path id="Path_143" data-name="Path 143" d="M1.5,11.973S4.486,6,9.713,6s8.213,5.973,8.213,5.973-2.986,5.973-8.213,5.973S1.5,11.973,1.5,11.973Z" transform="translate(-1.5 -6)" fill="none" stroke="#0a2360" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_144" data-name="Path 144" d="M17.98,15.74a2.24,2.24,0,1,1-2.24-2.24A2.24,2.24,0,0,1,17.98,15.74Z" transform="translate(-7.527 -9.767)" fill="none" stroke="#0a2360" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_310" data-name="Rectangle 310" width="976.203" height="911.001" transform="translate(-116.608 -64.289)" fill="none"/>
+    <image id="logo" width="245.037" height="51.86" transform="translate(248.981 238.372)" xlink:href="data:image/png;base64,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"/>
+  </g>
+</svg>

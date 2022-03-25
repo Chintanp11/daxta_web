@@ -6,178 +6,50 @@
                     <h1>{{'SOFTWAREPAGE.PAGEHEADER' | translate}}</h1>
                     <p class="pt-3">{{'SOFTWAREPAGE.PAGEHEADERCONTENT' | translate}}</p>
                 </div>
-
-                <!-- <div class="d-flex flex-row counts-row">
-                    <div class="card software-card-shadow software-card mt-5">
-                        <div class="card-body software-card-body text-center">
-                            <h4 class="card-title">150</h4>
-                            <p class="card-text pt-2">Total Downloads</p>
-                        </div>
-                    </div>
-                    <div class="card software-card-shadow software-card mt-5">
-                        <div class="card-body software-card-body text-center">
-                            <h4 class="card-title">150</h4>
-                            <p class="card-text pt-2">Total Downloads</p>
-                        </div>
-                    </div>
-                    <div class="card software-card-shadow software-card mt-5">
-                        <div class="card-body software-card-body text-center">
-                            <h4 class="card-title">150</h4>
-                            <p class="card-text pt-2">Total Downloads</p>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <h2 class="pt-5">{{'SOFTWAREPAGE.FEATURES' | translate}}</h2> -->
                 <div class="pt-3">
-                    <!-- <ul>
-                        <li>
-                            <p>{{'SOFTWAREPAGE.FEATURES1' | translate}}</p>
-                            <div>
-                                <ul>
-                                    <li class="child-li">
-                                        <p>{{'SOFTWAREPAGE.FEATURESCONTENT1' | translate}}</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <p>{{'SOFTWAREPAGE.FEATURES2' | translate}}</p>
-                            <div>
-                                <ul>
-                                    <li class="child-li">
-                                        <p>{{'SOFTWAREPAGE.FEATURESCONTENT2' | translate}}</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <p>{{'SOFTWAREPAGE.FEATURES3' | translate}}</p>
-                            <div>
-                                <ul>
-                                    <li class="child-li">
-                                        <p>{{'SOFTWAREPAGE.FEATURESCONTENT3' | translate}}</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <p>{{'SOFTWAREPAGE.FEATURES4' | translate}}</p>
-                            <div>
-                                <ul>
-                                    <li class="child-li">
-                                        <p>{{'SOFTWAREPAGE.FEATURESCONTENT4' | translate}}</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <div  ng-show="checked">
-                           
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES5' | translate}}</p>
-                                
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT5' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES6' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT6' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES7' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT7' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES8' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT8' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES9' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT9' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES10' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT10' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <p>{{'SOFTWAREPAGE.FEATURES11' | translate}}</p>
-                                <div>
-                                    <ul>
-                                        <li class="child-li">
-                                            <p>{{'SOFTWAREPAGE.FEATURESCONTENT11' | translate}}</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </div>
-                    </ul> -->
+                  
                 </div>
             </div>
             <div class="col-md-5">
-                <img class="login-img" src="../../../assets/images/login_group.png" />
+                <img class="login-img" src="../../../assets/images/app_screen.svg" />
             </div>
         </div>
-    
-        <div class="featares-back">
+        <div class="col-md-12  latest-jobs1 mt-5">
+            <div class="card latest-jobs shadowElement">
+                <div class="card-body job-description text-center">
+                    <h2>{{'SOFTWAREPAGE.SOFTWARECOMING' | translate}}</h2>
+                    <!-- <p class="pt-3 pb-3">Can’t find a suitable position that matches your skill set, but are still interested? Get in touch with us!</p> -->
+                    <button type="button" class="btn primary-button inquiry-now"
+                        (click)="gotowishlist()">{{'BUTTONS.JOIN' | translate}}</button>
+                </div>
+            </div>
+        </div>
+        <div class="featares-back mt-5">
             <h1 class="pt-5 pb-5">{{'SOFTWAREPAGE.FEATURES' | translate}}</h1>
             <div class="row justify-content-md-center">
                 <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card"> 
-                        <div class="daxta-card-body card-body d-flex">
-                            <div class="icon-1">
+                    <div class="daxta-card card">
+                        <div class="daxta-card-body card-body d-flex mx-auto">
+                            <div class="icon-1" id="home">
+                                    <!-- <img class="image_on" src="../../../assets/icon/1.png" alt="logo" />
+                                    <img class="image_off" src="../../../assets/icon/i1.png" alt="logo" /> -->
                             </div>
                             <div class="effect mb-2">
-                                <h4 class="card-title">Offline data collection</h4>
-                                <h6 class="card-text">Collect data from anywhere without internet connection</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES1' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT1' | translate}}</h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
+                        <div class="daxta-card-body card-body mx-auto">
                             <div class="icon-2">
-                               
+
                             </div>
                             <div class="mb-2">
-                                <h4 class="card-title">Automatic transition of targets</h4>
-                                <h6 class="card-text">Targets can move automatically across phases and transition
-                                    criteria
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES2' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT2' | translate}}
                                 </h6>
                             </div>
                         </div>
@@ -185,30 +57,29 @@
                 </div>
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
+                        <div class="daxta-card-body card-body mx-auto">
                             <div class="icon-3">
-                               
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Supports any type of measurement system</h4>
-                            <h6 class="card-text">Including trials, event, duration, interval, latency, inter-response
-                                time, and more!</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES3' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT3' | translate}}</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-md-center">
+            <div class="row mt-3 justify-content-md-center">
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-4">
-                               
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Supports any type of prompting</h4>
-                                <h6 class="card-text">Identify and individualize prompting procedures and prompts</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES4' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT4' | translate}}</h6>
                             </div>
                         </div>
                     </div>
@@ -217,11 +88,11 @@
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-5">
-                                
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Supports any type of teaching procedure</h4>
-                                <h6 class="card-text">Targets can move automatically across phases and transition criteria
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES5' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT5' | translate}}
                                 </h6>
                             </div>
                         </div>
@@ -231,11 +102,11 @@
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-6">
-                            
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Ability to program for generalization </h4>
-                                <h6 class="card-text">Targets can move automatically across phases and transition criteria
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES6' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT6' | translate}}
                                 </h6>
                             </div>
                         </div>
@@ -243,16 +114,16 @@
                 </div>
             </div>
 
-            <div class="row mt-5 justify-content-md-center">
+            <div class="row mt-3 justify-content-md-center">
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-12">
-                              
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title mx-3">Automated graphing and custom graphing</h4>
-                                <h6 class="card-text mx-3">Pre-set graphs allow you to analyze data in various ways, while our custom graphs allow you to go even further while analyzing your data.
+                                <h4 class="card-title mx-2">{{'SOFTWAREPAGE.FEATURES7' | translate}}</h4>
+                                <h6 class="card-text mx-2">{{'SOFTWAREPAGE.FEATURESCONTENT7' | translate}}
                                 </h6>
                             </div>
                         </div>
@@ -262,11 +133,11 @@
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-8">
-                              
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Queued trials</h4>
-                                <h6 class="card-text">Queue order of trials to occur automatically</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES8' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT8' | translate}}</h6>
                             </div>
                         </div>
                     </div>
@@ -275,11 +146,11 @@
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-9">
-                           
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Curriculum bank</h4>
-                                <h6 class="card-text">Save program templates and individualize across clients</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES9' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT9' | translate}}</h6>
                             </div>
                         </div>
                     </div>
@@ -289,30 +160,30 @@
             </div>
 
             <div class="row mt-5 justify-content-md-center">
-                
+
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-10">
-                            
+
                             </div>
                             <div class=" mb-2">
-                                <h4 class="card-title">Flexible data collection</h4>
-                                <h6 class="card-text">Collect data for direct care and research</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES10' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT10' | translate}}</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="col-md-8 col-lg-4 mt-2">
                     <div class="daxta-card card">
                         <div class="daxta-card-body card-body">
                             <div class="icon-11">
-                              
+
                             </div>
                             <div class=" mb-2 effect">
-                                <h4 class="card-title">Available in multiple languages</h4>
-                                <h6 class="card-text">Available in English and Portuguese. More languages to come!</h6>
+                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES11' | translate}}</h4>
+                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT11' | translate}}</h6>
                             </div>
                         </div>
                     </div>
@@ -329,12 +200,12 @@
 
 
         <div class="row mt-5">
-            <div class="text-center">
-                <h1>{{'SOFTWAREPAGE.TABLECONTENT' | translate}}</h1>
-                <p class="pt-3 width-50">{{'SOFTWAREPAGE.TABLECONTENT1' | translate}} </p>
-            </div>
+            <!-- <div class="text-center"> -->
+                <!-- <h1>{{'SOFTWAREPAGE.TABLECONTENT' | translate}}</h1> -->
+                <!-- <p class="pt-3 width-50">{{'SOFTWAREPAGE.TABLECONTENT1' | translate}} </p> -->
+            <!-- </div> -->
         </div>
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
             <div class=" table-responsive width-75">
                 <table class="table">
                     <thead>
@@ -424,16 +295,8 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-12  latest-jobs1 mt-5">
-                <div class="card latest-jobs shadowElement">
-                    <div class="card-body job-description text-center">
-                        <h2>Coming soon! Interested in our software? </h2>
-                        <!-- <p class="pt-3 pb-3">Can’t find a suitable position that matches your skill set, but are still interested? Get in touch with us!</p> -->
-                        <button type="button" class="btn primary-button inquiry-now">Join our waitlist!</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        </div> -->
         <app-form></app-form>
     </div>
 </div>

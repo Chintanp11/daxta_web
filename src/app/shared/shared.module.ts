@@ -11,10 +11,16 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'; 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgxFlagPickerModule } from 'ngx-flag-picker';
-
+import { IframeComponent } from './components/iframe/iframe.component';
+// import { GqlModule } from '../gql/gql.module';
+// import {ApolloModule, APOLLO_OPTIONS} from 'apollo-angular';
+// import {HttpLink} from 'apollo-angular/http';
+// import { InMemoryCache } from '@apollo/client/core';
 
 @NgModule({
-  imports: [CommonModule, RouterModule, ReactiveFormsModule,NgxFlagPickerModule,
+  imports: [CommonModule, RouterModule, ReactiveFormsModule,NgxFlagPickerModule, 
+    // ApolloModule,
+    // GqlModule,
     HttpClientModule,
     FormsModule,
     TranslateModule.forRoot({  
@@ -30,16 +36,32 @@ import { NgxFlagPickerModule } from 'ngx-flag-picker';
     FooterComponent,
     FormComponent,
     ClinicalSoftwareComponent, 
-    ChatFormComponent,
+    ChatFormComponent, 
+    IframeComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     FormComponent,
     ClinicalSoftwareComponent,
-    ChatFormComponent
+    ChatFormComponent,
+    IframeComponent
+
   ],
-  providers: []
+  providers: [
+    // {
+    //   provide: APOLLO_OPTIONS,
+    //   useFactory: (httpLink: HttpLink) => {
+    //     return {
+    //       cache: new InMemoryCache(),
+    //       link: httpLink.create({
+    //         uri: 'URI',
+    //       }),
+    //     };
+    //   },
+    //   deps: [HttpLink],
+    // },
+  ]
 })
 export class SharedModule { }
 

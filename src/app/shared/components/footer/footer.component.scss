@@ -6,7 +6,7 @@
     height: 50px;
   }
   .subscribe-button{
-    padding: 12px;
+    padding: 13px;
     border-radius: 5px !important;
     width: auto !important;
         font-size: 15px !important;
@@ -66,6 +66,10 @@
 .error{
   color: red;
 }
+
+.footer_about{
+padding-left: 100px;
+}
 //<--------------//MEDIA_QUERIES----------------------------------------------->>
 
 @media only screen and (max-width: 1440px) {
@@ -89,9 +93,16 @@
     height: auto !important;
     width: 150px !important;
   }
+  .footer_about{
+    padding-left: 10px;
+    margin-top: 20px;
+    }
 }
 @media only screen and (max-width: 575px) {
   h5 {
     margin-top: 40px !important;
   }
+  .footer_about{
+    padding-left: 10px;
+    }
 }

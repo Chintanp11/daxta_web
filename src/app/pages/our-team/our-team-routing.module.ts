@@ -12,21 +12,21 @@ const routes: Routes = [
     component: OurTeamComponent,
   },
   {
-    path: 'our-details',
+    path: 'Layla',
     component: OurDetailsComponent,
   },
   {
-    path: 'our-details1',
+    path: 'Gaby',
     component: OurDetails1Component,
   },
   {
-    path: 'our-details2',
+    path: 'Mari',
     component: OurDetails2Component,
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
+  imports: [RouterModule.forChild(routes) , ],
   exports: [RouterModule],
 })
 export class OurTeamRoutingModule {}

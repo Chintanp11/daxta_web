@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ export class LatestJobContentComponent implements OnInit {
 
   isReadMore = true
 
-  constructor() { }
+  constructor( private router : Router) { }
 
   ngOnInit(): void {
   }
@@ -18,4 +19,8 @@ export class LatestJobContentComponent implements OnInit {
     this.isReadMore = !this.isReadMore
  }
 
+ inquirynow()
+ {
+    this.router.navigateByUrl('/contactus')
+ }
 }
