@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
     'br': 'Brazilian ',
     'es': 'Spain'
   };
+  translateService: any;
 
   constructor(public translate: TranslateService, private router: Router, public myService: SharedService) {
     // window.scroll(0,0)
@@ -26,12 +27,16 @@ export class HeaderComponent implements OnInit {
     // translate.setDefaultLang('en');
     translate.addLangs(this.countryCodes);
     translate.setDefaultLang(this.selectedCountryCode);
+    
+    
   }
 
   ngOnInit(): void {
     $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });
+
+    localStorage.getItem('language')
   }
 
   // switchLang(lang: string) {
@@ -40,7 +45,10 @@ export class HeaderComponent implements OnInit {
   // }
 
 
-
+  translateSite(langauge: string) {
+    this.translateService.use(langauge);
+    localStorage.setItem("lan", langauge);
+  }
 
   changeSelectedCountryCode(value: any): void {
     this.myService.myMethod(value);

@@ -3,8 +3,9 @@
 
 // $flag-icon-css-path: '~flag-icon-css/flags' !default;
 // @import "~flag-icon-css/css/flag-icons.css";
-html {
-  scroll-behavior: smooth;
+body, html {
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 @font-face {

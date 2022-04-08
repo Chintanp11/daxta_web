@@ -99,17 +99,23 @@
                             routerLinkActive="router-link-active">{{'HEADER.CONTACTUS' | translate}}</a>
                     </li>
 
-                 
+
                 </ul>
                 <div class="lang-flags-div">
-                    <ngx-flag-picker 
-                     [selectedCountryCode]="selectedCountryCode"
-                        [countryCodes]="countryCodes" 
-                        [showLabels]="false"
-                        (changedCountryCode)="changeSelectedCountryCode($event)"
-                        >
+                    <ngx-flag-picker [selectedCountryCode]="selectedCountryCode" [countryCodes]="countryCodes"
+                        [showLabels]="false" (changedCountryCode)="changeSelectedCountryCode($event)">
                     </ngx-flag-picker>
                 </div>
+                <!-- <span class="form-inline">
+                    <select class="form-control" #langauge (change)="translateSite(langauge.value)">
+              
+                      <option *ngFor="let localization of translateService.getLangs()" [value]="localization"
+                        [selected]="localization === localization.currentLang">
+                        {{ localization }}
+                      </option>
+              
+                    </select>
+                  </span> -->
                 <!-- <div>
                     <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
                         <option *ngFor="let language of translate.getLangs()" [value]="language"

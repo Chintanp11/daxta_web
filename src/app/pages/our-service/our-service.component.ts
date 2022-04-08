@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class OurServiceComponent implements OnInit {
 
   constructor( public router : Router ) { 
-    window.scroll(0, 0);
+    window.scroll(0, 1);
   }
 
   ngOnInit(): void {

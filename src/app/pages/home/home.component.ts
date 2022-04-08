@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 import { SharedService } from 'src/app/shared/services/shared/shared.service';
 
 @Component({
@@ -13,12 +14,17 @@ export class HomeComponent implements OnInit {
   submitted = false;
   x: any;
   section3divHide : boolean = false;
+  // currentLanguage: string;
   constructor(
     private formBuilder: FormBuilder,
     readonly router: Router,
-    public myService : SharedService
+    public myService : SharedService,
+    private translate: TranslateService,
   ) {
-    window.scroll(0, 0);
+
+    // this.currentLanguage = localStorage.getItem(this.currentLanguage);
+
+    window.scroll(0, 1);
     this.reactiveForm = this.formBuilder.group({
       Name: ['', Validators.required],
       lastName: ['', Validators.required],
@@ -33,7 +39,9 @@ export class HomeComponent implements OnInit {
    this.getSection3Value();
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
 
   get f() {
     return this.reactiveForm.controls;

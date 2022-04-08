@@ -60,7 +60,6 @@
     
   },
 
-
   "OURSERVICESPAGE": {
     "OUR": "Our",
     "SERVICES": "Services",
@@ -144,15 +143,13 @@
     "TABLECONTENT1": "Compare our products below. Our team is ready to help you select the plan that fits your organization’s needs.",
     "SOFTWARECOMING": "Coming soon! Interested in our software?"
 
-
   },
 
   "COURSESPAGE": {
     "OUR": "Our",
     "COURSES": "Courses"
   },
-
-  
+ 
   "TEAMPAGE": {
     "TEAM": "Team",
     "MEMBER": "Members",
@@ -208,23 +205,30 @@
   "FOOTER": {
     "FACEBOOKLINK": "https://www.facebook.com/DaxtaABA",
     "INSTAGRAMLINK": "https://www.instagram.com/daxta_aba/",
-    "CONTACTCONTENT": "Interested in receiving information from DAXTA? Subscribe to our mailing list!"
+    "CONTACTCONTENT": "Interested in receiving information from DAXTA? Subscribe to our mailing list!",
+    "FOOTERCONTENT":"Globally elevating behavior-analytic treatment for autism and other developmental disabilities"
   },
 
   "FORM": {
-    "TALK": "Talk to us1:",
+    "TALK": "Talk to us:",
     "TALKCONTENT": "Do you have any questions or want to learn more about our services?",
     "FIRSTNAME": "First Name",
     "LASTNAME": "Last Name",
     "EMAIL": "Email",
+    "EMAILADD":"Email Address",
     "COMPANYNAME": "Number of clients (if any)",
     "COUNTRY": "Country",
+    "SELECT":"Select Country",
+    "NUMBER":"Number of Clients",
+    "DESCRIPTION":"Tell us more about what you are looking for",
     "HELP": "How can we help?",
     "FIRSTERROR":"First name is required",
     "LASTERROR":"Last name is required",
     "EMAILERROR":"Email is required",
+    "EMAILERROR2":"Enter a valid email",
     "COUNTRYERROR":"Country is required",
-    "DESCRIPTIONERROR":"Description is required"
+    "DESCRIPTIONERROR":"Description is required",
+    "WHITESPACE":"Do not enter a symbol"
   },
 
   "BUTTONS": {
@@ -238,7 +242,8 @@
     "VIEWMORE": "View More",
     "READMORE": "Read More",
     "JOIN": "join our waitlist!",
-    "COURSE":"Courses on demand"
+    "COURSE":"Courses on demand",
+    "SUB":"Subscribe"
     
   },
 
