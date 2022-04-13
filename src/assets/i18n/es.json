@@ -21,8 +21,8 @@
 
     "HOMESECTION1": "Elevando globalmente el tratamiento analítico del comportamiento para el autismo y otras discapacidades del desarrollo",
     "HOMESECTION2": "Aumentando la calidad y eficiencia del tratamiento por medio del aumento de la efectividad y la capacidad de los proveedores de servicios a través de la consultoría, supervisión, capacitación, y software. ",
-    "PODCAST": "Podcast Tudo ABA",
-    "PODCASTCONTENT": "Conversa       ciones en portugués entre analistas de comportamiento sobre todo lo relacionado con el análisis aplicado del comportamiento. ",
+    "PODCAST": "Tudo ABA",
+    "PODCASTCONTENT": "Conversa ciones en portugués entre analistas de comportamiento sobre todo lo relacionado con el análisis aplicado del comportamiento. ",
     "PODCASTCONTENT1": "¡Encuéntralo en Spotify, Apple Podcast, Google Podcast, o en cualquier lugar donde escuches tus podcasts!",
     "CLINICALSERVICE": "Servicios Clínicos",
     "CLINICALCONTENT": "Tu necesidad se une con nuestra experiencia.",
@@ -50,7 +50,7 @@
     "TEAMCENTEREDCONTENT1": "Nuestro equipo es nuestro activo. En DAXTA, los miembros del equipo son leales y queremos que lo sigan siendo.",
     "TEAMCENTEREDCONTENT2": "Si los miembros de nuestro equipo están bien equipados, calificados y contentos, la experiencia del cliente también lo será.",
     "TEAMCENTEREDCONTENT3": "Queremos crecer y queremos que los miembros de nuestro equipo crezcan con nosotros.",
-    "OURCOREVALUE": "Nuestros Valores Más Importantes",
+    "OURCOREVALUE": "Nuestros valores más importantes",
     "OURCOREVALUECONTENT": "Todo el trabajo que hacemos gira en torno a nuestros valores fundamentales.",
     "CUSTOMEROBSESSED": "Obsesionados Con Nuestros Clientes",
   	"CUSTOMEROBSESSEDCONTENT1": "Nos esforzamos por proporcionar un servicio de atención al cliente eficiente y eficaz.",
@@ -64,7 +64,7 @@
     "OUR": "Nuestra",
     "SERVICES": "Servicios",
     "OURSERVICECONTENT": "DAXTA puede ayudar a tu empresa a aumentar la calidad y la eficiencia en el tratamiento del autismo y otras discapacidades del desarrollo. En DAXTA, brindamos apoyo y orientación a los proveedores de servicios en áreas relacionadas con el desarrollo y la implementación de sistemas para evaluar y aumentar la calidad de los servicios, así como para desarrollar la capacidad de su equipo. Nuestros servicios incluyen:",
-    "EXECUTIVE": "Cosnultoría organizacional ejecutiva",
+    "EXECUTIVE": "Consultoría organizacional ejecutiva",
     "EXECUTIVECONTENT1": "DAXTA brinda consultoría remota a proveedores de servicios en áreas relacionadas con la administración y operaciones de su empresa. Nuestra consultoría ejecutiva es un servicio personalizado adaptado a las necesidades de tu empresa y puede cubrir una variedad de temas:",
     "EXECUTIVEINNERCONTENT": "Administración del tiempo",
     "EXECUTIVEINNERCONTENT1": "Monitoreo del desempeño ",
@@ -73,25 +73,25 @@
     "EXECUTIVEINNERCONTENT4": "Sistemas operativos estandarizados para promover la eficiencia y aumentar la capacidad interna ",
     "EXECUTIVECONTENT2": "Nuestro Grupo de mentores ejecutivos está diseñado para líderes de clínicas pequeñas y grandes y se reúne mensualmente para discutir temas relacionados con la administración, las operaciones y los asuntos clínicos de la empresa. Los temas se discuten en un entorno grupal y los miembros tienen la oportunidad de establecer contactos y recibir comentarios sobre sus prácticas actuales.",
 
-    "CLINICALCONSULTATION": " Consultoría Clínica",
+    "CLINICALCONSULTATION": "Consultoría Clínica",
     "CLINICALCONSULTATIONCONTENT": "DAXTA brinda consultoría remota a proveedores de servicios en áreas relacionadas con servicios clínicos, entrenamiento, supervisión, creación de sistemas, administración y operaciones, que incluyen: ",
     "CLINICALCONSULTATIONINNERCONTENT": "Desarrollo de sistemas clínicos para promover la eficiencia y eficacia en los procesos internos, incluyendo:",
     "CLINICALCONSULTATIONINNERCONTENT1": "Formación inicial y continua de su equipo",
     "CLINICALCONSULTATIONINNERCONTENT2": "Sistema de supervisión y herramientas para la evaluación del desempeño",
     "CLINICALCONSULTATIONINNERCONTENT3": "Evaluación de la calidad del tratamiento",
     "CLINICALCONSULTATIONINNERCONTENT4": "Revisión de pares para casos clínicos ",
-    "CLINICALCONSULTATIONCONTENT1": "Identificación y desarrollo de estándares y herramientas clínicas para promover una alta calidad y eficiencia de servicios",
+    "CLINICALCONSULTATIONCONTENT1": "Identificación y desarrollo de estándares y herramientas clínicas para promoveruna alta calidad y eficiencia de servicios",
     "CLINICALCONSULTATIONCONTENT2": "Mentoría y consultoría clínica",
     "CLINICALCONSULTATIONCONTENT3": "Consultoría clínica relacionada con expansión de servicios",  
 
     "SUPERVISION": "Supervisión",
     "SUPERVISIONCONTENT": "En DAXTA brindamos apoyo clínico, supervisión y capacitación para candidatos a analistas de comportamiento en el tratamiento del autismo y otras discapacidades del desarrollo. Nuestros analistas de comportamiento están calificados para brindar supervisión remota de acuerdo con la Junta de Certificación de Analistas de Comportamiento (BACB, por sus siglas en inglés) y la Junta de Acreditación de Analistas de Comportamiento Aplicados Calificados (QABA, por sus siglas en inglés). Nuestros supervisados reciben supervisión continua en áreas que incluyen:",
     "SUPERVISIONINNERCONTENT1": "Evaluación y tratamiento de comportamientos dirigida para aumentarlos o disminuirlos",
-    "SUPERVISIONINNERCONTENT2": " Desarrollo de objetivos y programas clínicos",
+    "SUPERVISIONINNERCONTENT2": "Desarrollo de objetivos y programas clínicos",
     "SUPERVISIONINNERCONTENT3": "Gráficos y análisis de datos",
     "SUPERVISIONINNERCONTENT4": "Toma de decisiones basadas en datos",
     "SUPERVISIONINNERCONTENT5": "Integridad del tratamiento",
-    "SUPERVISIONINNERCONTENT6": "Retroalimentación de desempeño",
+    "SUPERVISIONINNERCONTENT6": "Retroalimentación del desempeño",
     "SUPERVISIONCONTENT1": "Nos aseguramos de que nuestros supervisados reciban supervisión en los temas descritos por cada junta de acreditación como parte de los requisitos de examinación y brindamos retroalimentación y recursos continuos a lo largo de la relación de supervisión. La experiencia de supervisión se personaliza para que coincida con las necesidades individuales y el entorno de práctica de cada supervisado.",
 
     "TRAINING": "Entrenamiento",
@@ -195,7 +195,7 @@
   },
 
   "CONTACTUSPAGE": {
-    "GETINTOUCH": "Ponte en Contacto",
+    "GETINTOUCH": "Ponte en contacto",
     "GETINCONTENT": "¿Quieres hablar con nuestro equipo? Llámanos, envíanos un correo electrónico, o completa el formulario de contacto a continuación. ¡Estamos deseando hablar contigo!"
   },
 
