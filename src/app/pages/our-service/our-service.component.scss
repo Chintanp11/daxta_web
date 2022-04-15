@@ -45,16 +45,16 @@ ul {
     top: 2px;
   }
   .child-li1::before{
-    content: url("../../../assets/icon/Ellipse\ 1.png");
+    content: url("../../../assets/images/Path_Right.png");
     position: absolute;
-    left: 40px;
+    // left: 40px;
     top: 3px;
     
   }
   .child-li1 {
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 60px;
+    // padding-left: 60px;
     position: relative;
   }
 

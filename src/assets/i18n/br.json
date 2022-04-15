@@ -13,7 +13,8 @@
     "TERMOFUSE": "Termos de Uso",
     "PRIVACYPOLICY": "Política de Privacidade",
     "COURSES": "Cursos",
-    "COURSES_LINK" :"https://courses.daxta.com/"
+    "COURSES_LINK" :"https://courses.daxta.com/",
+    "PODCAST":"Podcast"
 
   },
 
@@ -22,7 +23,7 @@
     "HOMESECTION1": "Elevando globalmente o tratamento analítico comportamental para o autismo e outros transtornos do desenvolvimento",
     "HOMESECTION2": "Aumentando a qualidade e a eficiência do tratamento ABA pelo aumento da eficácia e a capacidade de prestadores de serviços através de consultoria, supervisão, treinamento e software.",
     "PODCAST": "Podcast Tudo ABA",
-    "PODCASTCONTENT": "Conversas entre analistas do comportamento sobre tudo e qualquer coisa relacionada à análise do comportamento aplicada em português brasileiro",
+    "PODCASTCONTENT": "Conversas entre analistas do comportamento sobre tudo relacionado a análise do comportamento aplicada(ABA).",
     "PODCASTCONTENT1": "Pode ser encontrado no Spotify, Apple Podcast, Google Podcast ou onde você ouve os seus podcasts!",
     "CLINICALSERVICE": "Serviços Clínicos",
     "CLINICALCONTENT": " A sua necessidade é combinada com a nossa experiência",
@@ -67,12 +68,12 @@
     "SERVICES": "Serviços",
     "OURSERVICECONTENT": "A DAXTA pode ajudar sua empresa a aumentar a qualidade e eficiência no tratamento do autismo e outras deficiências de desenvolvimento. Na DAXTA, fornecemos suporte e orientação a prestadores de serviços em áreas relacionadas ao desenvolvimento e implementação de sistemas para avaliar e aumentar a qualidade dos serviços, bem como capacitar seus funcionários. Nossos serviços incluem:",
     "EXECUTIVE": "Consultoria Organizacional Executiva",
-    "EXECUTIVECONTENT1": "A DAXTA presta consultoria remota a prestadores de serviços em áreas relacionadas à administração e operações da empresa. Nossa consultoria executiva é um atendimento personalizado e adaptado às necessidades da sua empresa e pode abranger diversos temas:",
-    "EXECUTIVEINNERCONTENT": "Gerenciamento de tempo",
-    "EXECUTIVEINNERCONTENT1": "Monitoramento de desempenho",
-    "EXECUTIVEINNERCONTENT2": "Feedback de desempenho",
-    "EXECUTIVEINNERCONTENT3": "Desenvolvimento, avaliação e manutenção do sistema",
-    "EXECUTIVEINNERCONTENT4": "Sistemas operacionais padronizados para promover a eficiência e aumentar a capacidade interna",
+    "EXECUTIVECONTENT1": "A DAXTA presta consultoria a prestadores de serviços em áreas relacionadas à administração e operações clínicas da  empresa.  Nossa consultoria executiva é um  atendimento personalizado e adaptado às necessidades da  sua empresa e  pode abranger diversos temas:",
+    "EXECUTIVEINNERCONTENT": "Desenvolvimento de  sistemas clínic para promover eficiência e efetividade em processos internos",
+    "EXECUTIVEINNERCONTENT1": "Identificação e desenvolvimento de padrões internos clínicos e ferramentas para promover alta qualidade de tratamentro e eficiência interna",
+    "EXECUTIVEINNERCONTENT2": "Sistemas operacionais padronizados para promover eficiência e aumentar capacidade interna",
+    "EXECUTIVEINNERCONTENT3": "Estratégias para expansão de serviços",
+    "EXECUTIVEINNERCONTENT4": "",
     "EXECUTIVECONTENT2": "Nosso Grupo de Mentoria Executiva foi desenvolvido para líderes de pequenas e grandes clínicas e se reúne mensalmente para discutir assuntos relacionados à administração da empresa, operações e assuntos clínicos. Os tópicos são discutidos em um ambiente de grupo e os membros têm a oportunidade de interagir e receber feedback sobre suas práticas atuais.",
 
     "CLINICALCONSULTATION": "Consultoria Clínica",
@@ -116,9 +117,9 @@
   },
 
   "TEAMPAGE": {
-    "TEAM": "Equipe",
-    "MEMBER": "Membros",
-    "TEAMMEMBERCONTENT": "Conheça nossos talentosos e únicos membros da equipe!",
+    "TEAM": "Nossa",
+    "MEMBER": "Equipe",
+    "TEAMMEMBERCONTENT": "Conheça a nossa talentosa equipe!",
     "LAYLA": "Layla A. Sump",
     "LAYLADEGREE": "Ph.D., BCBA-D, QBA, LBA",
     "FOUNDER": "Co-Founder",
@@ -158,7 +159,7 @@
     "MARINAPUBLICATION3": "Guedes, M.C., Guimarães, M.C., Pessôa, C. (2008). O que fazem os Mestres formados pelo Programa de Estudos Pós-Graduados e, Psicologia Experimental Análise do Comportamento. Behaviors, 12, 61.",
     "MARINAPUBLICATION4": "Guedes, M.C., Guimarães, M.C., Pessôa, C., Andery, M.A. (2008). O que fazem os Mestres do Programa de Estudos Pós-Graduados e, Psicologia Experimental Análise do Comportamento. Behaviors, 12, 62.",
 
-    "LATESTJOB": "Últimos empregos",
+    "LATESTJOB": "Faça Parte do Nosso Time",
     "LATESTJOBCONTENT": "Torne-se um dos nossos valiosos membros da equipe. Candidate-se abaixo!"
   },
 
@@ -175,7 +176,7 @@
 		"FEATURES6": "Habilidade de programar para generalização ",
 		"FEATURES7": "Gráficos automatizados e gráficos personalizados",
 		"FEATURES8": "Tentativas em espera",
-		"FEATURES9": "banco de currículo",
+		"FEATURES9": "Banco de currículo",
 		"FEATURESCONTENT1": "Registra dados em qualquer lugar mesmo sem conexão de internet",
 		"FEATURESCONTENT10": "Registre dados para tratamento e pesquisa",
 		"FEATURESCONTENT11": "Em breve em espanhol",
@@ -286,7 +287,7 @@
 
     "ALLCOURSE": "Todos os Cursos",
 		"APPLYNOW": "Aplique Agora",
-		"CONTECTUS": "Contate-Nos",
+		"CONTECTUS": "Contato",
 		"INQUIRYNOW": "Entre em Contato",
 		"JOIN": "Entre para a lista de espera!",
 		"MOREINFO": "Mais Informações",
@@ -294,7 +295,7 @@
 		"SCHEDULEDEMO": "Agende Uma Demonstração",
 		"SUBMIT": "Enviar",
 		"VIEWMORE": "Veja mais",
-    "COURSE":"Cursos sob demanda",
+    "COURSE":"Cursos Sob Demanda",
     "SUB":"Se inscrever"
   },
 

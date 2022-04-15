@@ -59,16 +59,16 @@
                                 <!-- <label>Email</label> -->
                                 <input formControlName="email" id="name" type="email"
                                     class="form-control form-input-class" placeholder="Email Address">
-                                <div *ngIf="submitted && f.email.errors">
+                          
                                     <div *ngIf="submitted && f.email.errors">
                                         <div *ngIf="f.email.errors.required" class="error">{{'FORM.EMAILERROR' | translate}}</div>
                                         <div *ngIf="f.email.errors.email" class="error">{{'FORM.EMAILERROR2' | translate}}</div>
                                     </div>
                                     
-                                </div>
+                         
                             </div>
                             <div>
-                                <button class="btn primary-button subscribe-button">{{'BUTTONS.SUB' | translate}}</button>
+                                <button type="submit" class="btn primary-button subscribe-button">{{'BUTTONS.SUB' | translate}}</button>
                             </div>
                         </div>
                     </form>

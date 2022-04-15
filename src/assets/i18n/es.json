@@ -13,7 +13,8 @@
     "OURTEAM": "Nuestro Equipo",
     "COMPANY": "Compañía",
     "TERMOFUSE": "Condiciones de Uso",
-    "PRIVACYPOLICY": "Política de Privacidad"
+    "PRIVACYPOLICY": "Política de Privacidad",
+    "PODCAST":"Podcast"
 
   },
 
@@ -22,7 +23,7 @@
     "HOMESECTION1": "Elevando globalmente el tratamiento analítico del comportamiento para el autismo y otras discapacidades del desarrollo",
     "HOMESECTION2": "Aumentando la calidad y eficiencia del tratamiento por medio del aumento de la efectividad y la capacidad de los proveedores de servicios a través de la consultoría, supervisión, capacitación, y software. ",
     "PODCAST": "Podcast “Tudo ABA” ",
-    "PODCASTCONTENT": "Conversa ciones en portugués entre analistas de comportamiento sobre todo lo relacionado con el análisis aplicado del comportamiento. ",
+    "PODCASTCONTENT": "Conversaciones en portugués entre analistas de comportamiento sobre todo lo relacionado con el análisis aplicado del comportamiento. ",
     "PODCASTCONTENT1": "¡Encuéntralo en Spotify, Apple Podcast, Google Podcast, o en cualquier lugar donde escuches tus podcasts!",
     "CLINICALSERVICE": "Servicios Clínicos",
     "CLINICALCONTENT": "Tu necesidad se une con nuestra experiencia.",
@@ -64,7 +65,7 @@
     "OUR": "Nuestra",
     "SERVICES": "Servicios",
     "OURSERVICECONTENT": "DAXTA puede ayudar a tu empresa a aumentar la calidad y la eficiencia en el tratamiento del autismo y otras discapacidades del desarrollo. En DAXTA, brindamos apoyo y orientación a los proveedores de servicios en áreas relacionadas con el desarrollo y la implementación de sistemas para evaluar y aumentar la calidad de los servicios, así como para desarrollar la capacidad de su equipo. Nuestros servicios incluyen:",
-    "EXECUTIVE": "Consultoría organizacional ejecutiva",
+    "EXECUTIVE": "Consultoría Organizacional Ejecutiva",
     "EXECUTIVECONTENT1": "DAXTA brinda consultoría remota a proveedores de servicios en áreas relacionadas con la administración y operaciones de su empresa. Nuestra consultoría ejecutiva es un servicio personalizado adaptado a las necesidades de tu empresa y puede cubrir una variedad de temas:",
     "EXECUTIVEINNERCONTENT": "Administración del tiempo",
     "EXECUTIVEINNERCONTENT1": "Monitoreo del desempeño ",
@@ -106,8 +107,8 @@
     "TRAININGCONTENT1": "DAXTA es un proveedor de educación continua aprobado por la Junta de Certificación de Análisis de Comportamiento (BACB, por sus siglas en inglés) y Qualified Applied Behavior Analyst Credentialing Board (QABA), y puede proporcionar créditos de educación continua para contenido de entrenamiento calificado.",
 
     "COURSES": "Cursos",
-    "COURSESCONTENT": "DAXTA siempre está buscando formas de difundir el conocimiento, y una forma de hacerlo es a través de cursos. Encuentre nuevos cursos a pedido y en vivo todos los meses para continuar desarrollando y perfeccionando sus habilidades profesionales o para aprender algo nuevo.",
-    "COURSESCONTENT1": "¿Está buscando mantener su credencial? Somos un proveedor de educación continua autorizado por la Junta de certificación de analistas de comportamiento (BACB) y la Junta de acreditación de análisis de comportamiento aplicado calificado (QABA), ¡y ofrecemos unidades de educación continua (CEU) en muchos de nuestros cursos!"
+    "COURSESCONTENT": "DAXTA siempre está buscando formas de difundir el conocimiento, y una forma de hacerlo es a través de nuestros cursos. Encuentra nuevos cursos a demanda y en vivo todos los meses para continuar desarrollando y perfeccionando tus habilidades profesionales o para aprender algo nuevo.",
+    "COURSESCONTENT1": "¿Estás buscando mantener tu credencial? Somos un proveedor de educación continua autorizado por la Junta de Certificación de Analistas de Comportamiento (BACB, por sus siglas en inglés) y la Junta de Acreditación de Análisis de Comportamiento Aplicado Calificado (QABA, por sus siglas en inglés), y ¡ofrecemos unidades de educación continua (CEU, por sus siglas en inglés) en muchos de nuestros cursos!"
 
   },
 
@@ -240,7 +241,7 @@
     "VIEWMORE": "Ver Más",
     "READMORE": "Leer Más",
     "JOIN": "¡Únete a nuestra lista de espera!",
-    "COURSE":"Cursos bajo demanda",
+    "COURSE":"Cursos Bajo Demanda",
     "SUB":"Suscribir"
   },
 

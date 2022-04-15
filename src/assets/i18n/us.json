@@ -86,7 +86,7 @@
    
 
     "SUPERVISION": "Supervision",
-    "SUPERVISIONCONTENT": "At DAXTA we provide clinical support, supervision, and training for aspiring behavior analysts in the treatment of autism and other developmental disabilities. Our behavior analysts are qualified to provide remote supervision according to the (BACB) Behavior Analyst Certification Board and the (QABA) Qualified Applied Behavior Analyst Credentialing Board. Our supervisees receiving ongoing supervision in areas that include:",
+    "SUPERVISIONCONTENT": "At DAXTA we provide clinical support, supervision, and training for aspiring behavior analysts in the treatment of autism and other developmental disabilities. Our behavior analysts are qualified to provide remote supervision according to the (BACB) Behavior Analyst Certification Board and the (QABA) Qualified Applied Behavior Analyst Credentialing Board. Our supervisees receive ongoing supervision in areas that include:",
     "SUPERVISIONINNERCONTENT1": "Assessment and treatment of behaviors targeted for increase or decrease",
     "SUPERVISIONINNERCONTENT2": "Development of clinical goals and programs",
     "SUPERVISIONINNERCONTENT3": "Graphing and data analysis",
@@ -241,8 +241,8 @@
     "INQUIRYNOW": "Inquiry Now",
     "VIEWMORE": "View More",
     "READMORE": "Read More",
-    "JOIN": "join our waitlist!",
-    "COURSE":"Courses on demand",
+    "JOIN": "Join our waitlist!",
+    "COURSE":"Courses On Demand",
     "SUB":"Subscribe"
     
   },

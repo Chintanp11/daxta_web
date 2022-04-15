@@ -12,7 +12,7 @@ declare var $: any;
 })
 export class HeaderComponent implements OnInit {
   showTab2 = false;
-  selectedCountryCode = 'us';
+  selectedCountryCode : any;
   countryCodes = ['us', 'br', 'es'];
   customLabels = {
     'us': 'US',
@@ -20,23 +20,29 @@ export class HeaderComponent implements OnInit {
     'es': 'Spain'
   };
   translateService: any;
+  lang: any;
 
   constructor(public translate: TranslateService, private router: Router, public myService: SharedService) {
     // window.scroll(0,0)
     // translate.addLangs(['en', 'prtg','span']);
     // translate.setDefaultLang('en');
     translate.addLangs(this.countryCodes);
-    translate.setDefaultLang(this.selectedCountryCode);
-    
-    
+    // translate.setDefaultLang(this.selectedCountryCode);
+    this.selectedCountryCode = localStorage.getItem('language');
+    console.log(this.selectedCountryCode);
+    if(this.selectedCountryCode){
+      translate.setDefaultLang(JSON.parse(this.selectedCountryCode));
+      this.selectedCountryCode = JSON.parse(this.selectedCountryCode)
+    } else {
+      this.selectedCountryCode = 'us';
+      translate.setDefaultLang(this.selectedCountryCode = 'us');
+    }
   }
 
   ngOnInit(): void {
     $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });
-
-    localStorage.getItem('language')
   }
 
   // switchLang(lang: string) {
