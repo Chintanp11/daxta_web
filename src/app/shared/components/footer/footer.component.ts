@@ -36,27 +36,27 @@ export class FooterComponent implements OnInit {
   }
 
   onSubmit() {
-     this.submitted = true;
-    if (this.reactiveForm.valid) {
-      console.log("Form Submitted!");
-      this.reactiveForm.reset();
+    //  this.submitted = true;
+    // if (this.reactiveForm.valid) {
+    //   console.log("Form Submitted!");
+    //   this.reactiveForm.reset();
+    // }
+    this.submitted = true;
+    if (this.reactiveForm.status == 'VALID') {
+      this.apollo
+        .mutate({
+          mutation: SUBSCRIBE,
+          variables: {
+            email: this.reactiveForm.value.email,
+          },
+        })
+        .subscribe(() => {
+          this.toastr.success('', 'Thank you for subscribing!', {
+            timeOut: 3000,
+          });
+          this.reactiveForm.reset();
+        });
     }
-  //   this.submitted = true;
-  //   if (this.reactiveForm.status == 'VALID') {
-  //     this.apollo
-  //       .mutate({
-  //         mutation: SUBSCRIBE,
-  //         variables: {
-  //           email: this.reactiveForm.value.email,
-  //         },
-  //       })
-  //       .subscribe(() => {
-  //         this.toastr.success('', 'Thank you for subscribing!', {
-  //           timeOut: 3000,
-  //         });
-  //         this.reactiveForm.reset();
-  //       });
-  //   }
-  // }
   }
+  
 }
