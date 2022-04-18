@@ -6,12 +6,12 @@ ul {
     padding-left: 25px;
     position: relative;
   }
-  li:before {
-    content: url("../../../../assets/icon/Ellipse\ 1.png");
-    position: absolute;
-    left: 0px;
-    top: 5px;
-  }
+  // li:before {
+  //   content: url("../../../../assets/images/Ellipse\ 1.png");
+  //   position: absolute;
+  //   left: 0px;
+  //   top: 5px;
+  // }
 
   .child-li {
     padding-top: 3px;
@@ -20,12 +20,12 @@ ul {
     position: relative;
   }
 
-  .child-li1::before {
-    content: url("../../../../assets/icon/Ellipse\ 1.png");
-    position: absolute;
-    left: 40px;
-    top: 3px;
-  }
+  // .child-li1::before {
+  //   content: url("../../../../assets/images/Ellipse\ 1.png");
+  //   position: absolute;
+  //   left: 40px;
+  //   top: 3px;
+  // }
   .child-li1 {
     padding-top: 3px;
     padding-bottom: 3px;

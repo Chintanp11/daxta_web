@@ -65,7 +65,7 @@ ul {
         }
     }
     li:before {
-        content: url("../../../assets/images/Check_Mark.png");
+        content: url("../../../assets/images/Check_Mark.svg");
         position: absolute;
         left: 0px;
         top: 5px;
@@ -82,7 +82,7 @@ ul {
     }
 
     .child-li::before {
-        content: url("../../../assets/images/Path_Right.png");
+        content: url("../../../assets/images/Path_Right.svg");
         position: absolute;
         left: 0px;
         top: 2px;
@@ -127,12 +127,12 @@ ul {
         min-height: 180px !important;
     }
     .icon-3 {
-        background: url(../../../assets/icon/noun-support-3331.svg)  no-repeat;
+        background: url(../../../assets/images/noun-support-3331.svg)  no-repeat;
         width: 175px !important;
         height: 100px;
     }
     .daxta-card-body:hover .icon-3 {
-        background: url(../../../assets/icon/noun-support-.svg) no-repeat;
+        background: url(../../../assets/images/noun-support-.svg) no-repeat;
         width: 175px !important;
         height: 100px;
     }
@@ -150,12 +150,12 @@ ul {
          padding-right: 0px !important;  
     }
     .icon-8{
-        background: url(../../../assets/icon/8.png) no-repeat;
+        background: url(../../../assets/images/8.svg) no-repeat;
         width: 90px !important;
         height: 100px !important;
     }
     .daxta-card-body:hover .icon-8 {
-        background: url(../../../assets/icon/i8.png) no-repeat;
+        background: url(../../../assets/images/i8.svg) no-repeat;
         width: 90px !important;
         height: 100px !important;
     }
@@ -248,7 +248,7 @@ h4 {
 }
 
 .icone-img:hover::before {
-    content: url("../../../assets/icon/2.png");
+    content: url("../../../assets/images/2.svg");
     padding-right: 20px;
 }
 
@@ -273,124 +273,124 @@ h4 {
 
 
 .icon-1 {
-    background: url(../../../assets/icon/1.png) no-repeat;
+    background: url(../../../assets/images/1.svg) no-repeat;
     width: 120px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-1 {
-    background: url(../../../assets/icon/i1.png) no-repeat;
+    background: url(../../../assets/images/i1.svg) no-repeat;
     width: 120px;
     height: 100px;
 }
 
 .icon-2 {
-    background: url(../../../assets/icon/7.png) no-repeat;
+    background: url(../../../assets/images/7.png) no-repeat;
     width: 145px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-2 {
-    background: url(../../../assets/icon/2.png) no-repeat;
+    background: url(../../../assets/images/2.svg) no-repeat;
     width: 145px;
     height: 100px;
 }
 .icon-3 {
-    background: url(../../../assets/icon/noun-support-3331.svg)  no-repeat;
+    background: url(../../../assets/images/noun-support-3331.svg)  no-repeat;
     width: 130px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-3 {
-    background: url(../../../assets/icon/noun-support-.svg) no-repeat;
+    background: url(../../../assets/images/noun-support-.svg) no-repeat;
     width: 130px;
     height: 100px;
 }
 .icon-4 {
-    background: url(../../../assets/icon/4.png) no-repeat;
+    background: url(../../../assets/images/4.svg) no-repeat;
     width: 130px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-4 {
-    background: url(../../../assets/icon/i4.png) no-repeat;
+    background: url(../../../assets/images/i4.svg) no-repeat;
     width: 130px;
     height: 100px;
 }
 .icon-5 {
-    background: url(../../../assets/icon/5.png) no-repeat;
+    background: url(../../../assets/images/5.svg) no-repeat;
     width: 160px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-5 {
-    background: url(../../../assets/icon/i5.png) no-repeat;
+    background: url(../../../assets/images/i5.png) no-repeat;
     width: 160px;
     height: 100px;
 }
 .icon-6 {
-    background: url(../../../assets/icon/6.png) no-repeat;
+    background: url(../../../assets/images/6.svg) no-repeat;
     width: 255px;
     height: 150px;
 }
 .daxta-card-body:hover .icon-6 {
-    background: url(../../../assets/icon/i6.png) no-repeat;
+    background: url(../../../assets/images/i6.svg) no-repeat;
     width: 255px;
     height: 150px;
 }
 .icon-7 {
-    background: url(../../../assets/icon/7.png) no-repeat;
+    background: url(../../../assets/images/7.png) no-repeat;
     width: 100px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-7 {
-    background: url(../../../assets/icon/2.png) no-repeat;
+    background: url(../../../assets/images/2.svg) no-repeat;
     width: 100px;
     height: 100px;
 }
 .icon-8{
-    background: url(../../../assets/icon/8.png) no-repeat;
+    background: url(../../../assets/images/8.svg) no-repeat;
     width: 90px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-8 {
-    background: url(../../../assets/icon/i8.png) no-repeat;
+    background: url(../../../assets/images/i8.svg) no-repeat;
     width: 90px;
     height: 100px;
 }
 .icon-9 {
-    background: url(../../../assets/icon/9.png) no-repeat;
+    background: url(../../../assets/images/9.svg) no-repeat;
     width: 100px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-9 {
-    background: url(../../../assets/icon/i9.png) no-repeat;
+    background: url(../../../assets/images/i9.svg) no-repeat;
     width: 100px;
     height: 100px;
 }
 
 .icon-10 {
-    background: url(../../../assets/icon/10.png) no-repeat;
+    background: url(../../../assets/images/10.svg) no-repeat;
     width: 80px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-10 {
-    background: url(../../../assets/icon/i10.png) no-repeat;
+    background: url(../../../assets/images/i10.svg) no-repeat;
     width: 70px;
     height: 100px;
 }
 .icon-11 {
-    background: url(../../../assets/icon/11.png) no-repeat;
+    background: url(../../../assets/images/11.svg) no-repeat;
     width: 80px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-11 {
-    background: url(../../../assets/icon/i11.png) no-repeat;
+    background: url(../../../assets/images/i11.svg) no-repeat;
     width: 80px;
     height: 100px;
 }
 .icon-12 {
-    background: url(../../../assets/icon/12.png) no-repeat;
+    background: url(../../../assets/images/12.svg) no-repeat;
     width: 265px;
     height: 100px;
 }
 .daxta-card-body:hover .icon-12 {
-    background: url(../../../assets/icon/i7.png) no-repeat;
+    background: url(../../../assets/images/i7.svg) no-repeat;
     width: 265px;
     height: 100px;
 }

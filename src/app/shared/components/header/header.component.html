@@ -21,7 +21,7 @@
 
                     <div class="d-flex flex-row">
                         <div class="contact-icon">
-                            <img src="../../../assets/images/mail.png" style="width: 20px; height: 15px;" />
+                            <img src="../../../../assets/images/mail.svg" style="width: 20px; height: 15px;" />
                         </div>
                         <div class="contact-number">
                             <P>{{'HEADER.EMAIL' | translate}}</P>
@@ -48,7 +48,7 @@
 
                         <div class="d-flex flex-row mx-2">
                             <div class="contact-icon mx-2">
-                                <img src="../../../assets/images/mail.png" />
+                                <img src="../../../../assets/images/mail.svg" />
                             </div>
                             <div class="contact-number">
                                 <P>{{'HEADER.EMAIL' | translate}}</P>
@@ -120,7 +120,7 @@
                     <select class="form-control" #selectedLang (change)="switchLang(selectedLang.value)">
                         <option *ngFor="let language of translate.getLangs()" [value]="language"
                             [selected]="language === translate.currentLang">
-                            <img src="../../../../assets/icon/noun_supervised_3507969.png" class="fa fa-caret-down" aria-hidden="true"/>{{ language }}
+                            <img src="../../../../assets/images/noun_supervised_3507969.png" class="fa fa-caret-down" aria-hidden="true"/>{{ language }}
                         </option>
                     </select>
                 </div> -->

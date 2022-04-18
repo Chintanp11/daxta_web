@@ -1,0 +1,17 @@
+<svg id="folder-offline" xmlns="http://www.w3.org/2000/svg" width="40.213" height="40.213" viewBox="0 0 40.213 40.213">
+  <path id="Path_1220" data-name="Path 1220" d="M23.484,34.182,21.07,36.6l2.412,2.412-1.208,1.206L19.863,37.8l-2.411,2.411-1.208-1.206L18.657,36.6l-2.414-2.414,1.208-1.206,2.413,2.413,2.413-2.413ZM0,37.2H14.075v-2.01H0Zm26.139,0H40.213v-2.01H26.139ZM40.213,6.032V32.171H0V0H18.1V6.032ZM38.2,8.042H16.085V2.01H2.011V30.16H38.2Zm-34.181,0H6.032V6.032H4.021Zm4.022,0h2.011V6.032H8.043Zm4.021,0h2.011V6.032H12.064Z" fill="#fff"/>
+  <line id="Line_1" data-name="Line 1" x2="14.075" transform="translate(0 36.2)" fill="none" stroke="#fff" stroke-width="2"/>
+  <line id="Line_2" data-name="Line 2" x2="14.075" transform="translate(26.139 36.2)" fill="none" stroke="#fff" stroke-width="2"/>
+  <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(11.25 6)" fill="#fff" stroke="#fff" stroke-width="1">
+    <rect width="3" height="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+  </g>
+  <g id="Rectangle_81" data-name="Rectangle 81" transform="translate(7.25 6)" fill="#fff" stroke="#fff" stroke-width="1">
+    <rect width="3" height="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+  </g>
+  <g id="Rectangle_82" data-name="Rectangle 82" transform="translate(3.25 6)" fill="#fff" stroke="#fff" stroke-width="1">
+    <rect width="3" height="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="2" height="2" fill="none"/>
+  </g>
+</svg>
