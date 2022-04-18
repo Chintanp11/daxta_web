@@ -1,102 +1,41 @@
-// .content{
-//     height: 100vh;
-// }
-h2{
-    font-family: "Quicksand-Bold";
-}
 ul {
-    padding-left: 0px;
-    li {
-      padding-top: 3px;
-      padding-bottom: 3px;
-      padding-left: 25px;
-      position: relative;
-    }
-    li:before {
-      content: url("../../../../assets/icon/Ellipse\ 1.png");
-      position: absolute;
-      left: 0px;
-      top: 5px;
-    }
-  
-    .child-li {
-      padding-top: 3px;
-      padding-bottom: 3px;
-      padding-left: 20px;
-      position: relative;
-    }
-  
-    // .child-li::before {
-    //   content: url("../../../assets/images/Path_Right.png");
-    //   position: absolute;
-    //   left: 0px;
-    //   top: 2px;
-    // }
-    .child-li1::before{
-      content: url("../../../../assets/icon/Ellipse\ 1.png");
-      position: absolute;
-      left: 40px;
-      top: 3px;
-      
-    }
-    .child-li1 {
-      padding-top: 3px;
-      padding-bottom: 3px;
-      padding-left: 60px;
-      position: relative;
-      font-size: 16px;
-    }
-  
+  padding-left: 0px;
+  li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    position: relative;
   }
-  p{
+  li:before {
+    content: url("../../../../assets/images/1.svg");
+    position: absolute;
+    left: 0px;
+    top: 5px;
+  }
+
+  .child-li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .child-li1::before {
+    content: url("../../../../assets/images/1.svg");
+    position: absolute;
+    left: 40px;
+    top: 3px;
+  }
+  .child-li1 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 60px;
+    position: relative;
     font-size: 16px;
-    font-weight: 70px;
-}
-.student-image{
-  max-width: 80%;
-  // border-radius: 290px;
+  }
 }
 .teammate-image{
-  position: relative;
-  justify-content: end;
-  display: flex;
-}
-.teammate-image{
-  position: relative;
-  justify-content: end;
-  display: flex;
-}
-h1{
-  color: var(--secondary-color) !important;
-}
-
-.text{
-  font-family: 'Quicksand-Bold';
-  font-size: 20px;
-}
-@media only screen and (max-width: 1440px) {
-}
-@media only screen and (max-width: 1199px) {
-}
-@media only screen and (max-width: 1024px) {
-
-}
-@media only screen and (max-width: 991px) {
-
-    .service-list {
-        display: none;
-      }
-
-}
-@media only screen and (max-width: 768px) {
-      .service-list {
-        display: none;
-      }
-  
-}
-@media only screen and (max-width: 575px) {
-
-  .service-list {
-    display: none;
+  img{
+    max-width: 100%;
   }
 }
