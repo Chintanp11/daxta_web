@@ -4,7 +4,7 @@ import { Observable, Subject } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class SharedService {
+export class LanguageDetectService {
 
   myMethod$: Observable<any>;
   private myMethodSubject = new Subject<any>();

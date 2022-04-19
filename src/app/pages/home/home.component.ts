@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { SharedService } from 'src/app/shared/services/shared/shared.service';
+import { LanguageDetectService } from 'src/app/shared/services/language-detect/language-detect.service';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     readonly router: Router,
-    public myService : SharedService,
+    public myService : LanguageDetectService,
     private translate: TranslateService,
   ) {
 

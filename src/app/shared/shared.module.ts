@@ -11,7 +11,6 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'; 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgxFlagPickerModule } from 'ngx-flag-picker';
-import { IframeComponent } from './components/iframe/iframe.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 // import { GqlModule } from '../gql/gql.module';
@@ -40,16 +39,14 @@ import { ToastrModule } from 'ngx-toastr';
     FooterComponent,
     FormComponent,
     ClinicalSoftwareComponent, 
-    ChatFormComponent, 
-    IframeComponent
+    ChatFormComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     FormComponent,
     ClinicalSoftwareComponent,
-    ChatFormComponent,
-    IframeComponent
+    ChatFormComponent
 
   ],
   providers: [

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { SharedService } from '../../services/shared/shared.service';
+import { LanguageDetectService } from '../../services/language-detect/language-detect.service';
 
 declare var $: any;
 
@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
   translateService: any;
   lang: any;
 
-  constructor(public translate: TranslateService, private router: Router, public myService: SharedService) {
+  constructor(public translate: TranslateService, private router: Router, public myService: LanguageDetectService) {
     // window.scroll(0,0)
     // translate.addLangs(['en', 'prtg','span']);
     // translate.setDefaultLang('en');

@@ -1,302 +1,158 @@
-<div class="content">
-    <div class="container">
-        <div class="row pt-5">
-            <div class="col-md-7 align-items-center d-flex">
-                <div>
-                    <h1>{{'SOFTWAREPAGE.PAGEHEADER' | translate}}</h1>
-                    <p class="pt-3">{{'SOFTWAREPAGE.PAGEHEADERCONTENT' | translate}}</p>
-                </div>
-                <div class="pt-3">
-                  
-                </div>
-            </div>
-            <div class="col-md-5">
-                <img class="login-img" src="../../../assets/images/app_screen.svg" />
+<div class="container">
+    <div class="row pt-5">
+        <div class="col-md-8">
+            <div>
+                <h1>{{'SOFTWAREPAGE.PAGEHEADER' | translate}}</h1>
+                <p class="pt-3">{{'SOFTWAREPAGE.PAGEHEADERCONTENT' | translate}}</p>
             </div>
         </div>
-        <div class="col-md-12  latest-jobs1 mt-5">
-            <div class="card latest-jobs shadowElement">
-                <div class="card-body job-description text-center">
-                    <h2>{{'SOFTWAREPAGE.SOFTWARECOMING' | translate}}</h2>
-                    <!-- <p class="pt-3 pb-3">Can’t find a suitable position that matches your skill set, but are still interested? Get in touch with us!</p> -->
-                    <button type="button" class="btn primary-button inquiry-now"
-                        (click)="gotowishlist()">{{'BUTTONS.JOIN' | translate}}</button>
+        <div class="col-md-4">
+            <img class="login-img" src="../../../assets/images/app_screen.svg" />
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12 ">
+            <div class="text-center software-banner">
+                <h2>{{'SOFTWAREPAGE.SOFTWARECOMING' | translate}}</h2>
+                <button type="button" class="btn primary-button inquiry-now" (click)="gotowishlist()">{{'BUTTONS.JOIN' |
+                    translate}}</button>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <h1 class="pt-5 pb-4">{{'SOFTWAREPAGE.FEATURES' | translate}}</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-1 icon-common"></div>
+                    <div class="effect">
+                        <h4>{{'SOFTWAREPAGE.FEATURES1' | translate}}</h4>
+                        <h6>{{'SOFTWAREPAGE.FEATURESCONTENT1' | translate}}</h6>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="featares-back mt-5">
-            <h1 class="pt-5 pb-5">{{'SOFTWAREPAGE.FEATURES' | translate}}</h1>
-            <div class="row justify-content-md-center">
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body d-flex mx-auto">
-                            <div class="icon-1" id="home">
-                                    <!-- <img class="image_on" src="../../../assets/images/1.png" alt="logo" /> -->
-                                    <!-- <img class="image_off" src="../../../assets/images/i1.png" alt="logo" /> -->
-                            </div>
-                            <div class="effect mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES1' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT1' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body mx-auto">
-                            <div class="icon-2">
-
-                            </div>
-                            <div class="mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES2' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT2' | translate}}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body mx-auto">
-                            <div class="icon-3">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES3' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT3' | translate}}</h6>
-                            </div>
-                        </div>
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-2 icon-common"></div>
+                    <div class="effect">
+                        <h4>{{'SOFTWAREPAGE.FEATURES2' | translate}}</h4>
+                        <h6>{{'SOFTWAREPAGE.FEATURESCONTENT2' | translate}}</h6>
                     </div>
                 </div>
             </div>
-
-            <div class="row mt-3 justify-content-md-center">
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-4">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES4' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT4' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-5">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES5' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT5' | translate}}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-6">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES6' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT6' | translate}}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-3 justify-content-md-center">
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-12">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title mx-2">{{'SOFTWAREPAGE.FEATURES7' | translate}}</h4>
-                                <h6 class="card-text mx-2">{{'SOFTWAREPAGE.FEATURESCONTENT7' | translate}}
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-8">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES8' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT8' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-9">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES9' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT9' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="row mt-5 justify-content-md-center">
-
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-10">
-
-                            </div>
-                            <div class=" mb-2">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES10' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT10' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-8 col-lg-4 mt-2">
-                    <div class="daxta-card card">
-                        <div class="daxta-card-body card-body">
-                            <div class="icon-11">
-
-                            </div>
-                            <div class=" mb-2 effect">
-                                <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES11' | translate}}</h4>
-                                <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT11' | translate}}</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-
-                </div>
-                <div class="col-md-6 col-lg-4">
-
-                </div>
-            </div>
-
         </div>
-
-
-        <div class="row mt-5">
-            <!-- <div class="text-center"> -->
-                <!-- <h1>{{'SOFTWAREPAGE.TABLECONTENT' | translate}}</h1> -->
-                <!-- <p class="pt-3 width-50">{{'SOFTWAREPAGE.TABLECONTENT1' | translate}} </p> -->
-            <!-- </div> -->
-        </div>
-        <!-- <div class="row mt-5">
-            <div class=" table-responsive width-75">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">Basic</th>
-                            <th scope="col">Standard</th>
-                            <th scope="col">Premium</th>
-                            <th scope="col">Enterprise</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td width="250px">Website</td>
-                            <td class="table-data">01</td>
-                            <td class="table-data">03</td>
-                            <td class="table-data">10</td>
-                            <td class="table-data">Unlimited</td>
-                        </tr>
-                        <tr>
-                            <td>Storages</td>
-                            <td class="table-data"><img src="../../../assets/images/cross.png" /></td>
-                            <td class="table-data">03</td>
-                            <td class="table-data"><img src="../../../assets/images/right.png" /></td>
-                            <td class="table-data">Unlimited</td>
-                        </tr>
-
-                        <tr>
-                            <td>Email Accounts</td>
-                            <td class="table-data"><img src="../../../assets/images/cross.png" /></td>
-                            <td class="table-data">03</td>
-                            <td class="table-data"><img src="../../../assets/images/right.png" /></td>
-                            <td class="table-data">Unlimited</td>
-                        </tr>
-
-                        <tr>
-                            <td>Premium Themes</td>
-                            <td class="table-data"><img src="../../../assets/images/cross.png" /></td>
-                            <td class="table-data">03</td>
-                            <td class="table-data"><img src="../../../assets/images/right.png" /></td>
-                            <td class="table-data">Unlimited</td>
-                        </tr>
-
-                        <tr>
-                            <td>Customer Support</td>
-                            <td class="table-data"><img src="../../../assets/images/cross.png" /></td>
-                            <td class="table-data">03</td>
-                            <td class="table-data"><img src="../../../assets/images/right.png" /></td>
-                            <td class="table-data">Unlimited</td>
-                        </tr>
-
-                        <tr class="last-row">
-                            <td></td>
-                            <td>
-                                <div class="mt-4">
-                                    <h6>Free</h6>
-                                    <p class="pt-2">No credit card required</p>
-                                    <button type="button" class="btn getstarted-button primary-button mt-3">Get
-                                        Started</button>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="mt-4">
-                                    <h6>Free</h6>
-                                    <p class="pt-2">Billed Yearly</p>
-                                    <button type="button" class="btn getstarted-button primary-button mt-3">Get
-                                        Started</button>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="mt-4">
-                                    <h6>Free</h6>
-                                    <p class="pt-2">Billed Yearly</p>
-                                    <button type="button" class="btn getstarted-button primary-button mt-3">Get
-                                        Started</button>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="mt-4">
-                                    <h6>Free</h6>
-                                    <p class="pt-2">Billed Yearly</p>
-                                    <button type="button" class="btn getstarted-button primary-button mt-3">Get
-                                        Started</button>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-3 icon-common"></div>
+                    <div class="effect">
+                        <h4>{{'SOFTWAREPAGE.FEATURES3' | translate}}</h4>
+                        <h6>{{'SOFTWAREPAGE.FEATURESCONTENT3' | translate}}</h6>
+                    </div>
+                </div>
             </div>
-
-        </div> -->
+        </div>      
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-4 icon-common"></div>
+                    <div class="effect">
+                        <h4>{{'SOFTWAREPAGE.FEATURES4' | translate}}</h4>
+                        <h6>{{'SOFTWAREPAGE.FEATURESCONTENT4' | translate}}</h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-5 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES5' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT5' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-6 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES6' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT6' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-7 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES7' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT7' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+      <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-8 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES8' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT8' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+          <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-9 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES9' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT9' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-10 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES10' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT10' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-lg-4 col-md-6 my-4">
+            <div class="card daxta-card">
+                <div class="daxta-card-body d-flex flex-row">
+                    <div class="icon-11 icon-common"></div>
+                    <div class="effect">
+                        <h4 class="card-title">{{'SOFTWAREPAGE.FEATURES11' | translate}}</h4>
+                        <h6 class="card-text">{{'SOFTWAREPAGE.FEATURESCONTENT11' | translate}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
         <app-form></app-form>
     </div>
 </div>
