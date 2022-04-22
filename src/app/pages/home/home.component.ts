@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
 
     // this.currentLanguage = localStorage.getItem(this.currentLanguage);
 
-    window.scroll(0, 1);
+    // window.scroll(0, 1);
     this.reactiveForm = this.formBuilder.group({
       Name: ['', Validators.required],
       lastName: ['', Validators.required],

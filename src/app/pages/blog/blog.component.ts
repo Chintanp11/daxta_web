@@ -9,7 +9,7 @@ import { ActivatedRoute, Router} from '@angular/router';
 export class BlogComponent implements OnInit {
 
   constructor(private router: Router) {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
    }
 
   ngOnInit(): void {

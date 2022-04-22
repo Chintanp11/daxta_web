@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class SoftwareComponent implements OnInit {
   isReadMore = true
   constructor(private router : Router) { 
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 
   ngOnInit(): void {
