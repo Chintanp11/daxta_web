@@ -1,10 +1,16 @@
 ul {
-  padding-left: 0px;
+  // padding-left: 0px;
   li {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 25px;
     position: relative;
+  }
+  li:before {
+    content: url("../../../../assets/images/1.svg");
+    position: absolute;
+    left: 0px;
+    top: 5px;
   }
   // li:before {
   //   content: url("../../../../assets/images/Ellipse\ 1.png");

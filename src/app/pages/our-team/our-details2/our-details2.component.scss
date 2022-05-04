@@ -1,5 +1,5 @@
 ul {
-  padding-left: 0px;
+  // padding-left: 0px;
   li {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -21,10 +21,10 @@ ul {
   }
 
   .child-li1::before {
-    content: url("../../../../assets/images/1.svg");
-    position: absolute;
-    left: 40px;
-    top: 3px;
+    // content: url("../../../../assets/images/1.svg");
+    // position: absolute;
+    // left: 40px;
+    // top: 3px;
   }
   .child-li1 {
     padding-top: 3px;
