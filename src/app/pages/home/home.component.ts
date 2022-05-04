@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   // currentLanguage: string;
   constructor(
     private formBuilder: FormBuilder,
-    readonly router: Router,
+    public router: Router,
     public myService : LanguageDetectService,
     private translate: TranslateService,
   ) {

@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 import { SUBSCRIBE } from '../../../gql/query';
 import { Apollo } from 'apollo-angular';
 import { ToastrService } from 'ngx-toastr';
+declare var $: any;
 
 @Component({
   selector: 'app-footer',
@@ -22,14 +23,40 @@ export class FooterComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private apollo: Apollo,
-    private toastr: ToastrService
+    private toastr: ToastrService,
+    public router: Router,
   ) {
     this.reactiveForm = this.formBuilder.group({
       email: new FormControl('', [Validators.required, Validators.email]),
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    $("#about-us-footer-h").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    $("#ourservice-footer").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    $("#software-footer").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    $("#contactus-footer").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    $("#terms-of-use-footer").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    $("#privacy-policy-footer").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+  }
 
   get f() {
     return this.reactiveForm.controls;
@@ -58,5 +85,4 @@ export class FooterComponent implements OnInit {
         });
     }
   }
-  
 }

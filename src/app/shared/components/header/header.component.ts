@@ -43,6 +43,36 @@ export class HeaderComponent implements OnInit {
     $('.navbar-nav>li>a').on('click', function () {
       $('.navbar-collapse').collapse('hide');
     });
+
+    $("#home").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+
+    $("#about").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+
+    $("#our-service").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+
+    $("#our-team").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+
+    $("#software").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
+    
+    $("#contact-us").click(function() {
+      $("html, body").animate({ scrollTop: 0, behavior: 'smooth' }, "slow");
+      return false;
+    });
   }
 
   // switchLang(lang: string) {
