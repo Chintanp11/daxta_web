@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'daxta';
 
   constructor(){
-    var userLang = navigator.language;
+    var userLang = window.navigator.language;
     console.log(userLang);
-    if(userLang == 'es'){
+    if(userLang == 'es' || 'es-ES'){
       localStorage.setItem('language',JSON.stringify('es'));
     } else if(userLang == 'pt-BR'){
       localStorage.setItem('language', JSON.stringify('br'));
