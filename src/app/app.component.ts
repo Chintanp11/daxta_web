@@ -7,5 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'daxta';
+
+  constructor(){
+    var userLang = navigator.language;
+    console.log(userLang);
+    if(userLang == 'es'){
+      localStorage.setItem('language',JSON.stringify('es'));
+    } else if(userLang == 'pt-BR'){
+      localStorage.setItem('language', JSON.stringify('br'));
+    } else{
+      localStorage.setItem('language', JSON.stringify('us'));
+    }
+  }
+
+  ngOnInit(): void {
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    //Add 'implements OnInit' to the class.
+    
+  }
   
 }
