@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(){
     var userLang = window.navigator.language;
     console.log(userLang);
-    if(userLang == 'es' || 'es-ES'){
+    if(userLang === 'es' || userLang === 'es-ES'){
       localStorage.setItem('language',JSON.stringify('es'));
     } else if(userLang == 'pt-BR'){
       localStorage.setItem('language', JSON.stringify('br'));
